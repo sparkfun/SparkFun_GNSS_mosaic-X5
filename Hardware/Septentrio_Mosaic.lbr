@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1207,7 +1207,7 @@
 <pin name="SYNC" x="-20.32" y="-40.64" visible="pin" length="short" direction="in"/>
 <pin name="1V8_OUT" x="-20.32" y="-38.1" visible="pin" length="short" direction="out"/>
 <pin name="MODULE_RDY" x="20.32" y="45.72" visible="pin" length="short" direction="out" rot="R180"/>
-<pin name="PMIC_ON_REQ" x="20.32" y="-45.72" visible="pin" length="short" direction="out" rot="R180"/>
+<pin name="PMIC_ON_REQ" x="20.32" y="-48.26" visible="pin" length="short" direction="out" rot="R180"/>
 <pin name="!RST!" x="-20.32" y="40.64" visible="pin" length="short" direction="in"/>
 <pin name="ONOFF" x="-20.32" y="-45.72" visible="pin" length="short" direction="in"/>
 <pin name="GP_LED" x="20.32" y="-40.64" visible="pin" length="short" direction="out" rot="R180"/>
@@ -1226,6 +1226,7 @@
 <pin name="ANT_2" x="-20.32" y="33.02" visible="pin" length="short" direction="in"/>
 <pin name="ANT_1" x="-20.32" y="35.56" visible="pin" length="short" direction="in"/>
 <pin name="RSVD_NC" x="-20.32" y="-48.26" visible="pin" length="short" direction="nc"/>
+<pin name="GP_LED2" x="20.32" y="-43.18" visible="pin" length="short" direction="out" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1273,6 +1274,7 @@
 <connect gate="U1" pin="GPIO_1" pad="AA4"/>
 <connect gate="U1" pin="GPIO_2" pad="L3"/>
 <connect gate="U1" pin="GP_LED" pad="A14"/>
+<connect gate="U1" pin="GP_LED2" pad="M3"/>
 <connect gate="U1" pin="LOG_BTN" pad="K3"/>
 <connect gate="U1" pin="LOG_LED" pad="B2"/>
 <connect gate="U1" pin="MODULE_RDY" pad="A12"/>
@@ -1281,7 +1283,7 @@
 <connect gate="U1" pin="PPS" pad="AC8"/>
 <connect gate="U1" pin="REF_IN" pad="AC17"/>
 <connect gate="U1" pin="REF_OUT" pad="AC16"/>
-<connect gate="U1" pin="RSVD_NC" pad="A9 A13 AA3 AA5 AA6 AA7 AA8 AA9 AA10 AA11 AA12 AB9 AB10 AB11 AB12 AC1 AC2 AC5 AC9 AC10 AC11 AC12 AC14 B3 B9 B10 B11 B12 B14 B15 B22 B23 C2 C3 C5 C6 C8 C9 C10 C11 C12 C13 C14 C21 C22 F3 G3 G22 H3 J3 M3 N3 R1 T1 T3 U1 U3 V1 V3 W1 W3 Y3"/>
+<connect gate="U1" pin="RSVD_NC" pad="A9 A13 AA3 AA5 AA6 AA7 AA8 AA9 AA10 AA11 AA12 AB9 AB10 AB11 AB12 AC1 AC2 AC5 AC9 AC10 AC11 AC12 AC14 B3 B9 B10 B11 B12 B14 B15 B22 B23 C2 C3 C5 C6 C8 C9 C10 C11 C12 C13 C14 C21 C22 F3 G3 G22 H3 J3 N3 R1 T1 T3 U1 U3 V1 V3 W1 W3 Y3"/>
 <connect gate="U1" pin="RTC_XTALI" pad="A3"/>
 <connect gate="U1" pin="RTC_XTALO" pad="A2"/>
 <connect gate="U1" pin="SD_CLK" pad="AA1"/>
@@ -1338,6 +1340,7 @@
 <connect gate="U1" pin="GPIO_1" pad="AA4"/>
 <connect gate="U1" pin="GPIO_2" pad="L3"/>
 <connect gate="U1" pin="GP_LED" pad="A14"/>
+<connect gate="U1" pin="GP_LED2" pad="M3"/>
 <connect gate="U1" pin="LOG_BTN" pad="K3"/>
 <connect gate="U1" pin="LOG_LED" pad="B2"/>
 <connect gate="U1" pin="MODULE_RDY" pad="A12"/>
@@ -1346,7 +1349,7 @@
 <connect gate="U1" pin="PPS" pad="AC8"/>
 <connect gate="U1" pin="REF_IN" pad="AC17"/>
 <connect gate="U1" pin="REF_OUT" pad="AC16"/>
-<connect gate="U1" pin="RSVD_NC" pad="A9 A13 AA3 AA5 AA6 AA7 AA8 AA9 AA10 AA11 AA12 AB9 AB10 AB11 AB12 AC1 AC2 AC5 AC9 AC10 AC11 AC12 AC14 B3 B9 B10 B11 B12 B14 B15 B22 B23 C2 C3 C5 C6 C8 C9 C10 C11 C12 C13 C14 C21 C22 F3 G3 G22 H3 J3 M3 N3 R1 T1 T3 U1 U3 V1 V3 W1 W3 Y3"/>
+<connect gate="U1" pin="RSVD_NC" pad="A9 A13 AA3 AA5 AA6 AA7 AA8 AA9 AA10 AA11 AA12 AB9 AB10 AB11 AB12 AC1 AC2 AC5 AC9 AC10 AC11 AC12 AC14 B3 B9 B10 B11 B12 B14 B15 B22 B23 C2 C3 C5 C6 C8 C9 C10 C11 C12 C13 C14 C21 C22 F3 G3 G22 H3 J3 N3 R1 T1 T3 U1 U3 V1 V3 W1 W3 Y3"/>
 <connect gate="U1" pin="RTC_XTALI" pad="A3"/>
 <connect gate="U1" pin="RTC_XTALO" pad="A2"/>
 <connect gate="U1" pin="SD_CLK" pad="AA1"/>
