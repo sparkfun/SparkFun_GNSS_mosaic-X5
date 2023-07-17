@@ -3,39 +3,39 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="58" name="bCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
@@ -28706,27 +28706,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J12" library="SparkFun-Connectors" deviceset="CONN_06" device="PAD"/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
+<part name="R1" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
+<part name="SUPPLY18" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="420.624" y="7.366" size="2.54" layer="94">v10</text>
-<text x="236.22" y="261.62" size="1.27" layer="97">Board thickness: 1.6mm</text>
-<text x="236.22" y="256.54" size="1.27" layer="97">Er: 4.6</text>
-<text x="236.22" y="264.16" size="1.27" layer="97">Copper Thickness (1oz): 1.4mil/0.035mm</text>
-<text x="236.22" y="251.46" size="1.27" layer="97">RF Trace Width: 13.74mil/0.349mm</text>
-<text x="236.22" y="254" size="1.27" layer="97">Polygon Isolation: 8mil/0.2032mm</text>
+<text x="231.14" y="241.3" size="1.27" layer="97">Board thickness: 1.6mm</text>
+<text x="231.14" y="236.22" size="1.27" layer="97">Er: 4.6</text>
+<text x="231.14" y="243.84" size="1.27" layer="97">Copper Thickness (1oz): 1.4mil/0.035mm</text>
+<text x="231.14" y="231.14" size="1.27" layer="97">RF Trace Width: 13.74mil/0.349mm</text>
+<text x="231.14" y="233.68" size="1.27" layer="97">Polygon Isolation: 8mil/0.2032mm</text>
 <text x="408.94" y="17.78" size="1.27" layer="97">No clean process</text>
-<text x="236.22" y="259.08" size="1.27" layer="97">Dielectric thickness (layer 1 to 2): 0.2mm</text>
-<text x="236.22" y="248.92" size="0.762" layer="97">https://chemandy.com/calculators/coplanar-waveguide-with-ground-calculator.htm</text>
-<text x="236.22" y="266.7" size="1.524" layer="97" ratio="15">Coplanar Waveguide Calculation:</text>
+<text x="231.14" y="238.76" size="1.27" layer="97">Dielectric thickness (layer 1 to 2): 0.2mm</text>
+<text x="231.14" y="228.6" size="0.762" layer="97">https://chemandy.com/calculators/coplanar-waveguide-with-ground-calculator.htm</text>
+<text x="231.14" y="246.38" size="1.524" layer="97" ratio="15">Coplanar Waveguide Calculation:</text>
 <wire x1="0" y1="119.38" x2="124.46" y2="119.38" width="0.2032" layer="97" style="longdash"/>
 <wire x1="124.46" y1="119.38" x2="124.46" y2="0" width="0.2032" layer="97" style="longdash"/>
 <wire x1="124.46" y1="119.38" x2="182.88" y2="119.38" width="0.2032" layer="97" style="longdash"/>
 <wire x1="182.88" y1="119.38" x2="218.44" y2="119.38" width="0.2032" layer="97" style="longdash"/>
 <wire x1="218.44" y1="119.38" x2="238.76" y2="119.38" width="0.2032" layer="97" style="longdash"/>
 <wire x1="218.44" y1="180.34" x2="218.44" y2="119.38" width="0.2032" layer="97" style="longdash"/>
-<wire x1="218.44" y1="180.34" x2="0" y2="180.34" width="0.2032" layer="97" style="longdash"/>
+<wire x1="218.44" y1="180.34" x2="96.52" y2="180.34" width="0.2032" layer="97" style="longdash"/>
+<wire x1="96.52" y1="180.34" x2="0" y2="180.34" width="0.2032" layer="97" style="longdash"/>
 <wire x1="218.44" y1="180.34" x2="218.44" y2="279.4" width="0.2032" layer="97" style="longdash"/>
 <text x="122.174" y="172.466" size="2.54" layer="94" align="center">USB and 3.3V Regulation</text>
 <text x="353.822" y="11.43" size="2.54" layer="94">N. Seidle</text>
@@ -28736,29 +28739,31 @@ disable LED</text>
 <text x="64.262" y="109.982" size="2.54" layer="94" rot="MR180" align="center">Connections</text>
 <wire x1="182.88" y1="119.38" x2="182.88" y2="0" width="0.2032" layer="97" style="longdash"/>
 <wire x1="238.76" y1="119.38" x2="238.76" y2="0" width="0.2032" layer="97" style="longdash"/>
-<text x="317.5" y="96.52" size="2.54" layer="94" font="vector" rot="MR0" align="center">microSD</text>
-<text x="-53.34" y="101.6" size="1.27" layer="91" align="center">Can GP and LOG LEDs be directly driven from module?</text>
-<text x="-55.88" y="104.14" size="1.27" layer="91" align="center">Does the log button have a pull up?</text>
-<text x="327.66" y="238.76" size="1.27" layer="97" align="center">BLM18PG471SN1D</text>
-<text x="170.434" y="271.526" size="2.54" layer="94" align="center">Pulse-Per-Second</text>
+<text x="165.1" y="248.92" size="2.54" layer="94" font="vector" rot="MR0" align="center">microSD</text>
+<text x="322.58" y="218.44" size="1.27" layer="97" align="center">BLM18PG471SN1D</text>
+<text x="51.054" y="248.666" size="2.54" layer="94" align="center">Pulse-Per-Second</text>
 <text x="209.042" y="97.282" size="2.54" layer="94" rot="MR180" align="center">External V_BAT</text>
 <text x="210.82" y="66.04" size="1.27" layer="97" align="center">Cut trace to attach external
 supply to V_BAT input for Standby mode</text>
+<wire x1="96.52" y1="180.34" x2="96.52" y2="279.4" width="0.2032" layer="97" style="longdash"/>
+<wire x1="238.76" y1="119.38" x2="431.8" y2="119.38" width="0.2032" layer="97" style="longdash"/>
+<text x="363.982" y="257.302" size="2.54" layer="94" rot="MR180" align="center">Septentrio
+mosaic-X5</text>
 </plain>
 <instances>
 <instance part="JP21" gate="G$1" x="416.56" y="33.02" smashed="yes" rot="R270"/>
 <instance part="JP61" gate="G$1" x="419.1" y="33.02" smashed="yes"/>
 <instance part="JP71" gate="G$1" x="416.56" y="30.48" smashed="yes" rot="R270"/>
 <instance part="JP81" gate="G$1" x="419.1" y="30.48" smashed="yes" rot="R270"/>
-<instance part="GND27" gate="1" x="284.48" y="246.38" smashed="yes">
-<attribute name="VALUE" x="284.48" y="246.126" size="1.778" layer="96" align="top-center"/>
+<instance part="GND27" gate="1" x="279.4" y="226.06" smashed="yes">
+<attribute name="VALUE" x="279.4" y="225.806" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C1" gate="G$1" x="299.72" y="228.6" smashed="yes">
-<attribute name="NAME" x="301.244" y="231.521" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="301.244" y="226.441" size="1.778" layer="96" font="vector"/>
+<instance part="C1" gate="G$1" x="294.64" y="208.28" smashed="yes">
+<attribute name="NAME" x="296.164" y="211.201" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="296.164" y="206.121" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND18" gate="1" x="299.72" y="220.98" smashed="yes">
-<attribute name="VALUE" x="299.72" y="220.726" size="1.778" layer="96" align="top-center"/>
+<instance part="GND18" gate="1" x="294.64" y="200.66" smashed="yes">
+<attribute name="VALUE" x="294.64" y="200.406" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="R16" gate="R1" x="40.64" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.116" y="142.24" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -28772,9 +28777,9 @@ supply to V_BAT input for Standby mode</text>
 <attribute name="NAME" x="5.08" y="162.814" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="U$2" gate="G$1" x="408.94" y="20.32" smashed="yes"/>
-<instance part="E1" gate="G$1" x="287.02" y="254" smashed="yes" rot="MR0">
-<attribute name="NAME" x="283.972" y="254" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="283.972" y="251.714" size="1.778" layer="96" font="vector" rot="MR0"/>
+<instance part="E1" gate="G$1" x="281.94" y="233.68" smashed="yes" rot="MR0">
+<attribute name="NAME" x="278.892" y="233.68" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="278.892" y="231.394" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME2" gate="G$2" x="330.2" y="0" smashed="yes">
@@ -28793,12 +28798,12 @@ supply to V_BAT input for Standby mode</text>
 <instance part="GND31" gate="1" x="35.56" y="139.7" smashed="yes">
 <attribute name="VALUE" x="35.56" y="139.446" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="D10" gate="D1" x="292.1" y="243.84" smashed="yes" rot="R270">
-<attribute name="NAME" x="294.894" y="246.38" size="1.778" layer="95" font="vector" rot="R270"/>
-<attribute name="VALUE" x="289.306" y="246.38" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
+<instance part="D10" gate="D1" x="287.02" y="223.52" smashed="yes" rot="R270">
+<attribute name="NAME" x="289.814" y="226.06" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="284.226" y="226.06" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
 </instance>
-<instance part="GND9" gate="1" x="292.1" y="233.68" smashed="yes">
-<attribute name="VALUE" x="292.1" y="233.426" size="1.778" layer="96" align="top-center"/>
+<instance part="GND9" gate="1" x="287.02" y="213.36" smashed="yes">
+<attribute name="VALUE" x="287.02" y="213.106" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="D4" gate="G$1" x="147.32" y="38.1" smashed="yes">
 <attribute name="NAME" x="146.812" y="31.242" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -28855,15 +28860,15 @@ supply to V_BAT input for Standby mode</text>
 <instance part="SUPPLY19" gate="G$1" x="208.28" y="157.48" smashed="yes">
 <attribute name="VALUE" x="208.28" y="160.274" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="TP1" gate="G$1" x="185.42" y="246.38" smashed="yes" rot="R180">
-<attribute name="NAME" x="185.42" y="243.84" size="1.778" layer="95" font="vector" align="center"/>
+<instance part="TP1" gate="G$1" x="66.04" y="223.52" smashed="yes" rot="R180">
+<attribute name="NAME" x="66.04" y="220.98" size="1.778" layer="95" font="vector" align="center"/>
 </instance>
-<instance part="GND25" gate="1" x="203.2" y="241.3" smashed="yes">
-<attribute name="VALUE" x="203.2" y="241.046" size="1.778" layer="96" align="top-center"/>
+<instance part="GND25" gate="1" x="83.82" y="218.44" smashed="yes">
+<attribute name="VALUE" x="83.82" y="218.186" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="E2" gate="G$1" x="205.74" y="254" smashed="yes" rot="MR0">
-<attribute name="NAME" x="202.692" y="254" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="202.692" y="251.714" size="1.778" layer="96" font="vector" rot="MR0"/>
+<instance part="E2" gate="G$1" x="86.36" y="231.14" smashed="yes" rot="MR0">
+<attribute name="NAME" x="83.312" y="231.14" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="83.312" y="228.854" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
 <instance part="H1" gate="G$1" x="424.18" y="33.02" smashed="yes"/>
 <instance part="H2" gate="G$1" x="424.18" y="30.48" smashed="yes"/>
@@ -28894,9 +28899,9 @@ supply to V_BAT input for Standby mode</text>
 <instance part="GND17" gate="1" x="162.56" y="139.7" smashed="yes">
 <attribute name="VALUE" x="162.56" y="139.446" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U1" gate="U1" x="368.3" y="213.36" smashed="yes">
-<attribute name="NAME" x="350.52" y="262.128" size="1.778" layer="95"/>
-<attribute name="VALUE" x="350.52" y="157.48" size="1.778" layer="96"/>
+<instance part="U1" gate="U1" x="363.22" y="193.04" smashed="yes">
+<attribute name="NAME" x="345.44" y="241.808" size="1.778" layer="95"/>
+<attribute name="VALUE" x="345.44" y="137.16" size="1.778" layer="96"/>
 </instance>
 <instance part="D1" gate="U1" x="60.96" y="144.78" smashed="yes">
 <attribute name="NAME" x="55.372" y="139.7" size="1.778" layer="95" rot="R90"/>
@@ -28908,91 +28913,91 @@ supply to V_BAT input for Standby mode</text>
 <instance part="SUPPLY5" gate="G$1" x="60.96" y="162.56" smashed="yes">
 <attribute name="VALUE" x="60.96" y="165.354" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND21" gate="1" x="342.9" y="193.04" smashed="yes">
-<attribute name="VALUE" x="342.9" y="192.786" size="1.778" layer="96" align="top-center"/>
+<instance part="GND21" gate="1" x="337.82" y="172.72" smashed="yes">
+<attribute name="VALUE" x="337.82" y="172.466" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND22" gate="1" x="345.44" y="157.48" smashed="yes">
-<attribute name="VALUE" x="345.44" y="157.226" size="1.778" layer="96" align="top-center"/>
+<instance part="GND22" gate="1" x="340.36" y="137.16" smashed="yes">
+<attribute name="VALUE" x="340.36" y="136.906" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R5" gate="G$1" x="335.28" y="180.34" smashed="yes" rot="R90">
-<attribute name="NAME" x="333.756" y="180.34" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="336.804" y="180.34" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R5" gate="G$1" x="330.2" y="160.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="328.676" y="160.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="331.724" y="160.02" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="335.28" y="187.96" smashed="yes">
-<attribute name="VALUE" x="335.28" y="190.754" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY2" gate="G$1" x="330.2" y="167.64" smashed="yes">
+<attribute name="VALUE" x="330.2" y="170.434" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY6" gate="G$1" x="342.9" y="177.8" smashed="yes">
-<attribute name="VALUE" x="342.9" y="180.594" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY6" gate="G$1" x="337.82" y="157.48" smashed="yes">
+<attribute name="VALUE" x="337.82" y="160.274" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY7" gate="G$1" x="340.36" y="264.16" smashed="yes">
-<attribute name="VALUE" x="340.36" y="266.954" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY7" gate="G$1" x="335.28" y="243.84" smashed="yes">
+<attribute name="VALUE" x="335.28" y="246.634" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY10" gate="G$1" x="345.44" y="261.62" smashed="yes">
-<attribute name="VALUE" x="345.44" y="264.414" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY10" gate="G$1" x="340.36" y="241.3" smashed="yes">
+<attribute name="VALUE" x="340.36" y="244.094" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="S1" gate="G$1" x="254" y="71.12" smashed="yes" rot="R90">
-<attribute name="NAME" x="252.476" y="71.12" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<instance part="S1" gate="G$1" x="111.76" y="220.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="110.236" y="220.98" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="GND23" gate="1" x="254" y="60.96" smashed="yes">
-<attribute name="VALUE" x="254" y="60.706" size="1.778" layer="96" align="top-center"/>
+<instance part="GND23" gate="1" x="111.76" y="210.82" smashed="yes">
+<attribute name="VALUE" x="111.76" y="210.566" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C18" gate="G$1" x="342.9" y="71.12" smashed="yes">
-<attribute name="NAME" x="344.424" y="74.041" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="344.424" y="68.961" size="1.778" layer="96" font="vector"/>
+<instance part="C18" gate="G$1" x="190.5" y="223.52" smashed="yes">
+<attribute name="NAME" x="192.024" y="226.441" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="192.024" y="221.361" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND37" gate="1" x="342.9" y="63.5" smashed="yes">
-<attribute name="VALUE" x="342.9" y="63.246" size="1.778" layer="96" align="top-center"/>
+<instance part="GND37" gate="1" x="190.5" y="215.9" smashed="yes">
+<attribute name="VALUE" x="190.5" y="215.646" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C19" gate="G$1" x="353.06" y="71.12" smashed="yes">
-<attribute name="NAME" x="354.584" y="74.041" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="354.584" y="68.961" size="1.778" layer="96" font="vector"/>
+<instance part="C19" gate="G$1" x="200.66" y="223.52" smashed="yes">
+<attribute name="NAME" x="202.184" y="226.441" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="202.184" y="221.361" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND38" gate="1" x="353.06" y="63.5" smashed="yes">
-<attribute name="VALUE" x="353.06" y="63.246" size="1.778" layer="96" align="top-center"/>
+<instance part="GND38" gate="1" x="200.66" y="215.9" smashed="yes">
+<attribute name="VALUE" x="200.66" y="215.646" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C20" gate="G$1" x="332.74" y="71.12" smashed="yes">
-<attribute name="NAME" x="334.264" y="74.041" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="334.264" y="68.961" size="1.778" layer="96" font="vector"/>
+<instance part="C20" gate="G$1" x="180.34" y="223.52" smashed="yes">
+<attribute name="NAME" x="181.864" y="226.441" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="181.864" y="221.361" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND39" gate="1" x="332.74" y="63.5" smashed="yes">
-<attribute name="VALUE" x="332.74" y="63.246" size="1.778" layer="96" align="top-center"/>
+<instance part="GND39" gate="1" x="180.34" y="215.9" smashed="yes">
+<attribute name="VALUE" x="180.34" y="215.646" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="J3" gate="J1" x="314.96" y="73.66" smashed="yes">
-<attribute name="NAME" x="309.88" y="86.868" size="1.778" layer="95"/>
-<attribute name="VALUE" x="309.88" y="58.42" size="1.778" layer="96"/>
+<instance part="J3" gate="J1" x="162.56" y="226.06" smashed="yes">
+<attribute name="NAME" x="157.48" y="239.268" size="1.778" layer="95"/>
+<attribute name="VALUE" x="157.48" y="210.82" size="1.778" layer="96"/>
 </instance>
-<instance part="GND40" gate="1" x="304.8" y="58.42" smashed="yes">
-<attribute name="VALUE" x="304.8" y="58.166" size="1.778" layer="96" align="top-center"/>
+<instance part="GND40" gate="1" x="152.4" y="210.82" smashed="yes">
+<attribute name="VALUE" x="152.4" y="210.566" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R2" gate="G$1" x="297.18" y="81.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="300.482" y="78.74" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="300.482" y="83.566" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+<instance part="R2" gate="G$1" x="139.7" y="233.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="143.002" y="231.14" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="143.002" y="235.966" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
-<instance part="R3" gate="G$1" x="292.1" y="81.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="295.148" y="78.74" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="295.148" y="83.566" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+<instance part="R3" gate="G$1" x="134.62" y="233.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="137.668" y="231.14" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="137.668" y="235.966" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
-<instance part="SUPPLY3" gate="G$1" x="304.8" y="86.36" smashed="yes">
-<attribute name="VALUE" x="304.8" y="89.154" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY3" gate="G$1" x="152.4" y="238.76" smashed="yes">
+<attribute name="VALUE" x="152.4" y="241.554" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY4" gate="G$1" x="353.06" y="78.74" smashed="yes">
-<attribute name="VALUE" x="353.06" y="81.534" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY4" gate="G$1" x="200.66" y="231.14" smashed="yes">
+<attribute name="VALUE" x="200.66" y="233.934" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY9" gate="G$1" x="332.74" y="78.74" smashed="yes">
-<attribute name="VALUE" x="332.74" y="81.534" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY9" gate="G$1" x="180.34" y="231.14" smashed="yes">
+<attribute name="VALUE" x="180.34" y="233.934" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY13" gate="G$1" x="342.9" y="78.74" smashed="yes">
-<attribute name="VALUE" x="342.9" y="81.534" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY13" gate="G$1" x="190.5" y="231.14" smashed="yes">
+<attribute name="VALUE" x="190.5" y="233.934" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="S2" gate="G$1" x="261.62" y="71.12" smashed="yes" rot="R90">
-<attribute name="NAME" x="260.096" y="71.12" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<instance part="S2" gate="G$1" x="119.38" y="220.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="117.856" y="220.98" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="GND3" gate="1" x="261.62" y="60.96" smashed="yes">
-<attribute name="VALUE" x="261.62" y="60.706" size="1.778" layer="96" align="top-center"/>
+<instance part="GND3" gate="1" x="119.38" y="210.82" smashed="yes">
+<attribute name="VALUE" x="119.38" y="210.566" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R8" gate="G$1" x="261.62" y="83.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="260.096" y="83.82" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="263.144" y="83.82" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R8" gate="G$1" x="119.38" y="233.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="117.856" y="233.68" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="120.904" y="233.68" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="SUPPLY22" gate="G$1" x="96.52" y="157.48" smashed="yes">
 <attribute name="VALUE" x="96.52" y="160.274" size="1.778" layer="96" align="bottom-center"/>
@@ -29021,32 +29026,32 @@ supply to V_BAT input for Standby mode</text>
 <instance part="SUPPLY20" gate="G$1" x="162.56" y="157.48" smashed="yes">
 <attribute name="VALUE" x="162.56" y="160.274" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY15" gate="G$1" x="297.18" y="88.9" smashed="yes">
-<attribute name="VALUE" x="297.18" y="91.694" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY15" gate="G$1" x="139.7" y="241.3" smashed="yes">
+<attribute name="VALUE" x="139.7" y="244.094" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY16" gate="G$1" x="292.1" y="88.9" smashed="yes">
-<attribute name="VALUE" x="292.1" y="91.694" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY16" gate="G$1" x="134.62" y="241.3" smashed="yes">
+<attribute name="VALUE" x="134.62" y="244.094" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="L1" gate="G$1" x="299.72" y="241.3" smashed="yes">
-<attribute name="NAME" x="300.99" y="243.84" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="300.99" y="238.76" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="L1" gate="G$1" x="294.64" y="220.98" smashed="yes">
+<attribute name="NAME" x="295.91" y="223.52" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="295.91" y="218.44" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="C3" gate="G$1" x="312.42" y="236.22" smashed="yes">
-<attribute name="NAME" x="313.944" y="239.141" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="313.944" y="234.061" size="1.778" layer="96" font="vector"/>
+<instance part="C3" gate="G$1" x="307.34" y="215.9" smashed="yes">
+<attribute name="NAME" x="308.864" y="218.821" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="308.864" y="213.741" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="312.42" y="251.46" smashed="yes">
-<attribute name="VALUE" x="312.42" y="254.254" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY8" gate="G$1" x="307.34" y="231.14" smashed="yes">
+<attribute name="VALUE" x="307.34" y="233.934" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="FB1" gate="G$1" x="322.58" y="243.84" smashed="yes" rot="R90">
-<attribute name="NAME" x="320.802" y="245.872" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="319.532" y="242.316" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="FB1" gate="G$1" x="317.5" y="223.52" smashed="yes" rot="R90">
+<attribute name="NAME" x="315.722" y="225.552" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="314.452" y="221.996" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="GND11" gate="1" x="312.42" y="228.6" smashed="yes">
-<attribute name="VALUE" x="312.42" y="228.346" size="1.778" layer="96" align="top-center"/>
+<instance part="GND11" gate="1" x="307.34" y="208.28" smashed="yes">
+<attribute name="VALUE" x="307.34" y="208.026" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="327.66" y="223.52" smashed="yes">
-<attribute name="VALUE" x="327.66" y="226.314" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY1" gate="G$1" x="322.58" y="203.2" smashed="yes">
+<attribute name="VALUE" x="322.58" y="205.994" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="D8" gate="G$1" x="162.56" y="38.1" smashed="yes">
 <attribute name="NAME" x="162.052" y="31.242" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -29062,39 +29067,39 @@ supply to V_BAT input for Standby mode</text>
 <instance part="GND12" gate="1" x="162.56" y="27.94" smashed="yes">
 <attribute name="VALUE" x="162.56" y="27.686" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U2" gate="G2" x="129.54" y="251.46" smashed="yes">
-<attribute name="NAME" x="126.238" y="246.38" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="134.874" y="237.744" size="1.778" layer="95" font="vector" rot="R90"/>
+<instance part="U2" gate="G2" x="10.16" y="228.6" smashed="yes">
+<attribute name="NAME" x="6.858" y="223.52" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="15.494" y="214.884" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
-<instance part="U2" gate="U1" x="167.64" y="248.92" smashed="yes">
-<attribute name="NAME" x="165.1" y="254.762" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="164.846" y="257.302" size="1.778" layer="95" font="vector"/>
+<instance part="U2" gate="U1" x="48.26" y="226.06" smashed="yes">
+<attribute name="NAME" x="45.72" y="231.902" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="45.466" y="234.442" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND10" gate="1" x="129.54" y="238.76" smashed="yes">
-<attribute name="VALUE" x="129.54" y="238.506" size="1.778" layer="96" align="top-center"/>
+<instance part="GND10" gate="1" x="10.16" y="215.9" smashed="yes">
+<attribute name="VALUE" x="10.16" y="215.646" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY21" gate="G$1" x="129.54" y="261.62" smashed="yes">
-<attribute name="VALUE" x="129.54" y="264.414" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY21" gate="G$1" x="10.16" y="238.76" smashed="yes">
+<attribute name="VALUE" x="10.16" y="241.554" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND13" gate="1" x="170.18" y="238.76" smashed="yes">
-<attribute name="VALUE" x="170.18" y="238.506" size="1.778" layer="96" align="top-center"/>
+<instance part="GND13" gate="1" x="50.8" y="215.9" smashed="yes">
+<attribute name="VALUE" x="50.8" y="215.646" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C4" gate="G$1" x="142.24" y="248.92" smashed="yes" rot="R180">
-<attribute name="NAME" x="143.256" y="249.047" size="1.778" layer="95"/>
-<attribute name="VALUE" x="143.256" y="244.729" size="1.778" layer="96"/>
+<instance part="C4" gate="G$1" x="22.86" y="226.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="23.876" y="226.187" size="1.778" layer="95"/>
+<attribute name="VALUE" x="23.876" y="221.869" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY23" gate="G$1" x="142.24" y="254" smashed="yes">
-<attribute name="VALUE" x="142.24" y="256.794" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY23" gate="G$1" x="22.86" y="231.14" smashed="yes">
+<attribute name="VALUE" x="22.86" y="233.934" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND19" gate="1" x="142.24" y="238.76" smashed="yes">
-<attribute name="VALUE" x="142.24" y="238.506" size="1.778" layer="96" align="top-center"/>
+<instance part="GND19" gate="1" x="22.86" y="215.9" smashed="yes">
+<attribute name="VALUE" x="22.86" y="215.646" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C5" gate="G$1" x="327.66" y="215.9" smashed="yes">
-<attribute name="NAME" x="329.184" y="218.821" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="329.184" y="213.741" size="1.778" layer="96" font="vector"/>
+<instance part="C5" gate="G$1" x="322.58" y="195.58" smashed="yes">
+<attribute name="NAME" x="324.104" y="198.501" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="324.104" y="193.421" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND24" gate="1" x="327.66" y="208.28" smashed="yes">
-<attribute name="VALUE" x="327.66" y="208.026" size="1.778" layer="96" align="top-center"/>
+<instance part="GND24" gate="1" x="322.58" y="187.96" smashed="yes">
+<attribute name="VALUE" x="322.58" y="187.706" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="J2" gate="J1" x="81.28" y="78.74" smashed="yes" rot="R180">
 <attribute name="VALUE" x="86.36" y="88.646" size="1.778" layer="96" font="vector" rot="R180"/>
@@ -29157,6 +29162,13 @@ supply to V_BAT input for Standby mode</text>
 <instance part="SUPPLY14" gate="G$1" x="101.6" y="86.36" smashed="yes">
 <attribute name="VALUE" x="101.6" y="89.154" size="1.778" layer="96" align="bottom-center"/>
 </instance>
+<instance part="R1" gate="G$1" x="144.78" y="241.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="148.082" y="238.76" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="148.082" y="243.586" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+</instance>
+<instance part="SUPPLY18" gate="G$1" x="144.78" y="248.92" smashed="yes">
+<attribute name="VALUE" x="144.78" y="251.714" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -29182,55 +29194,55 @@ supply to V_BAT input for Standby mode</text>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="VDD_3V3"/>
-<wire x1="347.98" y1="259.08" x2="345.44" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="238.76" x2="340.36" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
-<wire x1="345.44" y1="261.62" x2="345.44" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="241.3" x2="340.36" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J3" gate="J1" pin="VCC"/>
-<wire x1="307.34" y1="83.82" x2="304.8" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="236.22" x2="152.4" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
-<wire x1="304.8" y1="86.36" x2="304.8" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="238.76" x2="152.4" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C19" gate="G$1" pin="1"/>
-<wire x1="353.06" y1="76.2" x2="353.06" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="228.6" x2="200.66" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="332.74" y1="76.2" x2="332.74" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="228.6" x2="180.34" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="342.9" y1="76.2" x2="342.9" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="228.6" x2="190.5" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="SUPPLY13" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="297.18" y1="86.36" x2="297.18" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="238.76" x2="139.7" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="SUPPLY15" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="292.1" y1="86.36" x2="292.1" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="238.76" x2="134.62" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="SUPPLY16" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G2" pin="P$V+"/>
-<wire x1="129.54" y1="259.08" x2="129.54" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="236.22" x2="10.16" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="SUPPLY21" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="SUPPLY23" gate="G$1" pin="3.3V"/>
-<wire x1="142.24" y1="251.46" x2="142.24" y2="254" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="228.6" x2="22.86" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
-<wire x1="327.66" y1="223.52" x2="327.66" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="203.2" x2="322.58" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="2"/>
@@ -29249,17 +29261,22 @@ supply to V_BAT input for Standby mode</text>
 <wire x1="218.44" y1="73.66" x2="218.44" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
 </segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="SUPPLY18" gate="G$1" pin="3.3V"/>
+<wire x1="144.78" y1="248.92" x2="144.78" y2="246.38" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="299.72" y1="223.52" x2="299.72" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="203.2" x2="294.64" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="E1" gate="G$1" pin="GND"/>
 <pinref part="GND27" gate="1" pin="GND"/>
-<wire x1="284.48" y1="248.92" x2="284.48" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="228.6" x2="279.4" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="20.32" y1="144.78" x2="30.48" y2="144.78" width="0.1524" layer="91"/>
@@ -29285,10 +29302,10 @@ supply to V_BAT input for Standby mode</text>
 <segment>
 <pinref part="D10" gate="D1" pin="2"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="292.1" y1="236.22" x2="292.1" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="215.9" x2="287.02" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="203.2" y1="251.46" x2="203.2" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="228.6" x2="83.82" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 <pinref part="E2" gate="G$1" pin="GND"/>
 </segment>
@@ -29335,51 +29352,51 @@ supply to V_BAT input for Standby mode</text>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="RTC_XTALI"/>
-<wire x1="347.98" y1="198.12" x2="342.9" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="198.12" x2="342.9" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="177.8" x2="337.82" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="177.8" x2="337.82" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="GND"/>
-<wire x1="347.98" y1="162.56" x2="345.44" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="345.44" y1="162.56" x2="345.44" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="142.24" x2="340.36" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="142.24" x2="340.36" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="1"/>
 <pinref part="GND23" gate="1" pin="GND"/>
-<wire x1="254" y1="63.5" x2="254" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="213.36" x2="111.76" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND37" gate="1" pin="GND"/>
 <pinref part="C18" gate="G$1" pin="2"/>
-<wire x1="342.9" y1="66.04" x2="342.9" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="218.44" x2="190.5" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND38" gate="1" pin="GND"/>
 <pinref part="C19" gate="G$1" pin="2"/>
-<wire x1="353.06" y1="66.04" x2="353.06" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="218.44" x2="200.66" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND39" gate="1" pin="GND"/>
 <pinref part="C20" gate="G$1" pin="2"/>
-<wire x1="332.74" y1="66.04" x2="332.74" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="218.44" x2="180.34" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J3" gate="J1" pin="GND"/>
-<wire x1="307.34" y1="63.5" x2="304.8" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="215.9" x2="152.4" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="GND40" gate="1" pin="GND"/>
-<wire x1="304.8" y1="63.5" x2="304.8" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="215.9" x2="152.4" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="S2" gate="G$1" pin="1"/>
-<wire x1="261.62" y1="66.04" x2="261.62" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="215.9" x2="119.38" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="312.42" y1="231.14" x2="312.42" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="210.82" x2="307.34" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D8" gate="G$1" pin="C"/>
@@ -29388,23 +29405,23 @@ supply to V_BAT input for Standby mode</text>
 </segment>
 <segment>
 <pinref part="U2" gate="G2" pin="P$V-"/>
-<wire x1="129.54" y1="243.84" x2="129.54" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="220.98" x2="10.16" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U2" gate="U1" pin="!EN"/>
-<wire x1="170.18" y1="243.84" x2="170.18" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="220.98" x2="50.8" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="142.24" y1="241.3" x2="142.24" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="218.44" x2="22.86" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="GND24" gate="1" pin="GND"/>
-<wire x1="327.66" y1="210.82" x2="327.66" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="190.5" x2="322.58" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="6"/>
@@ -29433,16 +29450,16 @@ supply to V_BAT input for Standby mode</text>
 </net>
 <net name="GPS_ANT1" class="3">
 <segment>
-<wire x1="299.72" y1="248.92" x2="292.1" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="248.92" x2="287.02" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="248.92" x2="299.72" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="248.92" x2="347.98" y2="248.92" width="0.1524" layer="91"/>
-<junction x="299.72" y="248.92"/>
+<wire x1="294.64" y1="228.6" x2="287.02" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="228.6" x2="281.94" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="228.6" x2="294.64" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="228.6" x2="342.9" y2="228.6" width="0.1524" layer="91"/>
+<junction x="294.64" y="228.6"/>
 <pinref part="E1" gate="G$1" pin="SIGNAL"/>
-<wire x1="287.02" y1="251.46" x2="287.02" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="231.14" x2="281.94" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="D10" gate="D1" pin="1"/>
-<wire x1="292.1" y1="246.38" x2="292.1" y2="248.92" width="0.1524" layer="91"/>
-<junction x="292.1" y="248.92"/>
+<wire x1="287.02" y1="226.06" x2="287.02" y2="228.6" width="0.1524" layer="91"/>
+<junction x="287.02" y="228.6"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <pinref part="U1" gate="U1" pin="ANT_1"/>
 </segment>
@@ -29450,7 +29467,7 @@ supply to V_BAT input for Standby mode</text>
 <net name="ANT_VCC" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="299.72" y1="236.22" x2="299.72" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="215.9" x2="294.64" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -29459,20 +29476,20 @@ supply to V_BAT input for Standby mode</text>
 <label x="66.04" y="157.48" size="1.27" layer="95" xref="yes"/>
 <pinref part="J5" gate="J1" pin="D+"/>
 <wire x1="20.32" y1="157.48" x2="27.94" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="D1" gate="U1" pin="IO3"/>
-<wire x1="27.94" y1="157.48" x2="63.5" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="157.48" x2="66.04" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="152.4" x2="63.5" y2="157.48" width="0.1524" layer="91"/>
-<junction x="63.5" y="157.48"/>
+<wire x1="27.94" y1="157.48" x2="58.42" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="JP1" pin="3"/>
+<wire x1="58.42" y1="157.48" x2="66.04" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="129.54" x2="27.94" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="129.54" x2="27.94" y2="157.48" width="0.1524" layer="91"/>
 <junction x="27.94" y="157.48"/>
+<pinref part="D1" gate="U1" pin="IO4"/>
+<wire x1="58.42" y1="152.4" x2="58.42" y2="157.48" width="0.1524" layer="91"/>
+<junction x="58.42" y="157.48"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="USB_D+"/>
-<wire x1="347.98" y1="236.22" x2="345.44" y2="236.22" width="0.1524" layer="91"/>
-<label x="345.44" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="342.9" y1="215.9" x2="340.36" y2="215.9" width="0.1524" layer="91"/>
+<label x="340.36" y="215.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D-" class="0">
@@ -29480,20 +29497,20 @@ supply to V_BAT input for Standby mode</text>
 <pinref part="J5" gate="J1" pin="D-"/>
 <wire x1="20.32" y1="154.94" x2="25.4" y2="154.94" width="0.1524" layer="91"/>
 <label x="66.04" y="154.94" size="1.27" layer="95" xref="yes"/>
-<pinref part="D1" gate="U1" pin="IO4"/>
-<wire x1="25.4" y1="154.94" x2="58.42" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="154.94" x2="66.04" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="152.4" x2="58.42" y2="154.94" width="0.1524" layer="91"/>
-<junction x="58.42" y="154.94"/>
+<wire x1="25.4" y1="154.94" x2="63.5" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="JP1" pin="2"/>
+<wire x1="63.5" y1="154.94" x2="66.04" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="132.08" x2="25.4" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="132.08" x2="25.4" y2="154.94" width="0.1524" layer="91"/>
 <junction x="25.4" y="154.94"/>
+<pinref part="D1" gate="U1" pin="IO3"/>
+<wire x1="63.5" y1="152.4" x2="63.5" y2="154.94" width="0.1524" layer="91"/>
+<junction x="63.5" y="154.94"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="USB_D-"/>
-<wire x1="347.98" y1="233.68" x2="345.44" y2="233.68" width="0.1524" layer="91"/>
-<label x="345.44" y="233.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="342.9" y1="213.36" x2="340.36" y2="213.36" width="0.1524" layer="91"/>
+<label x="340.36" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CC1" class="0">
@@ -29515,13 +29532,13 @@ supply to V_BAT input for Standby mode</text>
 <net name="!RESET!" class="0">
 <segment>
 <pinref part="S1" gate="G$1" pin="2"/>
-<wire x1="254" y1="76.2" x2="254" y2="78.74" width="0.1524" layer="91"/>
-<label x="254" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="111.76" y1="226.06" x2="111.76" y2="228.6" width="0.1524" layer="91"/>
+<label x="111.76" y="228.6" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="!RST!"/>
-<wire x1="347.98" y1="254" x2="337.82" y2="254" width="0.1524" layer="91"/>
-<label x="337.82" y="254" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="342.9" y1="233.68" x2="332.74" y2="233.68" width="0.1524" layer="91"/>
+<label x="332.74" y="233.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="35.56" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
@@ -29553,11 +29570,11 @@ supply to V_BAT input for Standby mode</text>
 <segment>
 <pinref part="SUPPLY8" gate="G$1" pin="5V"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="312.42" y1="251.46" x2="312.42" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="231.14" x2="307.34" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="FB1" gate="G$1" pin="1"/>
-<wire x1="312.42" y1="243.84" x2="312.42" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="243.84" x2="312.42" y2="243.84" width="0.1524" layer="91"/>
-<junction x="312.42" y="243.84"/>
+<wire x1="307.34" y1="223.52" x2="307.34" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="223.52" x2="307.34" y2="223.52" width="0.1524" layer="91"/>
+<junction x="307.34" y="223.52"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -29619,8 +29636,8 @@ supply to V_BAT input for Standby mode</text>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="V_USB"/>
-<wire x1="347.98" y1="238.76" x2="340.36" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="340.36" y1="238.76" x2="340.36" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="218.44" x2="335.28" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="218.44" x2="335.28" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="G$1" pin="V_USB"/>
 </segment>
 <segment>
@@ -29630,34 +29647,34 @@ supply to V_BAT input for Standby mode</text>
 <wire x1="96.52" y1="142.24" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="27.94" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
-<label x="93.98" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J7" gate="J1" pin="3"/>
+<wire x1="96.52" y1="30.48" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
+<label x="93.98" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J7" gate="J1" pin="4"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="REF_OUT"/>
-<wire x1="347.98" y1="187.96" x2="345.44" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="345.44" y1="187.96" x2="345.44" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="167.64" x2="340.36" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="167.64" x2="340.36" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="U1" gate="U1" pin="REF_IN"/>
-<wire x1="345.44" y1="190.5" x2="347.98" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="170.18" x2="342.9" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="2V8_OUT"/>
-<wire x1="347.98" y1="180.34" x2="345.44" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="345.44" y1="180.34" x2="345.44" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="160.02" x2="340.36" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="160.02" x2="340.36" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="U1" gate="U1" pin="2V8_IN"/>
-<wire x1="345.44" y1="182.88" x2="347.98" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="162.56" x2="342.9" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="SYNC"/>
-<wire x1="347.98" y1="172.72" x2="335.28" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="172.72" x2="335.28" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="152.4" x2="330.2" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="152.4" x2="330.2" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -29665,20 +29682,20 @@ supply to V_BAT input for Standby mode</text>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="SUPPLY2" gate="G$1" pin="1.8V"/>
-<wire x1="335.28" y1="187.96" x2="335.28" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="167.64" x2="330.2" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="1V8_OUT"/>
-<wire x1="347.98" y1="175.26" x2="342.9" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="175.26" x2="342.9" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="154.94" x2="337.82" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="154.94" x2="337.82" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="1.8V"/>
 </segment>
 </net>
 <net name="EVENTA" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="EVENTA"/>
-<wire x1="388.62" y1="185.42" x2="391.16" y2="185.42" width="0.1524" layer="91"/>
-<label x="391.16" y="185.42" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="165.1" x2="386.08" y2="165.1" width="0.1524" layer="91"/>
+<label x="386.08" y="165.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="33.02" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
@@ -29688,22 +29705,22 @@ supply to V_BAT input for Standby mode</text>
 </net>
 <net name="PPS" class="0">
 <segment>
-<wire x1="175.26" y1="248.92" x2="177.8" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="226.06" x2="58.42" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="TP1" gate="G$1" pin="2"/>
-<junction x="177.8" y="248.92"/>
-<wire x1="177.8" y1="248.92" x2="205.74" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="248.92" x2="205.74" y2="251.46" width="0.1524" layer="91"/>
+<junction x="58.42" y="226.06"/>
+<wire x1="58.42" y1="226.06" x2="86.36" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="226.06" x2="86.36" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="E2" gate="G$1" pin="SIGNAL"/>
 <pinref part="U2" gate="U1" pin="Y"/>
-<wire x1="180.34" y1="246.38" x2="177.8" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="246.38" x2="177.8" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="223.52" x2="58.42" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="223.52" x2="58.42" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MODULE_RDY" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="MODULE_RDY"/>
-<wire x1="388.62" y1="259.08" x2="391.16" y2="259.08" width="0.1524" layer="91"/>
-<label x="391.16" y="259.08" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="238.76" x2="386.08" y2="238.76" width="0.1524" layer="91"/>
+<label x="386.08" y="238.76" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="38.1" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
@@ -29714,8 +29731,8 @@ supply to V_BAT input for Standby mode</text>
 <net name="EVENTB" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="EVENTB"/>
-<wire x1="388.62" y1="182.88" x2="391.16" y2="182.88" width="0.1524" layer="91"/>
-<label x="391.16" y="182.88" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="162.56" x2="386.08" y2="162.56" width="0.1524" layer="91"/>
+<label x="386.08" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <label x="60.96" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -29726,8 +29743,8 @@ supply to V_BAT input for Standby mode</text>
 <net name="GP1" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="GPIO_1"/>
-<wire x1="388.62" y1="177.8" x2="391.16" y2="177.8" width="0.1524" layer="91"/>
-<label x="391.16" y="177.8" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="157.48" x2="386.08" y2="157.48" width="0.1524" layer="91"/>
+<label x="386.08" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <label x="60.96" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -29738,8 +29755,8 @@ supply to V_BAT input for Standby mode</text>
 <net name="GP2" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="GPIO_2"/>
-<wire x1="388.62" y1="175.26" x2="391.16" y2="175.26" width="0.1524" layer="91"/>
-<label x="391.16" y="175.26" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="154.94" x2="386.08" y2="154.94" width="0.1524" layer="91"/>
+<label x="386.08" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="25.4" x2="60.96" y2="25.4" width="0.1524" layer="91"/>
@@ -29750,29 +29767,29 @@ supply to V_BAT input for Standby mode</text>
 <net name="SD_CMD" class="0">
 <segment>
 <pinref part="J3" gate="J1" pin="CMD/SDI"/>
-<wire x1="307.34" y1="68.58" x2="297.18" y2="68.58" width="0.1524" layer="91"/>
-<label x="289.56" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="220.98" x2="139.7" y2="220.98" width="0.1524" layer="91"/>
+<label x="132.08" y="220.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="297.18" y1="68.58" x2="289.56" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="76.2" x2="297.18" y2="68.58" width="0.1524" layer="91"/>
-<junction x="297.18" y="68.58"/>
+<wire x1="139.7" y1="220.98" x2="132.08" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="228.6" x2="139.7" y2="220.98" width="0.1524" layer="91"/>
+<junction x="139.7" y="220.98"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="SD_CMD"/>
-<wire x1="388.62" y1="205.74" x2="391.16" y2="205.74" width="0.1524" layer="91"/>
-<label x="391.16" y="205.74" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="185.42" x2="386.08" y2="185.42" width="0.1524" layer="91"/>
+<label x="386.08" y="185.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LOG_BTN" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="LOG_BTN"/>
-<wire x1="388.62" y1="198.12" x2="391.16" y2="198.12" width="0.1524" layer="91"/>
-<label x="391.16" y="198.12" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="177.8" x2="386.08" y2="177.8" width="0.1524" layer="91"/>
+<label x="386.08" y="177.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="261.62" y1="88.9" x2="261.62" y2="91.44" width="0.1524" layer="91"/>
-<label x="261.62" y="91.44" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="119.38" y1="238.76" x2="119.38" y2="241.3" width="0.1524" layer="91"/>
+<label x="119.38" y="241.3" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="27.94" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
@@ -29783,8 +29800,8 @@ supply to V_BAT input for Standby mode</text>
 <net name="LOG_LED" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="LOG_LED"/>
-<wire x1="388.62" y1="195.58" x2="391.16" y2="195.58" width="0.1524" layer="91"/>
-<label x="391.16" y="195.58" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="175.26" x2="386.08" y2="175.26" width="0.1524" layer="91"/>
+<label x="386.08" y="175.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="LOG" gate="G$1" pin="2"/>
@@ -29801,7 +29818,7 @@ supply to V_BAT input for Standby mode</text>
 <segment>
 <pinref part="S2" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="261.62" y1="78.74" x2="261.62" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="228.6" x2="119.38" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -29810,11 +29827,6 @@ supply to V_BAT input for Standby mode</text>
 <wire x1="96.52" y1="157.48" x2="96.52" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="96.52" y1="154.94" x2="99.06" y2="154.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="96.52" y1="30.48" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
-<label x="93.98" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J7" gate="J1" pin="4"/>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="1"/>
@@ -29827,6 +29839,11 @@ supply to V_BAT input for Standby mode</text>
 <wire x1="101.6" y1="83.82" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="SUPPLY14" gate="G$1" pin="VIN"/>
 <pinref part="J12" gate="J1" pin="1"/>
+</segment>
+<segment>
+<wire x1="96.52" y1="27.94" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
+<label x="93.98" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J7" gate="J1" pin="3"/>
 </segment>
 </net>
 <net name="MEAS" class="0">
@@ -29844,8 +29861,8 @@ supply to V_BAT input for Standby mode</text>
 <net name="GP_LED" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="GP_LED"/>
-<wire x1="388.62" y1="172.72" x2="391.16" y2="172.72" width="0.1524" layer="91"/>
-<label x="391.16" y="172.72" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="152.4" x2="386.08" y2="152.4" width="0.1524" layer="91"/>
+<label x="386.08" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="GP" gate="G$1" pin="2"/>
@@ -29861,35 +29878,35 @@ supply to V_BAT input for Standby mode</text>
 <net name="SD_CLK" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="SD_CLK"/>
-<wire x1="388.62" y1="208.28" x2="391.16" y2="208.28" width="0.1524" layer="91"/>
-<label x="391.16" y="208.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="187.96" x2="386.08" y2="187.96" width="0.1524" layer="91"/>
+<label x="386.08" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="J1" pin="CLK/SCK"/>
-<wire x1="307.34" y1="71.12" x2="289.56" y2="71.12" width="0.1524" layer="91"/>
-<label x="289.56" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="223.52" x2="132.08" y2="223.52" width="0.1524" layer="91"/>
+<label x="132.08" y="223.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SD_DATA" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="SD_DATA"/>
-<wire x1="388.62" y1="203.2" x2="391.16" y2="203.2" width="0.1524" layer="91"/>
-<label x="391.16" y="203.2" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="182.88" x2="386.08" y2="182.88" width="0.1524" layer="91"/>
+<label x="386.08" y="182.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="J1" pin="DAT0/SDO"/>
-<wire x1="307.34" y1="73.66" x2="292.1" y2="73.66" width="0.1524" layer="91"/>
-<label x="289.56" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="226.06" x2="134.62" y2="226.06" width="0.1524" layer="91"/>
+<label x="132.08" y="226.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="292.1" y1="73.66" x2="289.56" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="76.2" x2="292.1" y2="73.66" width="0.1524" layer="91"/>
-<junction x="292.1" y="73.66"/>
+<wire x1="134.62" y1="226.06" x2="132.08" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="228.6" x2="134.62" y2="226.06" width="0.1524" layer="91"/>
+<junction x="134.62" y="226.06"/>
 </segment>
 </net>
 <net name="VANT" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="VANT"/>
-<wire x1="347.98" y1="243.84" x2="327.66" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="223.52" x2="322.58" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="FB1" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -29914,9 +29931,9 @@ supply to V_BAT input for Standby mode</text>
 <pinref part="PPS" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<label x="193.04" y="246.38" size="1.27" layer="95" xref="yes"/>
+<label x="73.66" y="223.52" size="1.27" layer="95" xref="yes"/>
 <pinref part="TP1" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="246.38" x2="193.04" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="223.52" x2="73.66" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="30.48" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
@@ -29924,23 +29941,23 @@ supply to V_BAT input for Standby mode</text>
 <pinref part="J10" gate="J1" pin="4"/>
 </segment>
 </net>
-<net name="PPS_18V" class="0">
+<net name="PPS_1V8" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="PPS"/>
-<wire x1="391.16" y1="190.5" x2="388.62" y2="190.5" width="0.1524" layer="91"/>
-<label x="391.16" y="190.5" size="1.27" layer="95" xref="yes"/>
+<wire x1="386.08" y1="170.18" x2="383.54" y2="170.18" width="0.1524" layer="91"/>
+<label x="386.08" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="U1" pin="A"/>
-<wire x1="162.56" y1="248.92" x2="160.02" y2="248.92" width="0.1524" layer="91"/>
-<label x="160.02" y="248.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="43.18" y1="226.06" x2="40.64" y2="226.06" width="0.1524" layer="91"/>
+<label x="40.64" y="226.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COM1_RX" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="COM1_RX"/>
-<wire x1="388.62" y1="254" x2="391.16" y2="254" width="0.1524" layer="91"/>
-<label x="391.16" y="254" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="233.68" x2="386.08" y2="233.68" width="0.1524" layer="91"/>
+<label x="386.08" y="233.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="20.32" y1="81.28" x2="17.78" y2="81.28" width="0.1524" layer="91"/>
@@ -29951,8 +29968,8 @@ supply to V_BAT input for Standby mode</text>
 <net name="COM1_TX" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="COM1_TX"/>
-<wire x1="388.62" y1="251.46" x2="391.16" y2="251.46" width="0.1524" layer="91"/>
-<label x="391.16" y="251.46" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="231.14" x2="386.08" y2="231.14" width="0.1524" layer="91"/>
+<label x="386.08" y="231.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="20.32" y1="78.74" x2="17.78" y2="78.74" width="0.1524" layer="91"/>
@@ -29963,8 +29980,8 @@ supply to V_BAT input for Standby mode</text>
 <net name="COM1_CTS" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="COM1_CTS"/>
-<wire x1="388.62" y1="246.38" x2="391.16" y2="246.38" width="0.1524" layer="91"/>
-<label x="391.16" y="246.38" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="226.06" x2="386.08" y2="226.06" width="0.1524" layer="91"/>
+<label x="386.08" y="226.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="20.32" y1="73.66" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
@@ -29975,8 +29992,8 @@ supply to V_BAT input for Standby mode</text>
 <net name="COM2_RX" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="COM2_RX"/>
-<wire x1="388.62" y1="241.3" x2="391.16" y2="241.3" width="0.1524" layer="91"/>
-<label x="391.16" y="241.3" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="220.98" x2="386.08" y2="220.98" width="0.1524" layer="91"/>
+<label x="386.08" y="220.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="48.26" y1="81.28" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
@@ -29987,8 +30004,8 @@ supply to V_BAT input for Standby mode</text>
 <net name="COM2_TX" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="COM2_TX"/>
-<wire x1="388.62" y1="238.76" x2="391.16" y2="238.76" width="0.1524" layer="91"/>
-<label x="391.16" y="238.76" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="218.44" x2="386.08" y2="218.44" width="0.1524" layer="91"/>
+<label x="386.08" y="218.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="48.26" y1="78.74" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
@@ -29999,8 +30016,8 @@ supply to V_BAT input for Standby mode</text>
 <net name="COM2_RTS" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="COM2_RTS"/>
-<wire x1="388.62" y1="236.22" x2="391.16" y2="236.22" width="0.1524" layer="91"/>
-<label x="391.16" y="236.22" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="215.9" x2="386.08" y2="215.9" width="0.1524" layer="91"/>
+<label x="386.08" y="215.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="48.26" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
@@ -30011,8 +30028,8 @@ supply to V_BAT input for Standby mode</text>
 <net name="COM2_CTS" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="COM2_CTS"/>
-<wire x1="388.62" y1="233.68" x2="391.16" y2="233.68" width="0.1524" layer="91"/>
-<label x="391.16" y="233.68" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="213.36" x2="386.08" y2="213.36" width="0.1524" layer="91"/>
+<label x="386.08" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="48.26" y1="73.66" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
@@ -30023,8 +30040,8 @@ supply to V_BAT input for Standby mode</text>
 <net name="COM3_RX" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="COM3_RX"/>
-<wire x1="388.62" y1="228.6" x2="391.16" y2="228.6" width="0.1524" layer="91"/>
-<label x="391.16" y="228.6" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="208.28" x2="386.08" y2="208.28" width="0.1524" layer="91"/>
+<label x="386.08" y="208.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="81.28" x2="73.66" y2="81.28" width="0.1524" layer="91"/>
@@ -30040,8 +30057,8 @@ supply to V_BAT input for Standby mode</text>
 <net name="COM3_TX" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="COM3_TX"/>
-<wire x1="388.62" y1="226.06" x2="391.16" y2="226.06" width="0.1524" layer="91"/>
-<label x="391.16" y="226.06" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="205.74" x2="386.08" y2="205.74" width="0.1524" layer="91"/>
+<label x="386.08" y="205.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="78.74" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
@@ -30057,8 +30074,8 @@ supply to V_BAT input for Standby mode</text>
 <net name="COM3_RTS" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="COM3_RTS"/>
-<wire x1="388.62" y1="223.52" x2="391.16" y2="223.52" width="0.1524" layer="91"/>
-<label x="391.16" y="223.52" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="203.2" x2="386.08" y2="203.2" width="0.1524" layer="91"/>
+<label x="386.08" y="203.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="76.2" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
@@ -30074,8 +30091,8 @@ supply to V_BAT input for Standby mode</text>
 <net name="COM3_CTS" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="COM3_CTS"/>
-<wire x1="388.62" y1="220.98" x2="391.16" y2="220.98" width="0.1524" layer="91"/>
-<label x="391.16" y="220.98" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="200.66" x2="386.08" y2="200.66" width="0.1524" layer="91"/>
+<label x="386.08" y="200.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="73.66" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
@@ -30091,8 +30108,8 @@ supply to V_BAT input for Standby mode</text>
 <net name="COM4_RX" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="COM4_RX"/>
-<wire x1="388.62" y1="215.9" x2="391.16" y2="215.9" width="0.1524" layer="91"/>
-<label x="391.16" y="215.9" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="195.58" x2="386.08" y2="195.58" width="0.1524" layer="91"/>
+<label x="386.08" y="195.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="27.94" y1="38.1" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
@@ -30103,8 +30120,8 @@ supply to V_BAT input for Standby mode</text>
 <net name="COM4_TX" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="COM4_TX"/>
-<wire x1="388.62" y1="213.36" x2="391.16" y2="213.36" width="0.1524" layer="91"/>
-<label x="391.16" y="213.36" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="193.04" x2="386.08" y2="193.04" width="0.1524" layer="91"/>
+<label x="386.08" y="193.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="27.94" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
@@ -30115,8 +30132,8 @@ supply to V_BAT input for Standby mode</text>
 <net name="COM1_RTS" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="COM1_RTS"/>
-<wire x1="388.62" y1="248.92" x2="391.16" y2="248.92" width="0.1524" layer="91"/>
-<label x="391.16" y="248.92" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="228.6" x2="386.08" y2="228.6" width="0.1524" layer="91"/>
+<label x="386.08" y="228.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="20.32" y1="76.2" x2="17.78" y2="76.2" width="0.1524" layer="91"/>
@@ -30134,8 +30151,8 @@ supply to V_BAT input for Standby mode</text>
 <net name="PMIC_ON_REQ" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="PMIC_ON_REQ"/>
-<wire x1="388.62" y1="167.64" x2="391.16" y2="167.64" width="0.1524" layer="91"/>
-<label x="391.16" y="167.64" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="147.32" x2="386.08" y2="147.32" width="0.1524" layer="91"/>
+<label x="386.08" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="45.72" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
@@ -30146,8 +30163,8 @@ supply to V_BAT input for Standby mode</text>
 <net name="V_BAT" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="VDD_BAT"/>
-<wire x1="347.98" y1="256.54" x2="337.82" y2="256.54" width="0.1524" layer="91"/>
-<label x="337.82" y="256.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="342.9" y1="236.22" x2="332.74" y2="236.22" width="0.1524" layer="91"/>
+<label x="332.74" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="VB" gate="G$1" pin="2"/>
@@ -30158,6 +30175,14 @@ supply to V_BAT input for Standby mode</text>
 <wire x1="96.52" y1="33.02" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
 <label x="93.98" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J7" gate="J1" pin="5"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="J3" gate="J1" pin="DAT3/!CS!"/>
+<wire x1="154.94" y1="233.68" x2="144.78" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="233.68" x2="144.78" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
