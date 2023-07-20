@@ -417,7 +417,6 @@
 <wire x1="-16" y1="14" x2="-16" y2="16" width="0.1778" layer="21"/>
 <wire x1="-16" y1="16" x2="-14" y2="16" width="0.1778" layer="21"/>
 <circle x="16" y="16" radius="0.18305" width="0.6" layer="21"/>
-<circle x="13.97" y="13.97" radius="0.375" width="0.001" layer="51"/>
 <polygon width="0.0254" layer="29">
 <vertex x="13.97" y="-13.6017" curve="-180"/>
 <vertex x="13.97" y="-14.3383" curve="-180"/>
@@ -2155,14 +2154,6 @@
 <vertex x="-13.97" y="12.3317" curve="-180"/>
 </polygon>
 <polygon width="0.0254" layer="29">
-<vertex x="13.97" y="14.3383" curve="-180"/>
-<vertex x="13.97" y="13.6017" curve="-180"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="13.97" y="14.3383" curve="-180"/>
-<vertex x="13.97" y="13.6017" curve="-180"/>
-</polygon>
-<polygon width="0.0254" layer="29">
 <vertex x="12.7" y="14.3383" curve="-180"/>
 <vertex x="12.7" y="13.6017" curve="-180"/>
 </polygon>
@@ -2338,6 +2329,7 @@
 <vertex x="-13.97" y="14.3383" curve="-180"/>
 <vertex x="-13.97" y="13.6017" curve="-180"/>
 </polygon>
+<circle x="13.968" y="13.968" radius="0.15" width="0.3" layer="51"/>
 </package>
 <package name="MOSAIC_LGA_VIA-IN-PAD">
 <description>MOSAIC LGA - via-in-pad</description>
