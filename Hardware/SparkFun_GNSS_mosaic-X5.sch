@@ -27121,7 +27121,9 @@ Provides ESD protection</description>
 <connect gate="D1" pin="5" pad="5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-19494" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -27262,7 +27264,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="T" pin="B2" pad="B2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="COMP-19495" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

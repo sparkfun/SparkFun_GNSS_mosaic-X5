@@ -19030,7 +19030,9 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <element name="U$28" library="output" package="RTK0" value="" x="54.61" y="42.418" smashed="yes"/>
 <element name="U$29" library="output" package="PVT0" value="" x="54.737" y="44.196" smashed="yes"/>
 <element name="U$30" library="output" package="MADE_IN_AMERICA0" value="" x="19.05" y="11.43" smashed="yes" rot="MR0"/>
-<element name="T1" library="SparkFun-Coils" package="RFCMF1220100M4T" value="RFCMF1220100M4T" x="19.05" y="15.24" smashed="yes"/>
+<element name="T1" library="SparkFun-Coils" package="RFCMF1220100M4T" value="RFCMF1220100M4T" x="19.05" y="15.24" smashed="yes">
+<attribute name="PROD_ID" value="COMP-19495" x="19.05" y="15.24" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R13" library="SparkFun-Resistors" package="0603" value="0" x="43.18" y="43.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="43.742" y="43.18" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-08609" x="43.18" y="43.18" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -19043,10 +19045,12 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 </element>
 <element name="D9" library="SparkFun-DiscreteSemi" package="SOT353" value="PESDXL4UGUG" x="23.368" y="42.926" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.9145" y="41.82028125" size="0.8128" layer="25" rot="R90"/>
+<attribute name="PROD_ID" value="DIO-19494" x="23.368" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="25.908" y="41.656" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="D11" library="SparkFun-DiscreteSemi" package="SOT353" value="PESDXL4UGUG" x="8.89" y="21.59" smashed="yes" rot="R270">
 <attribute name="NAME" x="10.3435" y="22.69571875" size="0.8128" layer="25" rot="R270"/>
+<attribute name="PROD_ID" value="DIO-19494" x="8.89" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="6.35" y="22.86" size="0.8128" layer="27" rot="R270"/>
 </element>
 </elements>
