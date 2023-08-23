@@ -10,8 +10,8 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top/Horz" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="GND/Horz" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="Vert" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="2" name="GND/Horz" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="Vert" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom/Vert" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -42,7 +42,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
@@ -18941,11 +18941,11 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <element name="U$5" library="output" package="MEAS0" value="" x="14.605" y="21.59" smashed="yes" rot="MR270"/>
 <element name="JP1" library="SparkFun-Connectors" package="USB-SOLDER-PADS" value="USB_SOLDER_PADS" x="1.651" y="10.16" smashed="yes" rot="MR0"/>
 <element name="J12" library="SparkFun-Connectors" package="1X06_SOLDER_PADS" value="" x="1.651" y="21.59" smashed="yes" rot="MR0"/>
-<element name="U$8" library="output" package="C4" value="" x="4.191" y="18.923" smashed="yes" rot="MR0"/>
+<element name="U$8" library="output" package="C4" value="" x="4.191" y="20.701" smashed="yes" rot="MR0"/>
 <element name="U$9" library="output" package="D#2" value="" x="4.572" y="10.795" smashed="yes" rot="MR0"/>
 <element name="U$10" library="output" package="D#3" value="" x="4.572" y="9.525" smashed="yes" rot="MR0"/>
 <element name="U$11" library="output" package="G0" value="" x="4.953" y="8.255" smashed="yes" rot="MR0"/>
-<element name="U$12" library="output" package="R5" value="" x="4.064" y="20.701" smashed="yes" rot="MR0"/>
+<element name="U$12" library="output" package="R5" value="" x="4.191" y="18.923" smashed="yes" rot="MR0"/>
 <element name="U$14" library="output" package="RX7" value="" x="4.699" y="24.257" smashed="yes" rot="MR0"/>
 <element name="U$15" library="output" package="TX6" value="" x="4.826" y="22.479" smashed="yes" rot="MR0"/>
 <element name="U$16" library="output" package="V8" value="" x="4.953" y="12.065" smashed="yes" rot="MR0"/>
@@ -19375,7 +19375,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <via x="13.97" y="19.05" extent="1-16" drill="0.3048"/>
 <via x="15.621" y="19.05" extent="1-16" drill="0.3048"/>
 <via x="11.938" y="17.018" extent="1-16" drill="0.3048"/>
-<via x="4.572" y="16.256" extent="1-16" drill="0.3048"/>
+<via x="4.953" y="17.399" extent="1-16" drill="0.3048"/>
 <via x="12.192" y="13.97" extent="1-16" drill="0.3048"/>
 <via x="14.478" y="15.748" extent="1-16" drill="0.3048"/>
 <via x="13.081" y="11.557" extent="1-16" drill="0.3048"/>
@@ -20304,69 +20304,71 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="3.498" y1="21.659" x2="4.054" y2="22.215" width="0.1778" layer="1"/>
 <wire x1="13.76085" y1="8.89" x2="6.308925" y2="16.341925" width="0.1778" layer="16"/>
 <via x="6.308925" y="16.341925" extent="1-16" drill="0.3048"/>
-<wire x1="6.492" y1="20.94" x2="5.207" y2="22.225" width="0.1778" layer="1"/>
-<wire x1="5.207" y1="22.225" x2="4.58" y2="22.225" width="0.1778" layer="1"/>
+<wire x1="7" y1="20.94" x2="5.715" y2="22.225" width="0.1778" layer="1"/>
+<wire x1="5.715" y1="22.225" x2="4.58" y2="22.225" width="0.1778" layer="1"/>
 <wire x1="4.58" y1="22.225" x2="4.57" y2="22.215" width="0.1778" layer="1"/>
 <wire x1="36.83" y1="8.89" x2="13.76085" y2="8.89" width="0.1778" layer="16"/>
 <contactref element="D11" pad="3"/>
-<wire x1="8.09" y1="20.94" x2="6.492" y2="20.94" width="0.1778" layer="1"/>
+<wire x1="8.09" y1="20.94" x2="7" y2="20.94" width="0.1778" layer="1"/>
 <wire x1="1.1603" y1="17.3817" x2="0.762" y2="17.78" width="0.1778" layer="1"/>
-<wire x1="6.308925" y1="16.341925" x2="6.219225" y2="16.341925" width="0.1778" layer="1"/>
-<wire x1="6.219225" y1="16.341925" x2="5.17945" y2="17.3817" width="0.1778" layer="1"/>
-<wire x1="5.17945" y1="17.3817" x2="1.1603" y2="17.3817" width="0.1778" layer="1"/>
+<wire x1="6.308925" y1="16.341925" x2="3.933225" y2="16.341925" width="0.1778" layer="1"/>
+<wire x1="3.933225" y1="16.341925" x2="2.89345" y2="17.3817" width="0.1778" layer="1"/>
+<wire x1="2.89345" y1="17.3817" x2="1.1603" y2="17.3817" width="0.1778" layer="1"/>
 <wire x1="0.762" y1="17.78" x2="0.762" y2="20.77" width="0.1778" layer="1"/>
 <wire x1="0.762" y1="20.77" x2="1.651" y2="21.659" width="0.1778" layer="1"/>
 </signal>
 <signal name="COM3_RTS">
 <contactref element="U1" pad="L1"/>
-<contactref element="J2" pad="4"/>
-<contactref element="J12" pad="4"/>
 <wire x1="35.56" y1="11.43" x2="35.56" y2="9.525" width="0.1778" layer="1"/>
 <via x="35.56" y="9.525" extent="1-16" drill="0.3048"/>
 <wire x1="35.56" y1="9.525" x2="13.62875" y2="9.525" width="0.1778" layer="16"/>
-<wire x1="1.651" y1="20.701" x2="1.651" y2="19.881" width="0.1778" layer="16"/>
-<via x="1.651" y="19.881" extent="1-16" drill="0.3048"/>
-<wire x1="1.651" y1="19.881" x2="2.863" y2="19.881" width="0.1778" layer="1"/>
-<wire x1="3.947" y1="20.965" x2="4.57" y2="20.965" width="0.1778" layer="1"/>
-<wire x1="2.863" y1="19.881" x2="3.947" y2="20.965" width="0.1778" layer="1"/>
-<wire x1="3.175" y1="19.881" x2="1.651" y2="19.881" width="0.1778" layer="16"/>
 <wire x1="6.905825" y1="16.247925" x2="6.905825" y2="16.589175" width="0.1778" layer="16"/>
 <wire x1="6.905825" y1="16.589175" x2="6.556175" y2="16.938825" width="0.1778" layer="16"/>
-<wire x1="6.556175" y1="16.938825" x2="6.096" y2="16.938825" width="0.1778" layer="16"/>
-<wire x1="6.096" y1="16.938825" x2="3.175" y2="19.859825" width="0.1778" layer="16"/>
-<wire x1="3.175" y1="19.859825" x2="3.175" y2="19.881" width="0.1778" layer="16"/>
 <wire x1="13.62875" y1="9.525" x2="6.905825" y2="16.247925" width="0.1778" layer="16"/>
-<contactref element="D11" pad="4"/>
-<wire x1="9.69" y1="20.94" x2="9.69" y2="20.231" width="0.1778" layer="1"/>
-<wire x1="9.69" y1="20.231" x2="9.398" y2="19.939" width="0.1778" layer="1"/>
-<wire x1="5.705" y1="20.965" x2="4.57" y2="20.965" width="0.1778" layer="1"/>
-<wire x1="9.398" y1="19.939" x2="6.731" y2="19.939" width="0.1778" layer="1"/>
-<wire x1="6.731" y1="19.939" x2="5.705" y2="20.965" width="0.1778" layer="1"/>
-</signal>
-<signal name="COM3_CTS">
-<contactref element="U1" pad="N1"/>
 <contactref element="J2" pad="5"/>
-<contactref element="J12" pad="5"/>
-<wire x1="38.1" y1="11.43" x2="38.1" y2="8.255" width="0.1778" layer="1"/>
-<via x="38.1" y="8.255" extent="1-16" drill="0.3048"/>
-<wire x1="1.651" y1="18.923" x2="1.651" y2="18.103" width="0.1778" layer="16"/>
-<via x="1.651" y="18.103" extent="1-16" drill="0.3048"/>
-<wire x1="1.651" y1="18.103" x2="2.355" y2="18.103" width="0.1778" layer="1"/>
-<wire x1="3.967" y1="19.715" x2="4.57" y2="19.715" width="0.1778" layer="1"/>
-<wire x1="2.355" y1="18.103" x2="3.967" y2="19.715" width="0.1778" layer="1"/>
-<wire x1="1.651" y1="18.103" x2="3.7037" y2="18.103" width="0.1778" layer="16"/>
-<wire x1="38.1" y1="8.255" x2="13.89295" y2="8.255" width="0.1778" layer="16"/>
-<wire x1="6.402925" y1="15.745025" x2="6.061675" y2="15.745025" width="0.1778" layer="16"/>
-<wire x1="6.061675" y1="15.745025" x2="3.7037" y2="18.103" width="0.1778" layer="16"/>
-<wire x1="13.89295" y1="8.255" x2="6.402925" y2="15.745025" width="0.1778" layer="16"/>
 <contactref element="D11" pad="5"/>
 <wire x1="9.69" y1="22.24" x2="10.399" y2="22.24" width="0.1778" layer="1"/>
 <wire x1="10.399" y1="22.24" x2="10.668" y2="21.971" width="0.1778" layer="1"/>
 <wire x1="10.668" y1="21.971" x2="10.668" y2="20.447" width="0.1778" layer="1"/>
-<wire x1="10.668" y1="20.447" x2="9.652" y2="19.431" width="0.1778" layer="1"/>
-<wire x1="4.57" y1="19.715" x2="5.812" y2="19.715" width="0.1778" layer="1"/>
-<wire x1="5.812" y1="19.715" x2="6.096" y2="19.431" width="0.1778" layer="1"/>
-<wire x1="6.096" y1="19.431" x2="9.652" y2="19.431" width="0.1778" layer="1"/>
+<wire x1="10.668" y1="20.447" x2="9.7155" y2="19.4945" width="0.1778" layer="1"/>
+<contactref element="J12" pad="5"/>
+<via x="5.798375" y="17.355375" extent="1-16" drill="0.3048"/>
+<wire x1="6.556175" y1="16.938825" x2="6.214925" y2="16.938825" width="0.1778" layer="16"/>
+<wire x1="6.214925" y1="16.938825" x2="5.798375" y2="17.355375" width="0.1778" layer="16"/>
+<wire x1="5.798375" y1="17.355375" x2="6.35" y2="17.907" width="0.1778" layer="1"/>
+<wire x1="6.066" y1="19.715" x2="4.57" y2="19.715" width="0.1778" layer="1"/>
+<wire x1="6.35" y1="17.907" x2="6.35" y2="19.431" width="0.1778" layer="1"/>
+<wire x1="4.57" y1="19.715" x2="3.263" y2="19.715" width="0.1778" layer="1"/>
+<wire x1="3.263" y1="19.715" x2="1.651" y2="18.103" width="0.1778" layer="1"/>
+<via x="1.651" y="18.103" extent="1-16" drill="0.3048"/>
+<wire x1="1.651" y1="18.103" x2="1.651" y2="18.923" width="0.1778" layer="16"/>
+<wire x1="6.35" y1="19.431" x2="6.066" y2="19.715" width="0.1778" layer="1"/>
+<wire x1="9.7155" y1="19.4945" x2="9.652" y2="19.431" width="0.1778" layer="1"/>
+<wire x1="9.652" y1="19.431" x2="6.35" y2="19.431" width="0.1778" layer="1"/>
+</signal>
+<signal name="COM3_CTS">
+<contactref element="U1" pad="N1"/>
+<wire x1="38.1" y1="11.43" x2="38.1" y2="8.255" width="0.1778" layer="1"/>
+<via x="38.1" y="8.255" extent="1-16" drill="0.3048"/>
+<wire x1="38.1" y1="8.255" x2="13.89295" y2="8.255" width="0.1778" layer="16"/>
+<wire x1="6.402925" y1="15.745025" x2="5.172675" y2="15.745025" width="0.1778" layer="16"/>
+<wire x1="5.172675" y1="15.745025" x2="3.429" y2="17.4887" width="0.1778" layer="16"/>
+<wire x1="3.429" y1="17.4887" x2="3.429" y2="19.47216875" width="0.1778" layer="16"/>
+<wire x1="13.89295" y1="8.255" x2="6.402925" y2="15.745025" width="0.1778" layer="16"/>
+<contactref element="J2" pad="4"/>
+<contactref element="D11" pad="4"/>
+<wire x1="9.69" y1="20.94" x2="9.69" y2="20.231" width="0.1778" layer="1"/>
+<wire x1="9.69" y1="20.231" x2="9.398" y2="19.939" width="0.1778" layer="1"/>
+<wire x1="6.731" y1="19.939" x2="9.398" y2="19.939" width="0.1778" layer="1"/>
+<contactref element="J12" pad="4"/>
+<wire x1="4.57" y1="20.965" x2="5.705" y2="20.965" width="0.1778" layer="1"/>
+<wire x1="5.705" y1="20.965" x2="6.731" y2="19.939" width="0.1778" layer="1"/>
+<wire x1="4.57" y1="20.965" x2="2.735" y2="20.965" width="0.1778" layer="1"/>
+<wire x1="2.735" y1="20.965" x2="1.651" y2="19.881" width="0.1778" layer="1"/>
+<via x="1.651" y="19.881" extent="1-16" drill="0.3048"/>
+<wire x1="1.651" y1="19.881" x2="1.651" y2="20.701" width="0.1778" layer="16"/>
+<wire x1="3.429" y1="19.47216875" x2="3.02016875" y2="19.881" width="0.1778" layer="16"/>
+<wire x1="3.02016875" y1="19.881" x2="1.651" y2="19.881" width="0.1778" layer="16"/>
 </signal>
 <signal name="COM4_RX">
 <contactref element="U1" pad="D3"/>

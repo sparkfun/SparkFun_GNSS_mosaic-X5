@@ -33002,7 +33002,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="231.14" y="238.76" size="1.27" layer="97">Dielectric thickness (layer 1 to 2): 0.2mm</text>
 <text x="231.14" y="228.6" size="0.762" layer="97">https://chemandy.com/calculators/coplanar-waveguide-with-ground-calculator.htm</text>
 <text x="231.14" y="246.38" size="1.524" layer="97" ratio="15">Coplanar Waveguide Calculation:</text>
-<wire x1="0" y1="119.38" x2="182.88" y2="119.38" width="0.2032" layer="97" style="longdash"/>
 <wire x1="182.88" y1="119.38" x2="218.44" y2="119.38" width="0.2032" layer="97" style="longdash"/>
 <wire x1="218.44" y1="119.38" x2="238.76" y2="119.38" width="0.2032" layer="97" style="longdash"/>
 <wire x1="218.44" y1="180.34" x2="218.44" y2="119.38" width="0.2032" layer="97" style="longdash"/>
@@ -34559,27 +34558,6 @@ move jumper to power antenna with 3.3V.</text>
 <label x="386.08" y="203.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
-<label x="111.76" y="83.82" size="1.27" layer="95" rot="MR0" xref="yes"/>
-<pinref part="J2" gate="J1" pin="4"/>
-<pinref part="D11" gate="D1" pin="4"/>
-<wire x1="121.92" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="78.74" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
-<junction x="121.92" y="83.82"/>
-</segment>
-<segment>
-<wire x1="167.64" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
-<label x="165.1" y="83.82" size="1.27" layer="95" rot="MR0" xref="yes"/>
-<pinref part="J12" gate="J1" pin="4"/>
-</segment>
-</net>
-<net name="COM3_CTS" class="0">
-<segment>
-<pinref part="U1" gate="U1" pin="COM3_CTS"/>
-<wire x1="383.54" y1="200.66" x2="386.08" y2="200.66" width="0.1524" layer="91"/>
-<label x="386.08" y="200.66" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <label x="111.76" y="81.28" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J2" gate="J1" pin="5"/>
 <wire x1="134.62" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
@@ -34592,6 +34570,27 @@ move jumper to power antenna with 3.3V.</text>
 <wire x1="167.64" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
 <label x="165.1" y="81.28" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J12" gate="J1" pin="5"/>
+</segment>
+</net>
+<net name="COM3_CTS" class="0">
+<segment>
+<pinref part="U1" gate="U1" pin="COM3_CTS"/>
+<wire x1="383.54" y1="200.66" x2="386.08" y2="200.66" width="0.1524" layer="91"/>
+<label x="386.08" y="200.66" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="134.62" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
+<label x="111.76" y="83.82" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="J2" gate="J1" pin="4"/>
+<pinref part="D11" gate="D1" pin="4"/>
+<wire x1="121.92" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="78.74" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
+<junction x="121.92" y="83.82"/>
+</segment>
+<segment>
+<wire x1="167.64" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
+<label x="165.1" y="83.82" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="J12" gate="J1" pin="4"/>
 </segment>
 </net>
 <net name="COM4_RX" class="0">
