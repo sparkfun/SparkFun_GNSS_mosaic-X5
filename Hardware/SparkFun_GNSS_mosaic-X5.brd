@@ -45,7 +45,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -213,18 +213,14 @@
 <wire x1="63.5" y1="19.558" x2="63.5" y2="31.242" width="0.1524" layer="20"/>
 <wire x1="63.5" y1="39.878" x2="63.5" y2="50.8" width="0.1524" layer="20"/>
 <text x="6.35" y="1.27" size="1.27" layer="16" font="vector" ratio="15" rot="MR180" align="center">v11</text>
-<dimension x1="0" y1="0" x2="0" y2="43.18" x3="-10.16" y3="21.59" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="0" y1="43.18" x2="43.18" y2="43.18" x3="21.59" y3="49.53" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="40.64" y1="40.64" x2="2.54" y2="40.64" x3="21.59" y3="45.72" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="0" y2="50.8" x3="-10.16" y3="25.4" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="63.5" y1="50.8" x2="0" y2="50.8" x3="31.75" y3="55.88" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="2.54" y1="2.54" x2="2.54" y2="0" x3="-6.35" y3="1.27" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="2.54" y1="2.54" x2="2.54" y2="12.7" x3="-2.54" y3="7.62" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="1.27" y1="35.56" x2="1.27" y2="43.18" x3="-2.54" y3="39.37" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="43.18" y1="0" x2="43.18" y2="11.43" x3="52.07" y3="5.715" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="39.37" y1="11.43" x2="39.37" y2="21.59" x3="52.07" y3="16.51" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="39.37" y1="21.59" x2="39.37" y2="31.75" x3="52.07" y3="26.67" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="0" y1="0" x2="8.89" y2="0" x3="4.445" y3="-3.81" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="8.89" y1="3.81" x2="13.97" y2="3.81" x3="11.43" y3="-3.81" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="49.53" y1="34.29" x2="43.18" y2="34.29" x3="46.355" y3="36.83" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="2.54" x2="2.54" y2="10.16" x3="-2.54" y3="6.35" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="63.5" y1="0" x2="63.5" y2="15.24" x3="67.31" y3="7.62" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="63.5" y1="15.24" x2="63.5" y2="35.56" x3="67.310003125" y3="25.4" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="10.16" y2="0" x3="5.08" y3="-3.81" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="10.16" y1="0" x2="12.7" y2="0" x3="11.43" y3="-3.81" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <text x="21.59" y="-12.7" size="1.778" layer="51" font="vector" ratio="15">N. Seidle</text>
 <text x="99.06" y="31.75" size="1.778" layer="51" font="vector" ratio="15">Finish: ENIG</text>
 <text x="99.06" y="29.21" size="1.778" layer="51" font="vector" ratio="15">Thickness: 1.6mm</text>
@@ -256,6 +252,11 @@
 <text x="60.96" y="6.35" size="1.27" layer="15" font="vector" ratio="15" align="center">15</text>
 <wire x1="22.86" y1="7.62" x2="24.13" y2="7.62" width="0.381" layer="21"/>
 <wire x1="33.02" y1="7.62" x2="34.29" y2="7.62" width="0.381" layer="21"/>
+<dimension x1="0" y1="50.8" x2="17.78" y2="50.8" x3="8.89" y3="53.34" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<text x="26.67" y="-6.35" size="1.778" layer="47" font="vector" ratio="15">All dimensions in inches.</text>
+<dimension x1="2.54" y1="10.16" x2="2.54" y2="21.59" x3="-2.54" y3="15.875" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="69.596" y1="38.1" x2="63.5" y2="38.1" x3="66.548" y3="38.988996875" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="21.59" x2="2.54" y2="36.449" x3="-2.54" y3="29.0195" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors">
@@ -19375,7 +19376,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <via x="13.97" y="19.05" extent="1-16" drill="0.3048"/>
 <via x="15.621" y="19.05" extent="1-16" drill="0.3048"/>
 <via x="11.938" y="17.018" extent="1-16" drill="0.3048"/>
-<via x="4.953" y="17.399" extent="1-16" drill="0.3048"/>
+<via x="4.699" y="16.256" extent="1-16" drill="0.3048"/>
 <via x="12.192" y="13.97" extent="1-16" drill="0.3048"/>
 <via x="14.478" y="15.748" extent="1-16" drill="0.3048"/>
 <via x="13.081" y="11.557" extent="1-16" drill="0.3048"/>
@@ -20311,11 +20312,14 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <contactref element="D11" pad="3"/>
 <wire x1="8.09" y1="20.94" x2="7" y2="20.94" width="0.1778" layer="1"/>
 <wire x1="1.1603" y1="17.3817" x2="0.762" y2="17.78" width="0.1778" layer="1"/>
-<wire x1="6.308925" y1="16.341925" x2="3.933225" y2="16.341925" width="0.1778" layer="1"/>
-<wire x1="3.933225" y1="16.341925" x2="2.89345" y2="17.3817" width="0.1778" layer="1"/>
-<wire x1="2.89345" y1="17.3817" x2="1.1603" y2="17.3817" width="0.1778" layer="1"/>
+<wire x1="6.308925" y1="16.341925" x2="5.546925" y2="15.579925" width="0.1778" layer="1"/>
 <wire x1="0.762" y1="17.78" x2="0.762" y2="20.77" width="0.1778" layer="1"/>
 <wire x1="0.762" y1="20.77" x2="1.651" y2="21.659" width="0.1778" layer="1"/>
+<wire x1="1.1603" y1="17.3817" x2="2.9383" y2="17.3817" width="0.1778" layer="1"/>
+<wire x1="3.81" y1="16.51" x2="2.9383" y2="17.3817" width="0.1778" layer="1"/>
+<wire x1="5.546925" y1="15.579925" x2="4.105075" y2="15.579925" width="0.1778" layer="1"/>
+<wire x1="4.105075" y1="15.579925" x2="3.81" y2="15.875" width="0.1778" layer="1"/>
+<wire x1="3.81" y1="15.875" x2="3.81" y2="16.51" width="0.1778" layer="1"/>
 </signal>
 <signal name="COM3_RTS">
 <contactref element="U1" pad="L1"/>
@@ -20351,9 +20355,9 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="38.1" y1="11.43" x2="38.1" y2="8.255" width="0.1778" layer="1"/>
 <via x="38.1" y="8.255" extent="1-16" drill="0.3048"/>
 <wire x1="38.1" y1="8.255" x2="13.89295" y2="8.255" width="0.1778" layer="16"/>
-<wire x1="6.402925" y1="15.745025" x2="5.172675" y2="15.745025" width="0.1778" layer="16"/>
-<wire x1="5.172675" y1="15.745025" x2="3.429" y2="17.4887" width="0.1778" layer="16"/>
-<wire x1="3.429" y1="17.4887" x2="3.429" y2="19.47216875" width="0.1778" layer="16"/>
+<wire x1="6.402925" y1="15.745025" x2="6.061675" y2="15.745025" width="0.1778" layer="16"/>
+<wire x1="6.061675" y1="15.745025" x2="5.08" y2="16.7267" width="0.1778" layer="16"/>
+<wire x1="5.08" y1="16.7267" x2="5.08" y2="17.82116875" width="0.1778" layer="16"/>
 <wire x1="13.89295" y1="8.255" x2="6.402925" y2="15.745025" width="0.1778" layer="16"/>
 <contactref element="J2" pad="4"/>
 <contactref element="D11" pad="4"/>
@@ -20367,7 +20371,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="2.735" y1="20.965" x2="1.651" y2="19.881" width="0.1778" layer="1"/>
 <via x="1.651" y="19.881" extent="1-16" drill="0.3048"/>
 <wire x1="1.651" y1="19.881" x2="1.651" y2="20.701" width="0.1778" layer="16"/>
-<wire x1="3.429" y1="19.47216875" x2="3.02016875" y2="19.881" width="0.1778" layer="16"/>
+<wire x1="5.08" y1="17.82116875" x2="3.02016875" y2="19.881" width="0.1778" layer="16"/>
 <wire x1="3.02016875" y1="19.881" x2="1.651" y2="19.881" width="0.1778" layer="16"/>
 </signal>
 <signal name="COM4_RX">
@@ -20634,10 +20638,10 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <approved hash="19,16,acdd6d2e6a872c9a"/>
 <approved hash="19,16,904d852f6ea85e6a"/>
 <approved hash="19,16,ee6b85db6ff020e4"/>
-<approved hash="19,16,f2f08e1164383bf9"/>
-<approved hash="19,16,4c9d57ae64ca461c"/>
-<approved hash="19,16,a3ea2391e2f53feb"/>
-<approved hash="19,16,e5b2fd19174052cf"/>
+<approved hash="19,16,27e6fa8f4a1ab453"/>
+<approved hash="19,16,9a1318b6db0c04cc"/>
+<approved hash="19,16,3054894f472ea311"/>
+<approved hash="19,16,4040ec3141ead47e"/>
 </errors>
 </board>
 </drawing>

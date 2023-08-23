@@ -32992,7 +32992,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="420.624" y="7.366" size="2.54" layer="94">v10</text>
+<text x="420.624" y="7.366" size="2.54" layer="94">v11</text>
 <text x="231.14" y="241.3" size="1.27" layer="97">Board thickness: 1.6mm</text>
 <text x="231.14" y="236.22" size="1.27" layer="97">Er: 4.6</text>
 <text x="231.14" y="243.84" size="1.27" layer="97">Copper Thickness (1oz): 1.4mil/0.035mm</text>
