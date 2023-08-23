@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="58" name="bCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
@@ -32980,6 +32980,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND30" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D11" library="SparkFun-DiscreteSemi" deviceset="PESDXL4UG" device="UG"/>
 <part name="GND33" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="R14" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
+<part name="SUPPLY27" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="D12" library="SparkFun-DiscreteSemi" deviceset="PESDXL4UG" device="UG"/>
+<part name="D13" library="SparkFun-DiscreteSemi" deviceset="PESDXL4UG" device="UG"/>
+<part name="D14" library="SparkFun-DiscreteSemi" deviceset="PESDXL4UG" device="UG"/>
+<part name="GND34" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND35" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND36" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -32994,9 +33002,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="231.14" y="238.76" size="1.27" layer="97">Dielectric thickness (layer 1 to 2): 0.2mm</text>
 <text x="231.14" y="228.6" size="0.762" layer="97">https://chemandy.com/calculators/coplanar-waveguide-with-ground-calculator.htm</text>
 <text x="231.14" y="246.38" size="1.524" layer="97" ratio="15">Coplanar Waveguide Calculation:</text>
-<wire x1="0" y1="119.38" x2="124.46" y2="119.38" width="0.2032" layer="97" style="longdash"/>
-<wire x1="124.46" y1="119.38" x2="124.46" y2="0" width="0.2032" layer="97" style="longdash"/>
-<wire x1="124.46" y1="119.38" x2="182.88" y2="119.38" width="0.2032" layer="97" style="longdash"/>
+<wire x1="0" y1="119.38" x2="182.88" y2="119.38" width="0.2032" layer="97" style="longdash"/>
 <wire x1="182.88" y1="119.38" x2="218.44" y2="119.38" width="0.2032" layer="97" style="longdash"/>
 <wire x1="218.44" y1="119.38" x2="238.76" y2="119.38" width="0.2032" layer="97" style="longdash"/>
 <wire x1="218.44" y1="180.34" x2="218.44" y2="119.38" width="0.2032" layer="97" style="longdash"/>
@@ -33005,25 +33011,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="218.44" y1="180.34" x2="218.44" y2="279.4" width="0.2032" layer="97" style="longdash"/>
 <text x="122.174" y="172.466" size="2.54" layer="94" align="center">USB and 3.3V Regulation</text>
 <text x="353.822" y="11.43" size="2.54" layer="94">N. Seidle</text>
-<text x="154.178" y="86.614" size="1.778" layer="97" align="center">Cut jumper to 
+<text x="210.058" y="91.694" size="1.778" layer="97" align="center">Cut jumper to 
 disable LED</text>
-<text x="150.622" y="97.282" size="2.54" layer="94" rot="MR180" align="center">Stat LEDs</text>
+<text x="206.502" y="102.362" size="2.54" layer="94" rot="MR180" align="center">Stat LEDs</text>
 <text x="64.262" y="109.982" size="2.54" layer="94" rot="MR180" align="center">Connections</text>
 <wire x1="182.88" y1="119.38" x2="182.88" y2="0" width="0.2032" layer="97" style="longdash"/>
 <wire x1="238.76" y1="119.38" x2="238.76" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="172.72" y="251.46" size="2.54" layer="94" font="vector" rot="MR0" align="center">microSD</text>
 <text x="61.214" y="253.746" size="2.54" layer="94" align="center">Pulse-Per-Second</text>
-<text x="209.042" y="97.282" size="2.54" layer="94" rot="MR180" align="center">External V_BAT</text>
-<text x="210.82" y="66.04" size="1.27" layer="97" align="center">Cut trace to attach external
+<text x="264.922" y="102.362" size="2.54" layer="94" rot="MR180" align="center">External V_BAT</text>
+<text x="266.7" y="71.12" size="1.27" layer="97" align="center">Cut trace to attach external
 supply to V_BAT input for Standby mode</text>
 <wire x1="114.3" y1="180.34" x2="114.3" y2="279.4" width="0.2032" layer="97" style="longdash"/>
-<wire x1="238.76" y1="119.38" x2="431.8" y2="119.38" width="0.2032" layer="97" style="longdash"/>
+<wire x1="238.76" y1="119.38" x2="292.1" y2="119.38" width="0.2032" layer="97" style="longdash"/>
 <text x="363.982" y="257.302" size="2.54" layer="94" rot="MR180" align="center">Septentrio
 mosaic-X5</text>
 <text x="401.32" y="160.274" size="1.27" layer="97" align="center">1.8V Input protected by 169k/200k divider</text>
 <text x="177.8" y="137.16" size="1.778" layer="97" align="center">VMax: 6V</text>
 <text x="304.8" y="248.92" size="1.778" layer="97" align="center">If using single external 3.3V source,
 move jumper to power antenna with 3.3V.</text>
+<text x="-256.54" y="167.64" size="10.16" layer="91">Add more ESD?</text>
+<wire x1="292.1" y1="119.38" x2="431.8" y2="119.38" width="0.2032" layer="97" style="longdash"/>
+<wire x1="292.1" y1="119.38" x2="292.1" y2="0" width="0.2032" layer="97" style="longdash"/>
 </plain>
 <instances>
 <instance part="JP21" gate="G$1" x="416.56" y="33.02" smashed="yes" rot="R270"/>
@@ -33073,41 +33082,41 @@ move jumper to power antenna with 3.3V.</text>
 <instance part="GND9" gate="1" x="299.72" y="213.36" smashed="yes">
 <attribute name="VALUE" x="299.72" y="213.106" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="D4" gate="G$1" x="147.32" y="38.1" smashed="yes">
-<attribute name="NAME" x="146.812" y="31.242" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="147.828" y="30.48" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D4" gate="G$1" x="203.2" y="43.18" smashed="yes">
+<attribute name="NAME" x="202.692" y="36.322" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="203.708" y="35.56" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="PPS" gate="G$1" x="147.32" y="60.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="144.78" y="60.96" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
+<instance part="PPS" gate="G$1" x="203.2" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="200.66" y="66.04" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
 </instance>
-<instance part="R11" gate="G$1" x="147.32" y="48.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="149.606" y="43.942" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="149.479" y="52.959" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+<instance part="R11" gate="G$1" x="203.2" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="205.486" y="49.022" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="205.359" y="58.039" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
-<instance part="R10" gate="G$1" x="139.7" y="48.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="141.859" y="44.577" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="140.208" y="52.832" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R10" gate="G$1" x="195.58" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="197.739" y="49.657" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="196.088" y="57.912" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="D7" gate="G$1" x="139.7" y="38.1" smashed="yes">
-<attribute name="NAME" x="139.192" y="31.242" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="140.208" y="29.972" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D7" gate="G$1" x="195.58" y="43.18" smashed="yes">
+<attribute name="NAME" x="195.072" y="36.322" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="196.088" y="35.052" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="P+1" gate="G$1" x="139.7" y="68.58" smashed="yes">
-<attribute name="VALUE" x="139.7" y="71.374" size="1.778" layer="96" align="bottom-center"/>
+<instance part="P+1" gate="G$1" x="195.58" y="73.66" smashed="yes">
+<attribute name="VALUE" x="195.58" y="76.454" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="D5" gate="G$1" x="154.94" y="38.1" smashed="yes">
-<attribute name="NAME" x="154.432" y="31.242" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="155.448" y="29.972" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D5" gate="G$1" x="210.82" y="43.18" smashed="yes">
+<attribute name="NAME" x="210.312" y="36.322" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="211.328" y="35.052" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="LOG" gate="G$1" x="154.94" y="60.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="152.4" y="60.96" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
+<instance part="LOG" gate="G$1" x="210.82" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="208.28" y="66.04" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
 </instance>
-<instance part="R12" gate="G$1" x="154.94" y="48.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="157.226" y="43.942" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="157.099" y="52.959" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+<instance part="R12" gate="G$1" x="210.82" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="213.106" y="49.022" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="212.979" y="58.039" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
-<instance part="PWR" gate="G$1" x="139.7" y="60.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="137.16" y="60.96" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
+<instance part="PWR" gate="G$1" x="195.58" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="193.04" y="66.04" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
 </instance>
 <instance part="C11" gate="G$1" x="190.5" y="147.32" smashed="yes">
 <attribute name="NAME" x="192.024" y="150.241" size="1.778" layer="95" font="vector"/>
@@ -33142,18 +33151,18 @@ move jumper to power antenna with 3.3V.</text>
 <instance part="H2" gate="G$1" x="424.18" y="30.48" smashed="yes"/>
 <instance part="H3" gate="G$1" x="426.72" y="30.48" smashed="yes"/>
 <instance part="H4" gate="G$1" x="426.72" y="33.02" smashed="yes"/>
-<instance part="J8" gate="J1" x="35.56" y="35.56" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="38.1" y="30.734" size="1.778" layer="96" font="vector" rot="MR0"/>
-<attribute name="NAME" x="38.1" y="41.148" size="1.778" layer="95" font="vector" rot="MR0"/>
+<instance part="J8" gate="J1" x="91.44" y="25.4" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="93.98" y="20.574" size="1.778" layer="96" font="vector" rot="MR0"/>
+<attribute name="NAME" x="93.98" y="30.988" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="GND1" gate="1" x="154.94" y="27.94" smashed="yes">
-<attribute name="VALUE" x="154.94" y="27.686" size="1.778" layer="96" align="top-center"/>
+<instance part="GND1" gate="1" x="210.82" y="33.02" smashed="yes">
+<attribute name="VALUE" x="210.82" y="32.766" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND2" gate="1" x="147.32" y="27.94" smashed="yes">
-<attribute name="VALUE" x="147.32" y="27.686" size="1.778" layer="96" align="top-center"/>
+<instance part="GND2" gate="1" x="203.2" y="33.02" smashed="yes">
+<attribute name="VALUE" x="203.2" y="32.766" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND6" gate="1" x="139.7" y="27.94" smashed="yes">
-<attribute name="VALUE" x="139.7" y="27.686" size="1.778" layer="96" align="top-center"/>
+<instance part="GND6" gate="1" x="195.58" y="33.02" smashed="yes">
+<attribute name="VALUE" x="195.58" y="32.766" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND14" gate="1" x="200.66" y="139.7" smashed="yes">
 <attribute name="VALUE" x="200.66" y="139.446" size="1.778" layer="96" align="top-center"/>
@@ -33310,19 +33319,19 @@ move jumper to power antenna with 3.3V.</text>
 <instance part="SUPPLY1" gate="G$1" x="314.96" y="187.96" smashed="yes">
 <attribute name="VALUE" x="314.96" y="190.754" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="D8" gate="G$1" x="162.56" y="38.1" smashed="yes">
-<attribute name="NAME" x="162.052" y="31.242" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="163.068" y="29.972" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D8" gate="G$1" x="218.44" y="43.18" smashed="yes">
+<attribute name="NAME" x="217.932" y="36.322" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="218.948" y="35.052" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="GP1" gate="G$1" x="162.56" y="60.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="160.02" y="60.96" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
+<instance part="GP1" gate="G$1" x="218.44" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="215.9" y="66.04" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
 </instance>
-<instance part="R4" gate="G$1" x="162.56" y="48.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="164.846" y="43.942" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="164.719" y="52.959" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+<instance part="R4" gate="G$1" x="218.44" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="220.726" y="49.022" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="220.599" y="58.039" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
-<instance part="GND12" gate="1" x="162.56" y="27.94" smashed="yes">
-<attribute name="VALUE" x="162.56" y="27.686" size="1.778" layer="96" align="top-center"/>
+<instance part="GND12" gate="1" x="218.44" y="33.02" smashed="yes">
+<attribute name="VALUE" x="218.44" y="32.766" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="U2" gate="G2" x="10.16" y="228.6" smashed="yes">
 <attribute name="NAME" x="6.858" y="223.52" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -33358,46 +33367,46 @@ move jumper to power antenna with 3.3V.</text>
 <instance part="GND24" gate="1" x="314.96" y="172.72" smashed="yes">
 <attribute name="VALUE" x="314.96" y="172.466" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="J2" gate="J1" x="81.28" y="78.74" smashed="yes" rot="R180">
-<attribute name="VALUE" x="86.36" y="88.646" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="86.36" y="68.072" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="J2" gate="J1" x="139.7" y="86.36" smashed="yes" rot="R180">
+<attribute name="VALUE" x="144.78" y="96.266" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="144.78" y="75.692" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="GND26" gate="1" x="73.66" y="66.04" smashed="yes">
-<attribute name="VALUE" x="73.66" y="65.786" size="1.778" layer="96" align="top-center"/>
+<instance part="GND26" gate="1" x="132.08" y="73.66" smashed="yes">
+<attribute name="VALUE" x="132.08" y="73.406" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="J9" gate="J1" x="30.48" y="96.52" smashed="yes" rot="R180">
-<attribute name="VALUE" x="35.56" y="103.886" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="35.56" y="88.392" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="J9" gate="J1" x="48.26" y="86.36" smashed="yes" rot="R180">
+<attribute name="VALUE" x="53.34" y="93.726" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="53.34" y="78.232" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="J1" gate="J1" x="30.48" y="76.2" smashed="yes" rot="R180">
-<attribute name="VALUE" x="35.56" y="83.566" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="35.56" y="68.072" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="J1" gate="J1" x="88.9" y="86.36" smashed="yes" rot="R180">
+<attribute name="VALUE" x="93.98" y="93.726" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="93.98" y="78.232" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="J4" gate="J1" x="35.56" y="22.86" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="38.1" y="18.034" size="1.778" layer="96" font="vector" rot="MR0"/>
-<attribute name="NAME" x="38.1" y="28.448" size="1.778" layer="95" font="vector" rot="MR0"/>
+<instance part="J4" gate="J1" x="50.8" y="27.94" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="53.34" y="23.114" size="1.778" layer="96" font="vector" rot="MR0"/>
+<attribute name="NAME" x="53.34" y="33.528" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="SUPPLY26" gate="G$1" x="25.4" y="27.94" smashed="yes">
-<attribute name="VALUE" x="25.4" y="30.734" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY26" gate="G$1" x="40.64" y="33.02" smashed="yes">
+<attribute name="VALUE" x="40.64" y="35.814" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND32" gate="1" x="25.4" y="17.78" smashed="yes">
-<attribute name="VALUE" x="25.4" y="17.526" size="1.778" layer="96" align="top-center"/>
+<instance part="GND32" gate="1" x="40.64" y="22.86" smashed="yes">
+<attribute name="VALUE" x="40.64" y="22.606" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND7" gate="1" x="93.98" y="17.78" smashed="yes">
-<attribute name="VALUE" x="93.98" y="17.526" size="1.778" layer="96" align="top-center"/>
+<instance part="GND7" gate="1" x="157.48" y="10.16" smashed="yes">
+<attribute name="VALUE" x="157.48" y="9.906" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY11" gate="G$1" x="73.66" y="86.36" smashed="yes">
-<attribute name="VALUE" x="73.66" y="89.154" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY11" gate="G$1" x="132.08" y="93.98" smashed="yes">
+<attribute name="VALUE" x="132.08" y="96.774" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="VB" gate="G$1" x="210.82" y="73.66" smashed="yes" rot="R180">
-<attribute name="NAME" x="210.82" y="71.12" size="1.778" layer="95" font="vector" rot="R180" align="center"/>
+<instance part="VB" gate="G$1" x="266.7" y="78.74" smashed="yes" rot="R180">
+<attribute name="NAME" x="266.7" y="76.2" size="1.778" layer="95" font="vector" rot="R180" align="center"/>
 </instance>
-<instance part="SUPPLY12" gate="G$1" x="218.44" y="76.2" smashed="yes">
-<attribute name="VALUE" x="218.44" y="78.994" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY12" gate="G$1" x="274.32" y="81.28" smashed="yes">
+<attribute name="VALUE" x="274.32" y="84.074" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="J7" gate="J1" x="106.68" y="40.64" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="106.68" y="18.034" size="1.778" layer="96" font="vector" rot="MR0"/>
-<attribute name="NAME" x="106.68" y="48.768" size="1.778" layer="95" font="vector" rot="MR0"/>
+<instance part="J7" gate="J1" x="170.18" y="33.02" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="170.18" y="10.414" size="1.778" layer="96" font="vector" rot="MR0"/>
+<attribute name="NAME" x="170.18" y="41.148" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 <instance part="LOGO4" gate="G$1" x="340.36" y="38.1" smashed="yes"/>
 <instance part="LOGO2" gate="G$1" x="416.56" y="45.72" smashed="yes"/>
@@ -33405,15 +33414,15 @@ move jumper to power antenna with 3.3V.</text>
 <attribute name="VALUE" x="9.906" y="121.92" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="10.16" y="137.668" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J12" gate="J1" x="109.22" y="78.74" smashed="yes" rot="R180">
-<attribute name="VALUE" x="114.3" y="88.646" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="114.3" y="68.072" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="J12" gate="J1" x="172.72" y="86.36" smashed="yes" rot="R180">
+<attribute name="VALUE" x="177.8" y="96.266" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="177.8" y="75.692" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="GND4" gate="1" x="101.6" y="66.04" smashed="yes">
-<attribute name="VALUE" x="101.6" y="65.786" size="1.778" layer="96" align="top-center"/>
+<instance part="GND4" gate="1" x="165.1" y="73.66" smashed="yes">
+<attribute name="VALUE" x="165.1" y="73.406" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY14" gate="G$1" x="101.6" y="86.36" smashed="yes">
-<attribute name="VALUE" x="101.6" y="89.154" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY14" gate="G$1" x="165.1" y="93.98" smashed="yes">
+<attribute name="VALUE" x="165.1" y="96.774" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="R1" gate="G$1" x="152.4" y="243.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="155.702" y="241.3" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -33430,19 +33439,19 @@ move jumper to power antenna with 3.3V.</text>
 <attribute name="NAME" x="386.842" y="162.814" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="396.494" y="162.814" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="D2" gate="G$1" x="170.18" y="38.1" smashed="yes">
-<attribute name="NAME" x="169.672" y="31.242" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="170.688" y="29.972" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D2" gate="G$1" x="226.06" y="43.18" smashed="yes">
+<attribute name="NAME" x="225.552" y="36.322" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="226.568" y="35.052" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="GP2" gate="G$1" x="170.18" y="60.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="167.64" y="60.96" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
+<instance part="GP2" gate="G$1" x="226.06" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="223.52" y="66.04" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
 </instance>
-<instance part="R9" gate="G$1" x="170.18" y="48.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="172.466" y="43.942" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="172.339" y="52.959" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+<instance part="R9" gate="G$1" x="226.06" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="228.346" y="49.022" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="228.219" y="58.039" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
-<instance part="GND5" gate="1" x="170.18" y="27.94" smashed="yes">
-<attribute name="VALUE" x="170.18" y="27.686" size="1.778" layer="96" align="top-center"/>
+<instance part="GND5" gate="1" x="226.06" y="33.02" smashed="yes">
+<attribute name="VALUE" x="226.06" y="32.766" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND8" gate="1" x="332.74" y="213.36" smashed="yes">
 <attribute name="VALUE" x="332.74" y="213.106" size="1.778" layer="96" align="top-center"/>
@@ -33478,9 +33487,9 @@ move jumper to power antenna with 3.3V.</text>
 <instance part="SUPPLY86" gate="G$1" x="53.34" y="236.22" smashed="yes">
 <attribute name="VALUE" x="53.34" y="239.014" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="J6" gate="J1" x="66.04" y="22.86" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="71.12" y="12.954" size="1.778" layer="96" font="vector" rot="MR0"/>
-<attribute name="NAME" x="71.12" y="36.068" size="1.778" layer="95" font="vector" rot="MR0"/>
+<instance part="J6" gate="J1" x="88.9" y="43.18" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="93.98" y="33.274" size="1.778" layer="96" font="vector" rot="MR0"/>
+<attribute name="NAME" x="93.98" y="56.388" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 <instance part="T1" gate="T" x="78.74" y="154.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="71.628" y="159.004" size="1.778" layer="95"/>
@@ -33504,12 +33513,40 @@ move jumper to power antenna with 3.3V.</text>
 <instance part="GND30" gate="1" x="147.32" y="200.66" smashed="yes">
 <attribute name="VALUE" x="147.32" y="200.406" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="D11" gate="D1" x="60.96" y="58.42" smashed="yes">
-<attribute name="NAME" x="53.34" y="53.34" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="64.008" y="53.594" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
+<instance part="D11" gate="D1" x="121.92" y="71.12" smashed="yes">
+<attribute name="NAME" x="114.3" y="66.04" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="124.968" y="66.294" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
 </instance>
-<instance part="GND33" gate="1" x="63.5" y="48.26" smashed="yes">
-<attribute name="VALUE" x="63.5" y="48.006" size="1.778" layer="96" align="top-center"/>
+<instance part="GND33" gate="1" x="124.46" y="60.96" smashed="yes">
+<attribute name="VALUE" x="124.46" y="60.706" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="R14" gate="G$1" x="281.94" y="195.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="280.416" y="195.58" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="283.464" y="195.58" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="SUPPLY27" gate="G$1" x="281.94" y="203.2" smashed="yes">
+<attribute name="VALUE" x="281.94" y="205.994" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="D12" gate="D1" x="78.74" y="71.12" smashed="yes">
+<attribute name="NAME" x="71.12" y="66.04" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="81.788" y="66.294" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
+</instance>
+<instance part="D13" gate="D1" x="38.1" y="71.12" smashed="yes">
+<attribute name="NAME" x="30.48" y="66.04" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="41.148" y="66.294" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
+</instance>
+<instance part="D14" gate="D1" x="78.74" y="15.24" smashed="yes">
+<attribute name="NAME" x="71.12" y="10.16" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="81.788" y="10.414" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
+</instance>
+<instance part="GND34" gate="1" x="81.28" y="5.08" smashed="yes">
+<attribute name="VALUE" x="81.28" y="4.826" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND35" gate="1" x="40.64" y="60.96" smashed="yes">
+<attribute name="VALUE" x="40.64" y="60.706" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND36" gate="1" x="81.28" y="60.96" smashed="yes">
+<attribute name="VALUE" x="81.28" y="60.706" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -33519,7 +33556,7 @@ move jumper to power antenna with 3.3V.</text>
 <segment>
 <pinref part="PWR" gate="G$1" pin="2"/>
 <pinref part="P+1" gate="G$1" pin="3.3V"/>
-<wire x1="139.7" y1="66.04" x2="139.7" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="71.12" x2="195.58" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="154.94" x2="190.5" y2="154.94" width="0.1524" layer="91"/>
@@ -33591,19 +33628,19 @@ move jumper to power antenna with 3.3V.</text>
 </segment>
 <segment>
 <pinref part="J4" gate="J1" pin="2"/>
-<wire x1="27.94" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="25.4" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="30.48" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="30.48" x2="40.64" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="SUPPLY26" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="25.4" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
-<label x="93.98" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="160.02" y1="17.78" x2="157.48" y2="17.78" width="0.1524" layer="91"/>
+<label x="157.48" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J7" gate="J1" pin="2"/>
 </segment>
 <segment>
 <pinref part="VB" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="73.66" x2="218.44" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="73.66" x2="218.44" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="78.74" x2="274.32" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="78.74" x2="274.32" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -33621,6 +33658,11 @@ move jumper to power antenna with 3.3V.</text>
 <pinref part="R47" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="238.76" x2="63.5" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="SUPPLY84" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="SUPPLY27" gate="G$1" pin="3.3V"/>
+<wire x1="281.94" y1="203.2" x2="281.94" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -33662,16 +33704,16 @@ move jumper to power antenna with 3.3V.</text>
 </segment>
 <segment>
 <pinref part="D5" gate="G$1" pin="C"/>
-<wire x1="154.94" y1="33.02" x2="154.94" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="38.1" x2="210.82" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="147.32" y1="33.02" x2="147.32" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="38.1" x2="203.2" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="139.7" y1="30.48" x2="139.7" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="35.56" x2="195.58" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="D7" gate="G$1" pin="C"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
@@ -33751,7 +33793,7 @@ move jumper to power antenna with 3.3V.</text>
 </segment>
 <segment>
 <pinref part="D8" gate="G$1" pin="C"/>
-<wire x1="162.56" y1="33.02" x2="162.56" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="38.1" x2="218.44" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -33776,31 +33818,31 @@ move jumper to power antenna with 3.3V.</text>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="6"/>
-<wire x1="76.2" y1="71.12" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="78.74" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="GND26" gate="1" pin="GND"/>
-<wire x1="73.66" y1="71.12" x2="73.66" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="78.74" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J4" gate="J1" pin="1"/>
-<wire x1="27.94" y1="22.86" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="22.86" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="27.94" x2="40.64" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="27.94" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="22.86" x2="93.98" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="22.86" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="15.24" x2="157.48" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="15.24" x2="157.48" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="J7" gate="J1" pin="1"/>
 </segment>
 <segment>
-<wire x1="104.14" y1="71.12" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="78.74" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="101.6" y1="71.12" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="78.74" x2="165.1" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="J12" gate="J1" pin="6"/>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="170.18" y1="33.02" x2="170.18" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="38.1" x2="226.06" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -33822,7 +33864,22 @@ move jumper to power antenna with 3.3V.</text>
 <segment>
 <pinref part="D11" gate="D1" pin="2"/>
 <pinref part="GND33" gate="1" pin="GND"/>
-<wire x1="63.5" y1="50.8" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="63.5" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D14" gate="D1" pin="2"/>
+<pinref part="GND34" gate="1" pin="GND"/>
+<wire x1="81.28" y1="7.62" x2="81.28" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D13" gate="D1" pin="2"/>
+<pinref part="GND35" gate="1" pin="GND"/>
+<wire x1="40.64" y1="63.5" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D12" gate="D1" pin="2"/>
+<pinref part="GND36" gate="1" pin="GND"/>
+<wire x1="81.28" y1="63.5" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPS_ANT1" class="3">
@@ -33889,9 +33946,15 @@ move jumper to power antenna with 3.3V.</text>
 <label x="332.74" y="233.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="35.56" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
-<label x="93.98" y="35.56" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="160.02" y1="27.94" x2="157.48" y2="27.94" width="0.1524" layer="91"/>
+<label x="157.48" y="27.94" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J7" gate="J1" pin="6"/>
+</segment>
+<segment>
+<pinref part="D9" gate="D1" pin="3"/>
+<wire x1="147.32" y1="218.44" x2="147.32" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="220.98" x2="149.86" y2="220.98" width="0.1524" layer="91"/>
+<label x="149.86" y="220.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -33925,7 +33988,7 @@ move jumper to power antenna with 3.3V.</text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="147.32" y1="43.18" x2="147.32" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="48.26" x2="203.2" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -33933,12 +33996,12 @@ move jumper to power antenna with 3.3V.</text>
 <segment>
 <pinref part="PPS" gate="G$1" pin="1"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="147.32" y1="55.88" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="60.96" x2="203.2" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<wire x1="139.7" y1="40.64" x2="139.7" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="45.72" x2="195.58" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="D7" gate="G$1" pin="A"/>
 </segment>
@@ -33946,7 +34009,7 @@ move jumper to power antenna with 3.3V.</text>
 <net name="N$16" class="0">
 <segment>
 <pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="154.94" y1="43.18" x2="154.94" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="48.26" x2="210.82" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -33954,14 +34017,14 @@ move jumper to power antenna with 3.3V.</text>
 <segment>
 <pinref part="LOG" gate="G$1" pin="1"/>
 <pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="55.88" x2="154.94" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="60.96" x2="210.82" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="PWR" gate="G$1" pin="1"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="55.88" x2="139.7" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="60.96" x2="195.58" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V_USB" class="0">
@@ -33992,8 +34055,8 @@ move jumper to power antenna with 3.3V.</text>
 <wire x1="106.68" y1="132.08" x2="109.22" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="30.48" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
-<label x="93.98" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="160.02" y1="22.86" x2="157.48" y2="22.86" width="0.1524" layer="91"/>
+<label x="157.48" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J7" gate="J1" pin="4"/>
 </segment>
 </net>
@@ -34035,6 +34098,16 @@ move jumper to power antenna with 3.3V.</text>
 <wire x1="337.82" y1="154.94" x2="337.82" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="1.8V"/>
 </segment>
+<segment>
+<pinref part="R46" gate="G$1" pin="2"/>
+<pinref part="SUPPLY82" gate="G$1" pin="1.8V"/>
+<wire x1="48.26" y1="241.3" x2="48.26" y2="238.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="Q9" gate="NMOS" pin="G"/>
+<pinref part="SUPPLY86" gate="G$1" pin="1.8V"/>
+<wire x1="53.34" y1="236.22" x2="53.34" y2="233.68" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="EVENTA" class="0">
 <segment>
@@ -34043,8 +34116,8 @@ move jumper to power antenna with 3.3V.</text>
 <pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="60.96" y1="30.48" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
-<label x="58.42" y="30.48" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="83.82" y1="50.8" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
+<label x="81.28" y="50.8" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J6" gate="J1" pin="6"/>
 </segment>
 </net>
@@ -34068,8 +34141,8 @@ move jumper to power antenna with 3.3V.</text>
 <label x="386.08" y="238.76" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="38.1" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
-<label x="93.98" y="38.1" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="160.02" y1="30.48" x2="157.48" y2="30.48" width="0.1524" layer="91"/>
+<label x="157.48" y="30.48" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J7" gate="J1" pin="7"/>
 </segment>
 </net>
@@ -34080,8 +34153,8 @@ move jumper to power antenna with 3.3V.</text>
 <pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<label x="58.42" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="58.42" y1="33.02" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
+<label x="81.28" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="81.28" y1="53.34" x2="83.82" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="J6" gate="J1" pin="7"/>
 </segment>
 </net>
@@ -34092,9 +34165,13 @@ move jumper to power antenna with 3.3V.</text>
 <label x="386.08" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="58.42" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="58.42" y1="17.78" x2="60.96" y2="17.78" width="0.1524" layer="91"/>
+<label x="71.12" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="71.12" y1="38.1" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="J6" gate="J1" pin="1"/>
+<pinref part="D14" gate="D1" pin="4"/>
+<wire x1="78.74" y1="38.1" x2="83.82" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="22.86" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
+<junction x="78.74" y="38.1"/>
 </segment>
 </net>
 <net name="GP2" class="0">
@@ -34104,9 +34181,13 @@ move jumper to power antenna with 3.3V.</text>
 <label x="386.08" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="60.96" y1="20.32" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
-<label x="58.42" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="83.82" y1="40.64" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
+<label x="71.12" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J6" gate="J1" pin="2"/>
+<pinref part="D14" gate="D1" pin="5"/>
+<wire x1="76.2" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="22.86" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
+<junction x="76.2" y="40.64"/>
 </segment>
 </net>
 <net name="SD_CMD" class="0">
@@ -34137,12 +34218,16 @@ move jumper to power antenna with 3.3V.</text>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="281.94" y1="185.42" x2="281.94" y2="187.96" width="0.1524" layer="91"/>
-<label x="281.94" y="187.96" size="1.27" layer="95" rot="R90" xref="yes"/>
+<label x="279.4" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="279.4" y1="187.96" x2="281.94" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="187.96" x2="281.94" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="187.96" x2="281.94" y2="190.5" width="0.1524" layer="91"/>
+<junction x="281.94" y="187.96"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="60.96" y1="25.4" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
-<label x="58.42" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="83.82" y1="45.72" x2="81.28" y2="45.72" width="0.1524" layer="91"/>
+<label x="81.28" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J6" gate="J1" pin="4"/>
 </segment>
 </net>
@@ -34154,12 +34239,12 @@ move jumper to power antenna with 3.3V.</text>
 </segment>
 <segment>
 <pinref part="LOG" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="66.04" x2="154.94" y2="68.58" width="0.1524" layer="91"/>
-<label x="154.94" y="68.58" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="210.82" y1="71.12" x2="210.82" y2="73.66" width="0.1524" layer="91"/>
+<label x="210.82" y="73.66" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="43.18" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
-<label x="93.98" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="160.02" y1="35.56" x2="157.48" y2="35.56" width="0.1524" layer="91"/>
+<label x="157.48" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J7" gate="J1" pin="9"/>
 </segment>
 </net>
@@ -34179,19 +34264,19 @@ move jumper to power antenna with 3.3V.</text>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="1"/>
-<wire x1="76.2" y1="83.82" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="83.82" x2="73.66" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="91.44" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="91.44" x2="132.08" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="G$1" pin="VIN"/>
 </segment>
 <segment>
-<wire x1="104.14" y1="83.82" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="83.82" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="91.44" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="91.44" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="SUPPLY14" gate="G$1" pin="VIN"/>
 <pinref part="J12" gate="J1" pin="1"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="27.94" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
-<label x="93.98" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="160.02" y1="20.32" x2="157.48" y2="20.32" width="0.1524" layer="91"/>
+<label x="157.48" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J7" gate="J1" pin="3"/>
 </segment>
 </net>
@@ -34215,12 +34300,12 @@ move jumper to power antenna with 3.3V.</text>
 </segment>
 <segment>
 <pinref part="GP1" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="66.04" x2="162.56" y2="68.58" width="0.1524" layer="91"/>
-<label x="162.56" y="68.58" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="218.44" y1="71.12" x2="218.44" y2="73.66" width="0.1524" layer="91"/>
+<label x="218.44" y="73.66" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="40.64" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
-<label x="93.98" y="40.64" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="160.02" y1="33.02" x2="157.48" y2="33.02" width="0.1524" layer="91"/>
+<label x="157.48" y="33.02" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J7" gate="J1" pin="8"/>
 </segment>
 </net>
@@ -34270,7 +34355,7 @@ move jumper to power antenna with 3.3V.</text>
 <net name="N$11" class="0">
 <segment>
 <pinref part="D8" gate="G$1" pin="A"/>
-<wire x1="162.56" y1="43.18" x2="162.56" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="48.26" x2="218.44" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -34278,13 +34363,13 @@ move jumper to power antenna with 3.3V.</text>
 <segment>
 <pinref part="GP1" gate="G$1" pin="1"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="55.88" x2="162.56" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="60.96" x2="218.44" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PPS_3V3" class="0">
 <segment>
-<wire x1="147.32" y1="66.04" x2="147.32" y2="68.58" width="0.1524" layer="91"/>
-<label x="147.32" y="68.58" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="203.2" y1="71.12" x2="203.2" y2="73.66" width="0.1524" layer="91"/>
+<label x="203.2" y="73.66" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="PPS" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -34293,8 +34378,8 @@ move jumper to power antenna with 3.3V.</text>
 <wire x1="93.98" y1="223.52" x2="96.52" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="60.96" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
-<label x="58.42" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="83.82" y1="48.26" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
+<label x="81.28" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J6" gate="J1" pin="5"/>
 </segment>
 </net>
@@ -34321,9 +34406,13 @@ move jumper to power antenna with 3.3V.</text>
 <label x="386.08" y="233.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="25.4" y1="99.06" x2="22.86" y2="99.06" width="0.1524" layer="91"/>
-<label x="22.86" y="99.06" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<label x="30.48" y="88.9" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J9" gate="J1" pin="1"/>
+<wire x1="43.18" y1="88.9" x2="33.02" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="88.9" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="D13" gate="D1" pin="1"/>
+<wire x1="33.02" y1="78.74" x2="33.02" y2="88.9" width="0.1524" layer="91"/>
+<junction x="33.02" y="88.9"/>
 </segment>
 </net>
 <net name="COM1_TX" class="0">
@@ -34333,9 +34422,13 @@ move jumper to power antenna with 3.3V.</text>
 <label x="386.08" y="231.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="25.4" y1="96.52" x2="22.86" y2="96.52" width="0.1524" layer="91"/>
-<label x="22.86" y="96.52" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<label x="30.48" y="86.36" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J9" gate="J1" pin="2"/>
+<wire x1="43.18" y1="86.36" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="D13" gate="D1" pin="5"/>
+<wire x1="35.56" y1="86.36" x2="30.48" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="78.74" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
+<junction x="35.56" y="86.36"/>
 </segment>
 </net>
 <net name="COM1_CTS" class="0">
@@ -34345,9 +34438,13 @@ move jumper to power antenna with 3.3V.</text>
 <label x="386.08" y="226.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="25.4" y1="91.44" x2="22.86" y2="91.44" width="0.1524" layer="91"/>
-<label x="22.86" y="91.44" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<label x="30.48" y="81.28" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J9" gate="J1" pin="4"/>
+<wire x1="43.18" y1="81.28" x2="38.1" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="D13" gate="D1" pin="4"/>
+<wire x1="38.1" y1="81.28" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="78.74" x2="38.1" y2="81.28" width="0.1524" layer="91"/>
+<junction x="38.1" y="81.28"/>
 </segment>
 </net>
 <net name="COM2_RX" class="0">
@@ -34357,9 +34454,13 @@ move jumper to power antenna with 3.3V.</text>
 <label x="386.08" y="220.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="25.4" y1="78.74" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
-<label x="22.86" y="78.74" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<label x="71.12" y="88.9" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="J1" pin="1"/>
+<wire x1="83.82" y1="88.9" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="D12" gate="D1" pin="3"/>
+<wire x1="81.28" y1="88.9" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="78.74" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
+<junction x="81.28" y="88.9"/>
 </segment>
 </net>
 <net name="COM2_TX" class="0">
@@ -34369,9 +34470,13 @@ move jumper to power antenna with 3.3V.</text>
 <label x="386.08" y="218.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="25.4" y1="76.2" x2="22.86" y2="76.2" width="0.1524" layer="91"/>
-<label x="22.86" y="76.2" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<label x="71.12" y="86.36" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="J1" pin="2"/>
+<wire x1="83.82" y1="86.36" x2="78.74" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="D12" gate="D1" pin="4"/>
+<wire x1="78.74" y1="86.36" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="78.74" x2="78.74" y2="86.36" width="0.1524" layer="91"/>
+<junction x="78.74" y="86.36"/>
 </segment>
 </net>
 <net name="COM2_RTS" class="0">
@@ -34381,9 +34486,13 @@ move jumper to power antenna with 3.3V.</text>
 <label x="386.08" y="215.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="25.4" y1="73.66" x2="22.86" y2="73.66" width="0.1524" layer="91"/>
-<label x="22.86" y="73.66" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<label x="71.12" y="83.82" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="J1" pin="3"/>
+<wire x1="83.82" y1="83.82" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="D12" gate="D1" pin="1"/>
+<wire x1="73.66" y1="83.82" x2="71.12" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="78.74" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
+<junction x="73.66" y="83.82"/>
 </segment>
 </net>
 <net name="COM2_CTS" class="0">
@@ -34393,9 +34502,13 @@ move jumper to power antenna with 3.3V.</text>
 <label x="386.08" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="25.4" y1="71.12" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
-<label x="22.86" y="71.12" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<label x="71.12" y="81.28" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="J1" pin="4"/>
+<wire x1="83.82" y1="81.28" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="D12" gate="D1" pin="5"/>
+<wire x1="76.2" y1="81.28" x2="71.12" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="78.74" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
+<junction x="76.2" y="81.28"/>
 </segment>
 </net>
 <net name="COM3_RX" class="0">
@@ -34405,17 +34518,17 @@ move jumper to power antenna with 3.3V.</text>
 <label x="386.08" y="208.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="76.2" y1="81.28" x2="55.88" y2="81.28" width="0.1524" layer="91"/>
-<label x="50.8" y="81.28" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="134.62" y1="88.9" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
+<label x="111.76" y="88.9" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J2" gate="J1" pin="2"/>
 <pinref part="D11" gate="D1" pin="1"/>
-<wire x1="55.88" y1="81.28" x2="50.8" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="66.04" x2="55.88" y2="81.28" width="0.1524" layer="91"/>
-<junction x="55.88" y="81.28"/>
+<wire x1="116.84" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="78.74" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
+<junction x="116.84" y="88.9"/>
 </segment>
 <segment>
-<wire x1="104.14" y1="81.28" x2="101.6" y2="81.28" width="0.1524" layer="91"/>
-<label x="101.6" y="81.28" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="167.64" y1="88.9" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
+<label x="165.1" y="88.9" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J12" gate="J1" pin="2"/>
 </segment>
 </net>
@@ -34426,17 +34539,17 @@ move jumper to power antenna with 3.3V.</text>
 <label x="386.08" y="205.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="76.2" y1="78.74" x2="63.5" y2="78.74" width="0.1524" layer="91"/>
-<label x="50.8" y="78.74" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="134.62" y1="86.36" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
+<label x="111.76" y="86.36" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J2" gate="J1" pin="3"/>
 <pinref part="D11" gate="D1" pin="3"/>
-<wire x1="63.5" y1="78.74" x2="50.8" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="66.04" x2="63.5" y2="78.74" width="0.1524" layer="91"/>
-<junction x="63.5" y="78.74"/>
+<wire x1="124.46" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="78.74" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
+<junction x="124.46" y="86.36"/>
 </segment>
 <segment>
-<wire x1="104.14" y1="78.74" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
-<label x="101.6" y="78.74" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="167.64" y1="86.36" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
+<label x="165.1" y="86.36" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J12" gate="J1" pin="3"/>
 </segment>
 </net>
@@ -34447,17 +34560,17 @@ move jumper to power antenna with 3.3V.</text>
 <label x="386.08" y="203.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="76.2" y1="76.2" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
-<label x="50.8" y="76.2" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="134.62" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
+<label x="111.76" y="83.82" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J2" gate="J1" pin="4"/>
 <pinref part="D11" gate="D1" pin="4"/>
-<wire x1="60.96" y1="76.2" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="66.04" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
-<junction x="60.96" y="76.2"/>
+<wire x1="121.92" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="78.74" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
+<junction x="121.92" y="83.82"/>
 </segment>
 <segment>
-<wire x1="104.14" y1="76.2" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
-<label x="101.6" y="76.2" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="167.64" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
+<label x="165.1" y="83.82" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J12" gate="J1" pin="4"/>
 </segment>
 </net>
@@ -34468,17 +34581,17 @@ move jumper to power antenna with 3.3V.</text>
 <label x="386.08" y="200.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="50.8" y="73.66" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<label x="111.76" y="81.28" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J2" gate="J1" pin="5"/>
-<wire x1="76.2" y1="73.66" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="D11" gate="D1" pin="5"/>
-<wire x1="58.42" y1="73.66" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="66.04" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
-<junction x="58.42" y="73.66"/>
+<wire x1="119.38" y1="81.28" x2="111.76" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="78.74" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
+<junction x="119.38" y="81.28"/>
 </segment>
 <segment>
-<wire x1="104.14" y1="73.66" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
-<label x="101.6" y="73.66" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="167.64" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
+<label x="165.1" y="81.28" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J12" gate="J1" pin="5"/>
 </segment>
 </net>
@@ -34489,9 +34602,13 @@ move jumper to power antenna with 3.3V.</text>
 <label x="386.08" y="195.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="27.94" y1="38.1" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
-<label x="25.4" y="38.1" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<label x="71.12" y="27.94" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J8" gate="J1" pin="2"/>
+<wire x1="83.82" y1="27.94" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="D14" gate="D1" pin="1"/>
+<wire x1="73.66" y1="27.94" x2="71.12" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="22.86" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
+<junction x="73.66" y="27.94"/>
 </segment>
 </net>
 <net name="COM4_TX" class="0">
@@ -34501,9 +34618,13 @@ move jumper to power antenna with 3.3V.</text>
 <label x="386.08" y="193.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="27.94" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
-<label x="25.4" y="35.56" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="83.82" y1="25.4" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
+<label x="71.12" y="25.4" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J8" gate="J1" pin="1"/>
+<pinref part="D14" gate="D1" pin="3"/>
+<wire x1="81.28" y1="25.4" x2="71.12" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="22.86" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
+<junction x="81.28" y="25.4"/>
 </segment>
 </net>
 <net name="COM1_RTS" class="0">
@@ -34513,9 +34634,13 @@ move jumper to power antenna with 3.3V.</text>
 <label x="386.08" y="228.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="25.4" y1="93.98" x2="22.86" y2="93.98" width="0.1524" layer="91"/>
-<label x="22.86" y="93.98" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="43.18" y1="83.82" x2="40.64" y2="83.82" width="0.1524" layer="91"/>
+<label x="30.48" y="83.82" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J9" gate="J1" pin="3"/>
+<pinref part="D13" gate="D1" pin="3"/>
+<wire x1="40.64" y1="83.82" x2="30.48" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="78.74" x2="40.64" y2="83.82" width="0.1524" layer="91"/>
+<junction x="40.64" y="83.82"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -34532,8 +34657,8 @@ move jumper to power antenna with 3.3V.</text>
 <label x="386.08" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="45.72" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
-<label x="93.98" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="160.02" y1="38.1" x2="157.48" y2="38.1" width="0.1524" layer="91"/>
+<label x="157.48" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J7" gate="J1" pin="10"/>
 </segment>
 </net>
@@ -34545,12 +34670,12 @@ move jumper to power antenna with 3.3V.</text>
 </segment>
 <segment>
 <pinref part="VB" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="73.66" x2="203.2" y2="73.66" width="0.1524" layer="91"/>
-<label x="203.2" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="261.62" y1="78.74" x2="259.08" y2="78.74" width="0.1524" layer="91"/>
+<label x="259.08" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="33.02" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
-<label x="93.98" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="160.02" y1="25.4" x2="157.48" y2="25.4" width="0.1524" layer="91"/>
+<label x="157.48" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J7" gate="J1" pin="5"/>
 </segment>
 </net>
@@ -34584,19 +34709,19 @@ move jumper to power antenna with 3.3V.</text>
 </segment>
 <segment>
 <pinref part="GP2" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="66.04" x2="170.18" y2="68.58" width="0.1524" layer="91"/>
-<label x="170.18" y="68.58" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="226.06" y1="71.12" x2="226.06" y2="73.66" width="0.1524" layer="91"/>
+<label x="226.06" y="73.66" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J6" gate="J1" pin="3"/>
-<wire x1="60.96" y1="22.86" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
-<label x="58.42" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="83.82" y1="43.18" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
+<label x="81.28" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="170.18" y1="43.18" x2="170.18" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="48.26" x2="226.06" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -34604,7 +34729,7 @@ move jumper to power antenna with 3.3V.</text>
 <segment>
 <pinref part="GP2" gate="G$1" pin="1"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="55.88" x2="170.18" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="60.96" x2="226.06" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ANT_V" class="0">
@@ -34616,18 +34741,6 @@ move jumper to power antenna with 3.3V.</text>
 <junction x="307.34" y="223.52"/>
 <pinref part="ANT_V" gate="G$1" pin="2"/>
 <pinref part="R13" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="ICM-20948-LV_#_1.8V" class="0">
-<segment>
-<pinref part="R46" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="241.3" x2="48.26" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="SUPPLY82" gate="G$1" pin="1.8V"/>
-</segment>
-<segment>
-<wire x1="53.34" y1="236.22" x2="53.34" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="SUPPLY86" gate="G$1" pin="1.8V"/>
-<pinref part="Q9" gate="NMOS" pin="G"/>
 </segment>
 </net>
 <net name="PPS_3" class="0">
