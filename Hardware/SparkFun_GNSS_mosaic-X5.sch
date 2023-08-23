@@ -33030,7 +33030,6 @@ mosaic-X5</text>
 <text x="177.8" y="137.16" size="1.778" layer="97" align="center">VMax: 6V</text>
 <text x="304.8" y="248.92" size="1.778" layer="97" align="center">If using single external 3.3V source,
 move jumper to power antenna with 3.3V.</text>
-<text x="-256.54" y="167.64" size="10.16" layer="91">Add more ESD?</text>
 <wire x1="292.1" y1="119.38" x2="431.8" y2="119.38" width="0.2032" layer="97" style="longdash"/>
 <wire x1="292.1" y1="119.38" x2="292.1" y2="0" width="0.2032" layer="97" style="longdash"/>
 </plain>
