@@ -33031,6 +33031,7 @@ mosaic-X5</text>
 move jumper to power antenna with 3.3V.</text>
 <wire x1="292.1" y1="119.38" x2="431.8" y2="119.38" width="0.2032" layer="97" style="longdash"/>
 <wire x1="292.1" y1="119.38" x2="292.1" y2="0" width="0.2032" layer="97" style="longdash"/>
+<text x="147.828" y="203.962" size="1.27" layer="94">Do not populate</text>
 </plain>
 <instances>
 <instance part="JP21" gate="G$1" x="416.56" y="33.02" smashed="yes" rot="R270"/>
