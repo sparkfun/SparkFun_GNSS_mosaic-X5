@@ -27128,6 +27128,27 @@ Provides ESD protection</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="DF5A5.6LFU" prefix="D">
+<gates>
+<gate name="D1" symbol="PESDXL4UX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="UG" package="SOT353">
+<connects>
+<connect gate="D1" pin="1" pad="1"/>
+<connect gate="D1" pin="2" pad="2"/>
+<connect gate="D1" pin="3" pad="3"/>
+<connect gate="D1" pin="4" pad="4"/>
+<connect gate="D1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-20454" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-Coils">
@@ -32976,7 +32997,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R13" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W" value="0"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D9" library="SparkFun-DiscreteSemi" deviceset="PESDXL4UG" device="UG"/>
+<part name="D9" library="SparkFun-DiscreteSemi" deviceset="DF5A5.6LFU" device="UG" value="DF5A5.6LFU"/>
 <part name="GND30" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D11" library="SparkFun-DiscreteSemi" deviceset="PESDXL4UG" device="UG"/>
 <part name="GND33" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -33031,7 +33052,6 @@ mosaic-X5</text>
 move jumper to power antenna with 3.3V.</text>
 <wire x1="292.1" y1="119.38" x2="431.8" y2="119.38" width="0.2032" layer="97" style="longdash"/>
 <wire x1="292.1" y1="119.38" x2="292.1" y2="0" width="0.2032" layer="97" style="longdash"/>
-<text x="147.828" y="203.962" size="1.27" layer="94">Do not populate</text>
 </plain>
 <instances>
 <instance part="JP21" gate="G$1" x="416.56" y="33.02" smashed="yes" rot="R270"/>

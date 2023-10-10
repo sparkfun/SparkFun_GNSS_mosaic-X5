@@ -45,7 +45,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -19027,9 +19027,9 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <attribute name="PROD_ID" value="CAP-11015" x="17.78" y="25.4" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="17.78" y="24.638" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="D9" library="SparkFun-DiscreteSemi" package="SOT353" value="PESDXL4UGUG" x="23.368" y="42.926" smashed="yes" rot="R90">
+<element name="D9" library="SparkFun-DiscreteSemi" package="SOT353" value="DF5A5.6LFU" x="23.368" y="42.926" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.9145" y="41.82028125" size="0.8128" layer="25" rot="R90"/>
-<attribute name="PROD_ID" value="DIO-19494" x="23.368" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="DIO-20454" x="23.368" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="25.908" y="41.656" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="D11" library="SparkFun-DiscreteSemi" package="SOT353" value="PESDXL4UGUG" x="8.89" y="21.59" smashed="yes" rot="R270">
