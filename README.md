@@ -1,34 +1,61 @@
-SparkFun ESP32 Thing Plus C
+SparkFun Tri-band GNSS RTK Breakout - mosaic-X5
 ========================================
 
-[![SparkFun ESP32 Thing Plus C](https://cdn.sparkfun.com//assets/parts/1/7/2/3/9/18018-Thing_Plus_C_-_ESP32_WROOM-01.jpg)](https://www.sparkfun.com/products/18018)
+[![SparkFun Tri-band GNSS RTK Breakout - mosaic-X5](https://cdn.sparkfun.com/assets/parts/2/3/3/1/6/23088-_01.jpg)](https://www.sparkfun.com/products/23088)
 
-[*SparkFun ESP32 Thing Plus C (SPX-18018)*](https://www.sparkfun.com/products/18018)
+[*SparkFun Tri-band GNSS RTK Breakout - mosaic-X5 (GPS-23088)*](https://www.sparkfun.com/products/23088)
 
-The [SparkFun ESP32 Thing Plus C](https://www.sparkfun.com/products/18018) is a comprehensive development platform for [Espressif's ESP32](https://espressif.com/en/products/hardware/esp32/overview). Like the 8266 and ESP32 Thing, the ESP32 Thing Plus is a **WiFi**-compatible microcontroller with support for both **Bluetooth Classic** (i.e. SPP) and **Bluetooth low-energy** (i.e. BLE, BT4.0, Bluetooth Smart), a Qwiic connector, and 21 I/O pins. Add to that a rich set of peripherals ranging from capacitive touch sensors, Hall sensors, SD card interface, Ethernet, high-speed SPIs, UARTs, I2S and I<sup>2</sup>C.
+At the heart of the Triband GNSS RTK Breakout is [Septentrio](https://www.septentrio.com/en)'s mosaic-X5, their most compact, ultra-low power, multi-band, multi-constellation, high-precision GNSS receiver. The receiver supports the GPS (USA), GLONASS (Russia), Beidou (China), Galileo (Europe), and NavIC (India) constellations, including regional systems *(i.e. SBAS and QZSS)*. With its [**Real Time Kinematics**](https://learn.sparkfun.com/tutorials/813) (RTK) capabilities, the module can achieve a horizontal accuracy of 6mm (~0.25in), vertical accuracy of 1cm (~0.4in) using RTK, and timing precision of 5ns (5 billionths of a second). It also features Septentrio's unique [AIM+ technology](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-jamming-protection) for interference mitigation and anti-spoofing, ensuring best-in-class reliability and scalable position accuracy.
 
-We took all the good from the original [ESP32 Thing Plus](https://www.sparkfun.com/products/15663) and sprinkled on some more! USB C provides up to 2A, upgraded 16MB flash ESP32 WROOM module, CH340 USB to serial IC, an onboard fuel gauge IC will make sure you know your battery levels, and an onboard addressable LED is perfect for as a multi-status LED. Oh, and the new taller reset and boot buttons are *so* much easier to push!
+The mosaic-X5 is a sophisticated chip running an internal web server that can be accessed through the USB interface with a standard browser using a Linux/Windows computer. Septentrio also provides dozens of [video tutorials](https://www.youtube.com/@SeptentrioGNSS/videos) to guide users through the configuration settings of their GNSS receivers utilizing the web interface.
 
-We added a dedicator regulator to the Qwiic connector to enable software power control of the Qwiic bus - great for low power logging! There's even a microSD connector on the back!
+Beyond the capabilities of the mosaic-X5 module, this board is seamless to operate with no programming skills required. Gone are the times when a microcontroller was required to interface with the GNSS receiver and log data to an SD card and when users had to carry around an SD card reader to extract the data from the SD card. The mosaic-X5 Triband GNSS RTK Breakout can start/stop logging data or mount/unmount the SD card, without a single line of code, just utilizing a simple button. For the users who prefer a command-line interface, Septentrio has you covered. Users can still control and configure the mosaic-X5 module through a CLI, which is useful for scenarios such as production line testing *(in fact, that is how we tested this board)*.
 
-The ESP32 Thing plus integrates a rich set of peripherals, ranging from capacitive touch sensors, Hall sensors, SD card interface, Ethernet, high-speed SPI, UART, I2S and I2C. Thanks to the onboard ESP32 WROOM module, the SparkFun Thing Plus features 16MB of flash memory, 520kB of internal SRAM, an integrated 802.11 BGN WiFi transceiver and dual-mode Bluetooth capabilities, and a JST connector to plug in a LiPo battery.
-
-For programming, select the 'ESP32 Dev Module'. This will get you direct pin to pin access to each of the WROOM's pins.
+This breakout board is a perfect middle ground for users who would like to integrate the mosaic-X5 module into a project/enclosure with access to a majority of the module's available pins, similar to Septentrio's developer kit, but in the smaller form factor of their evaluation kit. Or maybe... you just needed a PPS output at a 3.3V logic level. *Please, check out our [hookup guide](https://docs.sparkfun.com/SparkFun_GNSS_mosaic-X5) for more details on the capabilities of this board (that we couldn't fit in this product description).*
 
 Repository Contents
 -------------------
 
-* **/Hardware** - Eagle design files (.brd, .sch)
-* **/Firmware** - Example sketches demonstrating extra peripherals
+* **[/docs](/docs/)** - Online documentation files
+    * [assets](/docs/assets/) - Assets files
+        * [board_files](/docs/assets/board_files/) - Files for the product design
+            * [Eagle design files](/docs/assets/board_files/eagle_files.zip) (.zip)
+            * [Schematic](/docs/assets/board_files/schematic.pdf) (.pdf)
+            * [Dimensions](/docs/assets/board_files/dimensions.pdf) (.pdf)
+        * [component_documentation](/docs/assets/component_documentation/) - Datasheets for hardware components
+        * [img/hookup_guide/](/docs/assets/img/hookup_guide/) - Images for hookup guide documentation
+* **[/Hardware](/Hardware/)** - Eagle design files (.brd, .sch)
+* **[/Production](/Production/)** - Production files
+
+
+Documentation
+--------------
+
+* **[Hookup Guide (mkdocs)](http://docs.sparkfun.com/SparkFun_GNSS_mosaic-X5/)** - Hookup guide for the mosaic-X5 GNSS Breakout hosted by GitHub pages.
+
+*Need to download or print our hookup guide?*
+
+* [Print *(Print to PDF)* from Single-Page View](http://docs.sparkfun.com/SparkFun_GNSS_mosaic-X5/print_view)
+
+Product Variants
+----------------
+
+* [GPS-23088](https://www.sparkfun.com/products/23088)- v1.0, Initial Release
+
+Version History
+---------------
+
+* [v10](https://github.com/sparkfun/SparkFun_GNSS_mosaic-X5/releases/tag/v01) - Initial Release
+
 
 License Information
 -------------------
 
-This product is _**open source**_! 
+This product is ***open source***!
 
-Please review the LICENSE.md file for license information. 
+Please review the [`LICENSE.md`](./LICENSE.md) file for license information.
 
-If you have any questions or concerns on licensing, please contact technical support on our [SparkFun forums](https://forum.sparkfun.com/viewforum.php?f=152).
+If you have any questions or concerns about licensing, please contact technical support on our [SparkFun forums](https://forum.sparkfun.com/viewforum.php?f=152).
 
 Distributed as-is; no warranty is given.
 
