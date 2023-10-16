@@ -45,7 +45,7 @@ Product Variants
 Version History
 ---------------
 
-* [v10](https://github.com/sparkfun/SparkFun_GNSS_mosaic-X5/releases/tag/v01) - Initial Release
+* [v10](https://github.com/sparkfun/SparkFun_GNSS_mosaic-X5/releases/tag/v10) - Initial Release
 
 
 License Information
