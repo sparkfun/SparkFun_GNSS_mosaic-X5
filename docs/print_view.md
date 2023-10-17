@@ -16,6 +16,12 @@ icon: material/printer
 # Software Overview
 --8<-- "./docs/software_overview.md:29"
 
+## RxTools
+--8<-- "./docs/rxtools.md:35"
+
+## Web Interface
+--8<-- "./docs/web_interface.md:35"
+
 # Troubleshooting Tips
 --8<-- "./docs/troubleshooting_tips.md:5"
 
