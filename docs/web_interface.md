@@ -253,6 +253,48 @@ By default, the mosaic-X5 GNSS receiver is not configured to access the internet
 	Once a network bridge is enabled, the receiver will receive its IP address from the computer's DHCP server. Depending on the routing table, the module may no longer be reachable at its default IP address *(`192.168.3.1`)*.
 
 
+### Enable the L5 Band
+The mosaic-X5 is capable of utilizing the `L5` frequency band. However, within the GPS network, the `L5` service isn't completely operational and is currently marked as `unhealthy`. Users will need to configure the mosaic-X5 to enable the `L5` frequency band.
+
+From the **Admin** tab, navigate through the drop-down menu to **Admin** > **Expert Control** > **Control Panel** > **Navigation** > **Receiver Operation** > **Masks**. Find the **Health Masks** box, and configure the `Discard unhealthy satellites` feature to `off` for both the **Tracking** and **PVT** options.
+
+<figure markdown>
+[![L5 Configuration - Step 1](./assets/img/hookup_guide/L5_step1.png){ width="400" }](./assets/img/hookup_guide/L5_step1.png "Click to enlarge")
+<figcaption markdown>
+Configuring the `Discard unhealthy satellites` feature to `off`.
+</figcaption>
+</figure>
+
+!!! note
+	Make sure to click ++"OK"++ button at the bottom of each page, to save and update the current configuration. Also, the save it to boot option will enable the configuration to persist through power cycles.
+
+
+From the **Navigation** tab, navigate through the drop-down menu to **Navigation** > **Advance User Settings** > **Tracking** > **Signal Tracking**. Find the **Signal Tracking** box, then enable the `GPSL5` option.
+
+<figure markdown>
+[![L5 Configuration - Step 2](./assets/img/hookup_guide/L5_step2.png){ width="400" }](./assets/img/hookup_guide/L5_step2.png "Click to enlarge")
+<figcaption markdown>
+Enabling signal tracking of the `L5` frequency band for the GPS constellation.
+</figcaption>
+</figure>
+
+??? tip "Click ++"OK"++"
+	Don't forget to click ++"OK"++ button at the bottom of the page to save and update the current configuration.
+
+
+Again in the **Navigation** tab, navigate to **Navigation** > **Advance User Settings** > **PVT** > **Signal Usage**. Enable the `GPSL5` option in both **Signals enabled in the PVT** and **Signals enabled in the navigation data decoder** sections.
+
+<figure markdown>
+[![L5 Configuration - Step 3](./assets/img/hookup_guide/L5_step3.png){ width="400" }](./assets/img/hookup_guide/L5_step3.png "Click to enlarge")
+<figcaption markdown>
+Enabling signal usage of the `L5` frequency band for the GPS constellation.
+</figcaption>
+</figure>
+
+??? tip "Click ++"OK"++"
+	Don't forget to click ++"OK"++ button at the bottom of the page to save and update the current configuration.
+
+
 ### More Videos
 Users can find other instructional videos on [Septentrio's YouTube Channel](https://www.youtube.com/channel/UCrA9wMw1y1f-KeOnnhq4lrA/). Feel free to check out their playlists as well:
 
