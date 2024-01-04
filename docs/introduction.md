@@ -44,7 +44,7 @@ icon: material/book-open-page-variant
 	---
 	
 	<figure markdown>
-	![Product Thumbnail](https://cdn.sparkfun.com//assets/parts/2/3/3/1/6/23088_RTK_Breakout_MosaicX5_feature.jpg)
+	![Product Thumbnail](https://cdn.sparkfun.com//assets/parts/2/3/3/1/6/23088_Mosaic_X5_Feature-_newQR_.jpg)
 	</figure></a>
 
 	<center>
@@ -259,7 +259,7 @@ To get started, users will need a few items. Now some users may already have a f
 
 -   <a href="https://www.sparkfun.com/products/23088">
 	<figure markdown>
-	![Product Thumbnail](https://cdn.sparkfun.com//assets/parts/2/3/3/1/6/23088_RTK_Breakout_MosaicX5_feature.jpg)
+	![Product Thumbnail](https://cdn.sparkfun.com//assets/parts/2/3/3/1/6/23088_Mosaic_X5_Feature-_newQR_.jpg)
 	</figure>
 
 	---

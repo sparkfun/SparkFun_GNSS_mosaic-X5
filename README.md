@@ -1,7 +1,7 @@
 SparkFun Tri-band GNSS RTK Breakout - mosaic-X5
 ========================================
 
-[![SparkFun Tri-band GNSS RTK Breakout - mosaic-X5](https://cdn.sparkfun.com/c/600-600/assets/parts/2/3/3/1/6/23088_RTK_Breakout_MosaicX5_feature.jpg)](https://www.sparkfun.com/products/23088)
+[![SparkFun Tri-band GNSS RTK Breakout - mosaic-X5](https://cdn.sparkfun.com/c/600-600/assets/parts/2/3/3/1/6/23088_Mosaic_X5_Feature-_newQR_.jpg)](https://www.sparkfun.com/products/23088)
 
 [*SparkFun Tri-band GNSS RTK Breakout - mosaic-X5 (GPS-23088)*](https://www.sparkfun.com/products/23088)
 
