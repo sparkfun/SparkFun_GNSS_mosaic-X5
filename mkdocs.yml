@@ -287,6 +287,11 @@ extra:
     - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/sparkfun
 
+  # Configures Google Analytics
+  analytics:
+    provider: google
+    property: G-7Y7EYCZVC1
+
 
 
 # Configures styling for PDF rendering and webpage layout
