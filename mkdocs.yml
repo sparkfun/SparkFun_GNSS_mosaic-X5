@@ -61,7 +61,7 @@ theme:
     # Allows users to easily jump to the beginning of the page
     - navigation.top
 
-    # Renders path for page navigation at top of the page (makes page navigation more mobile friendly)
+    # Renders path for page navigation at the top of the page (makes page navigation more mobile friendly)
     - navigation.path
 
 
@@ -166,7 +166,7 @@ plugins:
   
   # Enables use of Git submodules and larger code base
   - monorepo
-
+  
   # Enables improved security for external links
   - privacy:
       # Disables cache mechanism, so that external assets can be updated during rebuilds
@@ -176,7 +176,7 @@ plugins:
       # assets: true
       # assets_fetch: true
 
-      # Provide domains for assets that are retrieve from external sites
+      # Provide domains for assets that are retrieved from external sites
       assets_include:
         - https://docs.sparkfun.com/*
       
@@ -221,6 +221,7 @@ markdown_extensions:
       url_max_size: 0
       url_timeout: 0
       url_request_headers: {}
+      dedent_subsections: True
   
   # Allows embedding of code blocks in other elements
   - pymdownx.superfences
@@ -231,7 +232,10 @@ markdown_extensions:
   # Allows the use of tabs in the document
   - pymdownx.tabbed:
       alternate_style: true 
-  
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+
   # Allows the use of Markup syntax
   - pymdownx.betterem:
       smart_enable: all
@@ -269,8 +273,8 @@ markdown_extensions:
   
   # Allows the use of bundled and custom icons and emojis
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
       options:
         custom_icons:
           - overrides/.icons
