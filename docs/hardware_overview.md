@@ -67,7 +67,7 @@ The board dimensions are illustrated in the drawing below; the listed measuremen
 
 
 ## USB-C Connector
-The USB connector is provided to power and interface with the mosaic-X5 GNSS receiver. For most users, it will be the primary method for configuring with the mosaic-X5 module.
+The USB connector is provided to power and interface with the mosaic-X5 GNSS receiver. For most users, it will be the primary method for communicating with the mosaic-X5 module.
 
 <figure markdown>
 [![USB-C Connector](./assets/img/hookup_guide/usb_connector.jpg){ width="400" }](./assets/img/hookup_guide/usb_connector.jpg "Click to enlarge")

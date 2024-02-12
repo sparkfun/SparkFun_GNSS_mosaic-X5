@@ -161,7 +161,7 @@ Besides logging data with just the ++"LOG"++ button, users can configure/enable 
 
 #### Data Logging
 
-This video illustrates how users can configure the settings from data logging to the SD card.
+This video illustrates how users can configure the settings for data logging to the SD card.
 
 <center>
 <article class="video_desc2">
