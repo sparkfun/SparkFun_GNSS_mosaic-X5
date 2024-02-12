@@ -52,3 +52,11 @@ A 3 - 5.5V DC voltage can be applied to the main antenna from the `VANT` pin, ob
 
 ### Supported Frequency Bands
 For the best performance, we recommend users choose a compatible L1/L2/L5 (tri-band) GNSS antenna and utilize a low-loss cable. Utilizing an antenna that doesn't match all the supported frequency bands of the mosaic-X5, will result in reduced performance and capabilities.
+
+## Data Logging
+For data logging issues, here are some simple troubleshooting tips:
+
+* Make sure that your SD card is formatted to a `FAT32` file system.
+	* The `FAT32` file system also limits the maximum capacity of the card to less than **32GB** *(i.e. a 256GB SD card will not work)*.
+* Make sure that the mosaic-X5 module has a configured data stream output.
+* Use the mosaic-X5 web page to verify that the SD card is mounted as a storage drive.
