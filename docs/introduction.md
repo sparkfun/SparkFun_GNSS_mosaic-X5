@@ -713,6 +713,15 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 
 	**GPS Basics**</a>
 
+-   <a href="https://learn.sparkfun.com/tutorials/813">
+	<figure markdown>
+	![Tutorial Thumbnail](https://cdn.sparkfun.com/c/178-100/assets/learn_tutorials/8/1/3/Location-Wandering-GPS-combined.jpg)
+	</figure>
+
+	---
+
+	**What is GPS RTK?**</a>
+
 -   <a href="https://learn.sparkfun.com/tutorials/8">
 	<figure markdown>
 	![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/7/d/f/9/9/50d24be7ce395f1f6c000000.jpg)
@@ -800,5 +809,14 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 		---
 
 		**New Video: Unlocking High-Precision RTK Positioning**</a>
+
+	-   <a href="https://www.sparkfun.com/news/9514">
+		<figure markdown>
+		![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/home_page_posts/9/5/1/4/DIY-Surveying-Blog__1_.jpg)
+		</figure>
+
+		---
+
+		**DIY RTK Surveying**</a>
 
 	</div>
