@@ -462,7 +462,7 @@ The mosaic-X5 features several peripherals and I/O pins. Some of these are broke
 
 		<a href="https://www.sparkfun.com/products/18079">
 		<figure markdown>
-		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/7/3/9/5/18079-Breadboard_to_GHR-06V_Cable_-_6-Pin_x_1.25mm_Pitch-01a.jpg)
+		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/7/3/9/5/18079-Breadboard_to_GHR-06V_Cable_-_6-Pin_x_1.25mm_Pitch-01a.jpg){ width="300" }
 		</figure>
 
 		---
@@ -675,7 +675,7 @@ The Tri-band GNSS RTK breakout features a 6-pin [JST GH connector](./assets/comp
 
 	<a href="https://www.sparkfun.com/products/18079">
 	<figure markdown>
-	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/7/3/9/5/18079-Breadboard_to_GHR-06V_Cable_-_6-Pin_x_1.25mm_Pitch-01a.jpg)
+	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/7/3/9/5/18079-Breadboard_to_GHR-06V_Cable_-_6-Pin_x_1.25mm_Pitch-01a.jpg){ width="300" }
 	</figure>
 
 	---
@@ -720,6 +720,9 @@ The &micro;SD card slot allows users easily log and store data on the board.
 </figure>
 
 
+!!! success "Initial Configuration"
+	Before data logging can occur, it is necessary to create a *logging stream* from the **Logging** tab of the web interface or using the **RxTools** software suite. Streams can contain NMEA or SBF (Septentrio Binary Format) data; SBF can contain RTCM and/or RINEX. *(see the [Data Logging](../web_interface/#data-logging) section)*
+
 !!! info "SD Card Specifications"
 	The mosaic-X5 module is only compatible with SD cards of up to 32GB, formatted with a `FAT32` file system.
 
@@ -756,7 +759,10 @@ There are five status LEDs on the TMC6300 motor driver:
 * `PPS` - Pulse-Per-Second *(Yellow)*
 	* Indicates when there is a pulse-per-second signal *(see the **[PPS Output](#pps-output)** section)*
 * `LOG` - Data Logging *(Green)*
-	* Indicates data logging activity
+	* Indicates data logging activity *(see the **[SD Card Slot](#sd-card-slot)** section)*
+		* Off - SD card not present or unmounted
+		* On - SD card present and mounted
+		* Blinking - Data logging activity
 * `PVT` - Position/Velocity/Time Solution *(Blue)*
 	* Turns on when a [PVT]("Position, Velocity, and Time") solution is available
 * `RTK` - [RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning "Real-Time Kinematic") Mode *(White)*
