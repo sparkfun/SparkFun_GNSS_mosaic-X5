@@ -642,7 +642,7 @@ There are two SMA connectors on the Tri-band GNSS RTK breakout board.
 
 === "`L1/2/5`<br>`ActiveAnt`"
 
-	The `L1/2/5` `ActiveAnt` connector is an input for the GPS antenna *(see the **[Antenna](#__tabbed_1_3)** section)*. The connector also provides active power at **5V** *(see the **[Jumpers](#jumpers)** section)*.
+	The `L1/2/5` `ActiveAnt` connector is an input for the GPS antenna *(see the **[Antenna](#antenna)** section)*. The connector also provides active power at **5V** *(see the **[Jumpers](#jumpers)** section)*.
 
 	<figure markdown>
 	[![JST pins](./assets/img/hookup_guide/antenna-gps.jpg){ width="400" }](./assets/img/hookup_guide/antenna-gps.jpg "Click to enlarge")
@@ -655,7 +655,7 @@ There are two SMA connectors on the Tri-band GNSS RTK breakout board.
 
 === "<br>`TimePulse`"
 
-	The `TimePulse` connector provides a PPS output signal *(see the **[PPS Output](#__tabbed_1_4)** section)*.
+	The `TimePulse` connector provides a PPS output signal *(see the **[PPS Output](#pps-output)** section)*.
 
 	<figure markdown>
 	[![JST connector](./assets/img/hookup_guide/time_pulse.jpg){ width="400" }](./assets/img/hookup_guide/time_pulse.jpg "Click to enlarge")
@@ -754,7 +754,7 @@ There are five status LEDs on the TMC6300 motor driver:
 * `PWR` - Power *(Red)*
 	* Turns on once power is supplied through the USB-C connector or `VIN` connections
 * `PPS` - Pulse-Per-Second *(Yellow)*
-	* Indicates when there is a pulse-per-second signal *(see the **[PPS Output](#__tabbed_1_4)** section)*
+	* Indicates when there is a pulse-per-second signal *(see the **[PPS Output](#pps-output)** section)*
 * `LOG` - Data Logging *(Green)*
 	* Indicates data logging activity
 * `PVT` - Position/Velocity/Time Solution *(Blue)*
