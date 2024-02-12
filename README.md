@@ -13,6 +13,17 @@ Beyond the capabilities of the mosaic-X5 module, this board is seamless to opera
 
 This breakout board is a perfect middle ground for users who would like to integrate the mosaic-X5 module into a project/enclosure with access to a majority of the module's available pins, similar to Septentrio's developer kit, but in the smaller form factor of their evaluation kit. Or maybe... you just needed a PPS output at a 3.3V logic level. *Please, check out our [hookup guide](https://docs.sparkfun.com/SparkFun_GNSS_mosaic-X5) for more details on the capabilities of this board (that we couldn't fit in this product description).*
 
+Documentation
+--------------
+
+* **[Hookup Guide (mkdocs)](http://docs.sparkfun.com/SparkFun_GNSS_mosaic-X5/)** - Hookup guide for the mosaic-X5 GNSS Breakout hosted by GitHub pages.<br>
+  [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/) [![GitHub Pages Deploy](https://github.com/sparkfun/SparkFun_GNSS_mosaic-X5/actions/workflows/mkdocs.yml/badge.svg)](https://github.com/sparkfun/SparkFun_GNSS_mosaic-X5/actions/workflows/mkdocs.yml)
+
+
+*Need to download or print our hookup guide?*
+
+* [Print *(Print to PDF)* from Single-Page View](http://docs.sparkfun.com/SparkFun_GNSS_mosaic-X5/print_view)
+
 Repository Contents
 -------------------
 
@@ -26,16 +37,6 @@ Repository Contents
         * [img/hookup_guide/](/docs/assets/img/hookup_guide/) - Images for hookup guide documentation
 * **[/Hardware](/Hardware/)** - Eagle design files (.brd, .sch)
   * **[/Production](/Production/)** - Production files
-
-
-Documentation
---------------
-
-* **[Hookup Guide (mkdocs)](http://docs.sparkfun.com/SparkFun_GNSS_mosaic-X5/)** - Hookup guide for the mosaic-X5 GNSS Breakout hosted by GitHub pages.
-
-*Need to download or print our hookup guide?*
-
-* [Print *(Print to PDF)* from Single-Page View](http://docs.sparkfun.com/SparkFun_GNSS_mosaic-X5/print_view)
 
 Product Variants
 ----------------
