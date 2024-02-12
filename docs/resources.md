@@ -13,7 +13,7 @@
 	* :fontawesome-solid-file-pdf: [AP2112 Datasheet](./assets/component_documentation/AP2112.pdf)
 	* :fontawesome-solid-file-pdf: [PESDxL4 Datasheet](./assets/component_documentation/PESDXL4UF_G_W.pdf)
 	* :fontawesome-solid-file-pdf: [RFCMF1220100M4T Datasheet](./assets/component_documentation/watcs00941_1-2271498.pdf)
-* :material-youtube: [SFE Product Showcase](https://youtu.be/I0sJSTlUF_E)
+* :material-youtube: [SFE Product Showcase](https://youtu.be/TSkIvtaVZc0)
 * :material-github: [Hardware Repo](https://github.com/sparkfun/SparkFun_GNSS_mosaic-X5)
 
 
