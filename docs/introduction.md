@@ -40,9 +40,9 @@ icon: material/book-open-page-variant
 -   <a href="https://www.sparkfun.com/products/23088">
 	**mosaic-X5 GNSS Breakout**<br>
 	**SKU:** GPS-23088
-	
+
 	---
-	
+
 	<figure markdown>
 	![Product Thumbnail](https://cdn.sparkfun.com//assets/parts/2/3/3/1/6/23088_Mosaic_X5_Feature-_newQR_.jpg)
 	</figure></a>
@@ -124,20 +124,28 @@ icon: material/book-open-page-variant
 		</figure>
 	</th>
 	<th markdown style="text-align:center">
-		Tri-band GNSS RTK Breakout<br>
+		mosaic-X5 GNSS Breakout<br>
 		<hr>
 		<figure markdown>
 		![Product Thumbnail](./assets/img/hookup_guide/product.png){ width="200" }
 		</figure>
-		</th>
+	</th>
+	<th markdown style="text-align:center">
+		RTK mosaic-X5<br>
+		<hr>
+		<figure markdown>
+		![Product Thumbnail](./assets/img/hookup_guide/rtk_mosaic-x5.png){ width="200" }
+		</figure>
+	</th>
 	</tr>
 	<tr>
-		<td style="vertical-align:middle;">Antenna</td>
+		<td style="vertical-align:middle;">GNSS Antenna</td>
 		<td style="text-align:center; vertical-align:middle;">Dual</td>
 		<td style="text-align:center">
 			Single (mosaic-X5)<br>
 			Dual (mosaic-H)
 		</td>
+		<td style="text-align:center; vertical-align:middle;">Single</td>
 		<td style="text-align:center; vertical-align:middle;">Single</td>
 	</tr>
 	<tr>
@@ -145,24 +153,44 @@ icon: material/book-open-page-variant
 		<td style="text-align:center">micro-B</td>
 		<td style="text-align:center">micro-B</td>
 		<td style="text-align:center">Type-C</td>
+		<td style="text-align:center">Type-C</td>
 	</tr>
 	<tr>
 		<td style="vertical-align:middle;">Ethernet</td>
-		<td style="text-align:center">
+		<td style="text-align:center; vertical-align:middle;">
 			Yes<br>
-			<i>10/100  Base-T</i>
+			<i>10/100 Base-T</i>
 		</td>
 		<td style="text-align:center; vertical-align:middle;">No</td>
 		<td style="text-align:center; vertical-align:middle;">No</td>
+		<td style="text-align:center">
+			Yes<br>
+			<i>10/100 Base-T</i>
+		</td>
 	</tr>
 	<tr>
-		<td>COM Ports</td>
+		<td style="vertical-align:middle;">WiFi</td>
+		<td style="text-align:center; vertical-align:middle;">No</td>
+		<td style="text-align:center; vertical-align:middle;">No</td>
+		<td style="text-align:center; vertical-align:middle;">No</td>
+		<td style="text-align:center">
+			Yes - Network Bridge<br>
+			<i>10 Base-T</i>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:middle;">COM Ports</td>
 		<td style="text-align:center">4</td>
 		<td style="text-align:center">2</td>
 		<td style="text-align:center">4</td>
+		<td style="text-align:center">
+			1 - mosaic-X5<br>
+			1 - ESP32
+		</td>
 	</tr>
 	<tr>
 		<td>&micro;SD Card Slot</td>
+		<td style="text-align:center">Yes</td>
 		<td style="text-align:center">Yes</td>
 		<td style="text-align:center">Yes</td>
 		<td style="text-align:center">Yes</td>
@@ -170,13 +198,8 @@ icon: material/book-open-page-variant
 	<tr>
 		<td style="vertical-align:middle;">Reset/Log Buttons</td>
 		<td style="text-align:center; vertical-align:middle;">Yes</td>
-		<td>
-			<center>No*</center>
-			<!-- <details class="info">
-				<summary>Info</summary>
-				<p>On the mosaic-go Evaluation Kit, the reset pin is exposed on 4-pin JST connector and the log pin is tied to the SD card slot.</p>
-			</details>
-		</td> -->
+		<td style="text-align:center; vertical-align:middle;">No*</td>
+		<td style="text-align:center; vertical-align:middle;">Yes</td>
 		<td style="text-align:center; vertical-align:middle;">Yes</td>
 	</tr>
 	<tr>
@@ -187,37 +210,51 @@ icon: material/book-open-page-variant
 		</td>
 		<td style="text-align:center; vertical-align:middle;">3.3V</td>
 		<td style="text-align:center; vertical-align:middle;">3.3V</td>
+		<td style="text-align:center">
+			3.3V<br>
+			5V
+		</td>
 	</tr>
 	<tr>
 		<td>PPS Signal</td>
 		<td style="text-align:center">Header Pin</td>
 		<td style="text-align:center">6-Pin JST Connector</td>
 		<td style="text-align:center">SMA Connector</td>
+		<td style="text-align:center">Screw Terminal</td>
 	</tr>
 	<tr>
 		<td>Enclosure Material</td>
-		<td style="text-align:center">N/A</td>
-		<td style="text-align:center">Metal</td>
-		<td style="text-align:center">N/A</td>
+		<td style="text-align:center; vertical-align:middle;">N/A</td>
+		<td style="text-align:center; vertical-align:middle;">Metal</td>
+		<td style="text-align:center; vertical-align:middle;">N/A</td>
+		<td style="text-align:center; vertical-align:middle;">Aluminum</td>
 	</tr>
 	<tr>
-		<td>Dimensions</td>
-		<td style="text-align:center">N/A</td>
-		<td style="text-align:center">71 x 59 x 12mm ± 1mm</td>
-		<td style="text-align:center">70.9 x 50.8 x 8mm</td>
+		<td style="vertical-align:middle;">Dimensions</td>
+		<td style="text-align:center; vertical-align:middle;">N/A</td>
+		<td style="text-align:center; vertical-align:middle;">71 x 59 x 12mm ± 1mm</td>
+		<td style="text-align:center; vertical-align:middle;">70.9 x 50.8 x 8mm</td>
+		<td style="text-align:center">
+			180.6 x 101.8 x 41mm<br>
+			<i>Enclosure Only</i>
+		</td>
 	</tr>
 	<tr>
-		<td>Weight</td>
-		<td style="text-align:center">N/A</td>
-		<td style="text-align:center">58g  ± 1g</td>
-		<td style="text-align:center">22.6g</td>
+		<td style="vertical-align:middle;">Weight</td>
+		<td style="text-align:center; vertical-align:middle;">N/A</td>
+		<td style="text-align:center; vertical-align:middle;">58g  ± 1g</td>
+		<td style="text-align:center; vertical-align:middle;">22.6g</td>
+		<td style="text-align:center">
+			415.15g<br>
+			<i>Enclosure Only</i>
+		</td>
 	</tr>
 	
 	</table>
 	
 	</div>
 
-	!!! info "mosaic-go Evaluation Kit"
+	!!! note "mosaic-go Evaluation Kit"
 		The reset pin is exposed on 4-pin JST connector and the log pin is connected to the latch pin of the SD card slot.
 
 
@@ -721,6 +758,15 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	---
 
 	**What is GPS RTK?**</a>
+
+-   <a href="https://docs.sparkfun.com/SparkFun_RTK_mosaic-X5">
+	<figure markdown>
+	![Tutorial Thumbnail](https://docs.sparkfun.com/SparkFun_RTK_mosaic-X5/assets/img/thumbnail.jpg)
+	</figure>
+
+	---
+
+	**RTK mosaic-X5 Hookup Guide**</a>
 
 -   <a href="https://learn.sparkfun.com/tutorials/8">
 	<figure markdown>
