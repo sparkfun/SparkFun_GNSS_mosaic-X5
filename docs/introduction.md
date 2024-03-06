@@ -535,7 +535,7 @@ To get started, users will need a few items. Now some users may already have a f
 	</div>
 
 ??? note "JST Cable & Transceivers"
-	In remote applications, users may need utilize one of our radio transceivers for RTK correction data. Users may also find our breadboard cable convenient for connecting your module to a development board.
+	In remote applications, users may need to utilize one of our radio transceivers for RTK correction data. Users may also find our breadboard cable convenient for connecting your module to a development board.
 
 	<div class="grid cards col-2" markdown>
 
@@ -616,16 +616,15 @@ To get started, users will need a few items. Now some users may already have a f
 		**Solder Lead Free - 100-gram Spool**<br>
 		TOL-09325</a>
 
-	-   <a href="https://www.sparkfun.com/products/14228">
+	-   <a href="https://www.sparkfun.com/products/24063">
 		<figure markdown>
-		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/2/1/7/3/14228-01.jpg)
+		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/4/3/8/5/KIT-24063-PINECIL-Soldering-Iron-Kit-Feature.jpg)
 		</figure>
 
 		---
 		
-		**Weller WLC100 Soldering Station**<br>
-		TOL-14228</a>
-
+		**PINECIL Soldering Iron Kit**<br>
+		KIT-24063</a>
 
 	-   <a href="https://www.sparkfun.com/products/14579">
 		<figure markdown>
@@ -694,16 +693,15 @@ To get started, users will need a few items. Now some users may already have a f
 		**Solder Lead Free - 100-gram Spool**<br>
 		TOL-09325</a>
 
-	-   <a href="https://www.sparkfun.com/products/14228">
+	-   <a href="https://www.sparkfun.com/products/22265">
 		<figure markdown>
-		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/2/1/7/3/14228-01.jpg)
+		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/2/2/0/2/TOL-22265-Beginner-Tool-Kit-Feature.jpg)
 		</figure>
 
 		---
-		
-		**Weller WLC100 Soldering Station**<br>
-		TOL-14228</a>
 
+		**SparkFun Beginner Tool Kit**<br>
+		TOL-22265</a>
 
 	-   <a href="https://www.sparkfun.com/products/14579">
 		<figure markdown>
@@ -714,7 +712,6 @@ To get started, users will need a few items. Now some users may already have a f
 
 		**Chip Quik No-Clean Flux Pen - 10mL**<br>
 		TOL-14579</a>
-
 
 	-   <a href="https://www.sparkfun.com/products/9200">
 		<figure markdown>
