@@ -9,7 +9,7 @@ icon: septentrio-logo
 		??? info "ESD Precaution"
 			As recommended by the manufacturer, we highly recommend that users take the necessary precautions to avoid damaging their module.
 
-			<div class="grid cards col-2" markdown>
+			<div class="grid cards" markdown>
 
 			- <center>
 				<article class="video_cards">
@@ -82,7 +82,7 @@ For example, the hostname of the module shown below is mosaic-X5-3054938.
 !!! info "Latest Firmware"
 	For the latest firmware released by Septentrio, please visit their [product page](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5#resources) for the mosaic-X5 module.
 
-<div class="grid cards col-2" markdown>
+<div class="grid cards" markdown>
 
 -   To check for the latest firmware published by Septentrio, please visit their [product page](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5#resources) for the mosaic-X5 module. Users can click on the button below, to be redirected to the latest firmware for the mosaic-X5.
 

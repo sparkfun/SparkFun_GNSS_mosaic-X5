@@ -9,7 +9,7 @@ icon: material/book-open-page-variant
 		??? info "ESD Precaution"
 			As recommended by the manufacturer, we highly recommend that users take the necessary precautions to avoid damaging their module.
 
-			<div class="grid cards col-2" markdown>
+			<div class="grid cards" markdown>
 
 			- <center>
 				<article class="video_cards">
@@ -77,7 +77,7 @@ icon: material/book-open-page-variant
 		??? info "ESD Precaution"
 			As recommended by the manufacturer, we highly recommend that users take the necessary precautions to avoid damaging their module.
 
-			<div class="grid cards col-2" markdown>
+			<div class="grid cards" markdown>
 
 			- <center>
 				<article class="video_cards">
@@ -282,7 +282,7 @@ To get started, users will need a few items. Now some users may already have a f
 3. For the best performance, use a compatible L1/L2/L5 GNSS antenna.
 
 
-<div class="grid cards col-4" markdown>
+<div class="grid cards" markdown>
 
 -   <a href="https://www.sparkfun.com/products/14743">
 	<figure markdown>
@@ -340,7 +340,7 @@ To get started, users will need a few items. Now some users may already have a f
 !!! danger "ESD Protection"
 	The Septentrio mosaic-X5 module is sensitive to [ESD](https://en.wikipedia.org/wiki/Electrostatic_discharge "Electrostatic Discharge"). Use a proper grounding system to make sure that the working surface and the components are at the same electric potential.
 
-	<div class="grid cards col-2" markdown>
+	<div class="grid cards" markdown>
 
 	- <center>
 		<article class="video_cards">
@@ -370,7 +370,7 @@ To get started, users will need a few items. Now some users may already have a f
 
 	=== "L5 Antennas"
 	
-		<div class="grid cards col-4" markdown>
+		<div class="grid cards" markdown>
 
 		-   <a href="https://www.sparkfun.com/products/21801">
 			<figure markdown>
@@ -385,7 +385,7 @@ To get started, users will need a few items. Now some users may already have a f
 			??? info "Adapter Cable"
 				For our TNC antennas, users will need a TNC to SMA adapter cable.
 		
-				<div class="grid cards col-3" markdown>
+				<div class="grid cards" markdown>
 		
 				-   <a href="https://www.sparkfun.com/products/17833">
 					<figure markdown>
@@ -463,7 +463,7 @@ To get started, users will need a few items. Now some users may already have a f
 
 	=== "Mounting Hardware"
 
-		<div class="grid cards col-4" markdown>
+		<div class="grid cards" markdown>
 
 		-   <a href="https://www.sparkfun.com/products/21257">
 			<figure markdown>
@@ -510,7 +510,7 @@ To get started, users will need a few items. Now some users may already have a f
 ??? note "Data Logging"
 	The Septentrio mosaic-X5 module is capable of logging data to an &micro;SD card. Please check out the [memory cards and accessories](https://www.sparkfun.com/categories/351) in our product catalog.
 
-	<div class="grid cards col-4" markdown>
+	<div class="grid cards" markdown>
 
 	-   <a href="https://www.sparkfun.com/products/15107">
 		<figure markdown>
@@ -537,7 +537,7 @@ To get started, users will need a few items. Now some users may already have a f
 ??? note "JST Cable & Transceivers"
 	In remote applications, users may need to utilize one of our radio transceivers for RTK correction data. Users may also find our breadboard cable convenient for connecting your module to a development board.
 
-	<div class="grid cards col-2" markdown>
+	<div class="grid cards" markdown>
 
 	-   <a href="https://www.sparkfun.com/products/19032">
 		<figure markdown>
@@ -590,7 +590,7 @@ To get started, users will need a few items. Now some users may already have a f
 	!!! tip "New to soldering?"
 		Check out our [How to Solder: Through-Hole Soldering](https://learn.sparkfun.com/tutorials/5) tutorial for a quick introduction!
 
-		<div class="grid cards col-4" markdown align="center">
+		<div class="grid cards" markdown align="center">
 
 		-   <a href="https://learn.sparkfun.com/tutorials/5">
 			<figure markdown>
@@ -604,7 +604,7 @@ To get started, users will need a few items. Now some users may already have a f
 		</div>
 
 
-	<div class="grid cards col-4" markdown>
+	<div class="grid cards" markdown>
 
 	-   <a href="https://www.sparkfun.com/products/9325">
 		<figure markdown>
@@ -667,7 +667,7 @@ To get started, users will need a few items. Now some users may already have a f
 	!!! tip "New to jumper pads?"
 		Check out our [Jumper Pads and PCB Traces Tutorial](https://learn.sparkfun.com/tutorials/664) for a quick introduction!
 
-		<div class="grid cards col-4" markdown align="center">
+		<div class="grid cards" markdown align="center">
 
 		-   <a href="https://learn.sparkfun.com/tutorials/664">
 			<figure markdown>
@@ -681,7 +681,7 @@ To get started, users will need a few items. Now some users may already have a f
 		</div>
 
 
-	<div class="grid cards col-4" markdown>
+	<div class="grid cards" markdown>
 
 	-   <a href="https://www.sparkfun.com/products/9325">
 		<figure markdown>
@@ -736,7 +736,7 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	Check out the [www.gps.gov](https://www.gps.gov/) website to learn more about the U.S.-owned [Global Positioning System (GPS)](https://www.gps.gov/systems/gps/) and the [Global Navigation Satellite Systems (GNSS) of other countries](https://www.gps.gov/systems/gnss/).
 
 
-<div class="grid cards col-4" markdown align="center">
+<div class="grid cards" markdown align="center">
 
 -   <a href="https://learn.sparkfun.com/tutorials/9">
 	<figure markdown>
@@ -815,7 +815,7 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 ??? info "Related Blog Posts"
 	Additionally, users may be interested in these blog post articles on GNSS technologies:
 
-	<div class="grid cards col-4" markdown align="center">
+	<div class="grid cards" markdown align="center">
 
 	-   <a href="https://www.sparkfun.com/news/4276">
 		<figure markdown>

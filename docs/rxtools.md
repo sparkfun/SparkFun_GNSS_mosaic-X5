@@ -9,7 +9,7 @@ icon: septentrio-logo
 		??? info "ESD Precaution"
 			As recommended by the manufacturer, we highly recommend that users take the necessary precautions to avoid damaging their module.
 
-			<div class="grid cards col-2" markdown>
+			<div class="grid cards" markdown>
 
 			- <center>
 				<article class="video_cards">

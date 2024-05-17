@@ -9,7 +9,7 @@ icon: material/tools
 		??? info "ESD Precaution"
 			As recommended by the manufacturer, we highly recommend that users take the necessary precautions to avoid damaging their module.
 
-			<div class="grid cards col-2" markdown>
+			<div class="grid cards" markdown>
 
 			- <center>
 				<article class="video_cards">
@@ -82,7 +82,7 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 	### Radio Transceivers
 	In most circumstances, users will utilize the JST connector to interface with one of our radio transceivers for RTK correction data:
 
-	<div class="grid cards col-2" markdown>
+	<div class="grid cards" markdown>
 
 	-   <a href="https://www.sparkfun.com/products/19032">
 		<figure markdown>
@@ -231,7 +231,7 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 		Users have several options for wiring up these two products. Without creating a custom cable assembly, we recommend utilizing our [breadboard cable](https://www.sparkfun.com/products/23353) along with any [breadboard](https://www.sparkfun.com/categories/302) or [F/F jumper wires](https://www.sparkfun.com/products/8430).
 
 
-		<div class="grid cards col-2" markdown>
+		<div class="grid cards" markdown>
 	
 		-   <a href="https://www.sparkfun.com/products/23353">
 			<figure markdown>
@@ -472,7 +472,7 @@ The [PTH](https://en.wikipedia.org/wiki/Through-hole_technology "Plated Through 
 ??? note "New to soldering?"
 	If you have never soldered before or need a quick refresher, check out our [How to Solder: Through-Hole Soldering](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering) guide.
 
-	<div class="grid cards col-4" markdown align="center">
+	<div class="grid cards" markdown align="center">
 
 	-   <a href="https://learn.sparkfun.com/tutorials/5">
 		<figure markdown>

@@ -9,7 +9,7 @@ icon: material/cog
 		??? info "ESD Precaution"
 			As recommended by the manufacturer, we highly recommend that users take the necessary precautions to avoid damaging their module.
 
-			<div class="grid cards col-2" markdown>
+			<div class="grid cards" markdown>
 
 			- <center>
 				<article class="video_cards">
@@ -350,7 +350,7 @@ The accuracy of the position reported from the mosaic-X5 module, can be improved
 ??? info "RTK Corrections"
 	To understand how RTK works, users will need a more fundamental understanding of the signal error sources.
 
-	<div class="grid cards col-2" markdown align="center">
+	<div class="grid cards" markdown align="center">
 
 	-   <a href="https://www.sparkfun.com/news/7533">
 		<figure markdown>
@@ -828,7 +828,7 @@ The ++"LOG"++ button allows users easily control the data logging feature and th
 ??? note "Never modified a jumper before?"
 	Check out our <a href="https://learn.sparkfun.com/tutorials/664">Jumper Pads and PCB Traces tutorial</a> for a quick introduction!
 
-	<div class="grid cards col-4" markdown align="center">
+	<div class="grid cards" markdown align="center">
 
 	-   <a href="https://learn.sparkfun.com/tutorials/664">
 		<figure markdown>
