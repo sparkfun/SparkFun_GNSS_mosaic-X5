@@ -64,6 +64,9 @@ theme:
     # Renders path for page navigation at the top of the page (makes page navigation more mobile friendly)
     - navigation.path
 
+    # Enables instant previews globally, for all internal links
+    - navigation.instant.preview
+
 
   # Adds light/dark theme to the webpage
   palette:
