@@ -288,19 +288,21 @@
 	background-color: var(--md-accent-fg-color) !important;
 }
 
-@media screen and (min-width: 76.25em) {
+/* Abbreviations - Still causes issues */
+/* @media screen and (min-width: 76.25em) {
 	h1, h2, h3, h4, h5, h6 {
 		display: flex;
 		align-items: center;
 		flex-direction: row;
-	}
 
-  /* Sets icon location to left of header */
-	/* .headerlink {
-		order: -1;
-		margin-left: calc(var(--permalink-size) * -1 - var(--permalink-spacing)) !important;
-	} */
-}
+		Fixes word spacing of an abbreviation
+		column-gap: 0.2em;
+
+		Fixes vertical line spacing on an abbreviation
+		position: relative;
+		padding-bottom: 0.3em;
+	}
+} */
 
 
 
@@ -451,14 +453,7 @@
 /* Parameters for PDF Rendering                                                       */
 /* ================================================================================== */
 
-/* Hides elemments with <class="pdf">, <class="qr">, or <class="tinyqr"> on webpage (used for the generated PDF) */
-* + .pdf {
-  display: none;
-}
-
-.pdf {
-  display: none;
-}
+/* Hides elemments with <class="qr"> or <class="tinyqr"> on webpage (used for the generated PDF) */
 
 .md-typeset *.qr {
   display: none;
@@ -467,15 +462,9 @@
   display: none;
 }
 
-.md-typeset ul.pdf {
-  display: none;
-}
-
 @media print {
-  /* Shows elements with <class="pdf">, <class="qr">, or <class="tinyqr"> on webpage (used for the generated PDF) */
-  * + .pdf {
-    display: contents;
-  }
+  /* Shows elements with <class="qr"> or <class="tinyqr"> on webpage (used for the generated PDF) */
+
   .md-typeset *.qr {
     display: inline-flex;
     align-items: center;
@@ -487,32 +476,8 @@
     width: 40px;
   }
 
-  .grid.cards.hide {
-    display: none;
-  }
-
-  /* Removes borders on tables with <class="pdf"> */
-  table + .pdf {
-    border-style:none;
-  }
-
-  /* Limits images size in table */
-  .pdf img {
-    width: 100%;
-    max-width: 200px;
-  }
-
-  .md-typeset ul.pdf {
-    display: flow-root;
-  }
-
   /* Sets table to 100% of page width */
   .md-typeset table:not([class]) {
-    width: 100%;
-    display: table;
-    table-layout: fixed;
-  }
-  .md-typeset table.pdf {
     width: 100%;
     display: table;
     table-layout: fixed;
@@ -521,6 +486,7 @@
   /* Sets images size in tables */
   .md-typeset table:not([class]) td img {
     width: 100%;
+    max-width: 150px;
     max-height: 150px;
   }
 
@@ -552,52 +518,42 @@
   /* Column Spacing =================================================================== */
 
   /* Two Column Setting */
-  .md-typeset .grid.grid.cards.col-2 {
+  /* .md-typeset .grid.grid.cards.col-2 {
 	  grid-template-columns: repeat(auto-fit,minmax(16rem,1fr));
-  }
+  } */
 
   /* Three Column Setting */
-  .md-typeset .grid.grid.cards.col-3 {
+  /* .md-typeset .grid.grid.cards.col-3 {
 	  grid-template-columns: repeat(auto-fit,minmax(12rem,1fr));
-  }
+  } */
 
   /* Four Column Setting */
-  .md-typeset .grid.grid.cards.col-4 {
+  /* .md-typeset .grid.grid.cards.col-4 {
 	  grid-template-columns: repeat(auto-fit,minmax(8rem,1fr));
-  }
-
-  /* Sets grid card width (not working)
-  Works for File > Print function, but not valid for PDF generator due to issue with Weazy
-  * Refer to https://github.com/Kozea/WeasyPrint/issues/543
-  .md-typeset .grid {
-	display: grid;
-	grid-template-columns: repeat(4, 25%);
   } */
-  /* Shrinks card width to 25% and font to 8px (kind of works for PDF generator, but doesn't create columns)
-  .md-typeset :is(.cards) {
-	width: 25%;
-	font-size: 8px;
-  } */
-  
   
   /* Sets maximum image size */
   .md-typeset img {
-    max-width:  200px;
-    max-height: 200px;
+    max-width:  350px;
+    max-height: 500px;
   }
+
+
+
   /* Fixes positioning of admonition icon */
-  .md-typeset :is(.admonition-title,summary):before {
+  /* .md-typeset :is(.admonition-title,summary):before {
     top: 0.6rem;
     left: 0.6rem; 
-  }
+  } */
   /* Fixes appearance of admonition icon */
-  .md-typeset :is(.admonition,details)>:last-child {
+  /* .md-typeset :is(.admonition,details)>:last-child {
 	  background-color: transparent; 
-  }
+  } */
+
   /* Fixes margin spacing for lists */
-  .md-typeset ol,ul {
+  /* .md-typeset ol,ul {
 	  margin-left: 1.5rem;
-  }
+  } */
 
   /* Adjusts page break for PDF generator */
   article h2,h3,h4,h5,h6,ol,ul {
@@ -611,26 +567,26 @@
   }
 
   /* Displays first tab (workaround to rendering issue) */
-  * + .tabbed-content {
+  /* * + .tabbed-content {
     display: contents;
   }
   * + .tabbed-content .tabbed-block {
     display: contents;
     page-break-after: always;
-  }
+  } */
 
   /* Prevents page break when tabs are embedded in an admonition*/
-  article details.note {
+  /* article details.note {
     display: inline-block;
-    overflow: hidden;
+    overflow: hidden; */
     /* Hardcode max height to match code block size, when tabbed (need to find better alternative) */
-    max-height: 138mm;
-  }
+    /* max-height: 138mm;
+  } */
 
   /* Limits size of code blocks in admonitions (workaround to rendering issue) */
-  .md-typeset :is(pre, code) {
+  /* .md-typeset :is(pre, code) {
     display: inline-flexbox;
     max-height: 120mm;
     overflow: hidden;
-  }
+  } */
 }
