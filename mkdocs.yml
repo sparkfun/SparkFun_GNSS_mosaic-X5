@@ -345,7 +345,6 @@ nav:
       - Overview: software_overview.md
       - RxTools: rxtools.md
       - Web Interface: web_interface.md
-      # - PixHawk: pixhawk.md
   - Resources:
     - Hardware Resources: resources.md
     # - Background Information: background.md
