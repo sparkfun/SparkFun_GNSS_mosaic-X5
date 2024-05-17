@@ -36,6 +36,8 @@ Septentrio also provides great resources for the mossaic-X5 GNSS receiver module
 		* [Insights](https://www.septentrio.com/en/learn-more/insights) *(Case Studies and Technical Articles)*
 		* [Community](https://www.septentrio.com/en/learn-more/community)
 		* [Agnostic Corrections Program](https://www.septentrio.com/en/products/correction-services/precise-point-positioning-services-land/agnostic-corrections-program-gnss-correction-services)
+* [JammerTest 2023 - Anti-Jamming and Anti-Spoofing Performance](https://www.septentrio.com/en/learn-more/insights/most-resilient-gnss-receiver-results-jammertest-norway)
+
 
 
 <center>
