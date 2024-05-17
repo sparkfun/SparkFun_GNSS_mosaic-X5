@@ -304,21 +304,6 @@
 
 
 
-
-/* ================================================================================== */
-/* Introduction                                                                       */
-/* ================================================================================== */
-
-/* Sets table width for introduction */
-.md-typeset table.desc {
-  width: 100%;
-  display: table;
-}
-.md-typeset table.desc label{
-  font-size: .85rem;
-}
-
-
 /* ================================================================================== */
 /* Grid Cards                                                                     */
 /* ================================================================================== */
@@ -353,6 +338,19 @@
 /* Aspect ratio: height = 56.25% of width */
 /* 90vw = 90% of (viewport width) */
 
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .video {
   position: relative;
   width: 100%;
@@ -366,34 +364,38 @@
   overflow: hidden;
 }
 
-/* Product Description */
-/* ================================================================================== */
-/* Smaller Card w/ Product Image */
-.video_desc {
+.video-500px {
   position: relative;
-  width: 100%;
+  padding-bottom: min(281.25px, 56.25%); /* 16:9 */
+  height: 0;
+	max-width: 500px;
+	max-height: 281.25px;
 }
-.video_desc iframe {
-  position: relative;
+.video-500px iframe {
+  position: absolute;
   top: 0;
-  width: 16vw;
-  height: 9vw;
-  border: 0;
-  overflow: hidden;
-}
-/* Larger Card w/ Product Description */
-.video_desc2 {
-  position: relative;
+  left: 0;
   width: 100%;
+  height: 100%;
+	overflow: hidden;
 }
-.video_desc2 iframe {
+
+.video-300px {
   position: relative;
-  top: 0;
-  width: 30vw;
-  height: 16.875vw;
-  border: 0;
-  overflow: hidden;
+  padding-bottom: min(168.75px, 56.25%); /* 16:9 */
+  height: 0;
+	max-width: 300px;
+	max-height: 168.75px;
 }
+.video-300px iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+	overflow: hidden;
+}
+
 
 /* Grid Cards */
 /* ================================================================================== */
@@ -416,21 +418,6 @@
 
 /* Double ToC */
 /* ================================================================================== */
-@media (max-width: 1220px) {
-  .video_desc iframe {
-    width: 16vw;
-    height: 9vw;
-    min-width: 200px;
-    min-height: 112.5px;
-  }
-  .video_cards iframe {
-    width: 16vw;
-    height: 9vw;
-    min-width: 200px;
-    min-height: 112.5px;
-  }
-}
-
 @media (min-width: 1220px) {
   .video iframe {
     width: 50vw;
@@ -448,12 +435,6 @@
 /* Single ToC */
 /* ================================================================================== */
 @media (max-width: 960px) {
-  .video_desc iframe {
-    width: 20vw;
-    height: 11.25vw;
-    min-width: 200px;
-    min-height: 112.5px;
-  }
   .video_cards iframe {
     width: 20vw;
     height: 11.25vw;
@@ -464,16 +445,7 @@
 
 /* No ToC */
 /* ================================================================================== */
-@media (max-width: 750px) {
-  .video_desc iframe {
-    width: 60vw;
-    height: 33.75vw;
-  }
-  .video_desc2 iframe {
-    width: 60vw;
-    height: 33.75vw;
-  }
-}
+
 @media (max-width: 696px) {
   .video_cards iframe {
     width: 60vw;
@@ -689,13 +661,6 @@
     display: none;
   }
 
-  .video_desc iframe {
-    display: none;
-  }
-
-  .video_desc2 iframe {
-    display: none;
-  }
 
   /* ================================================================================== */
   /* Grid Cards                                                                         */

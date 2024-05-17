@@ -11,11 +11,15 @@ icon: material/book-open-page-variant
 
 			<div class="grid cards" markdown>
 
-			- <center>
-				<article class="video_cards">
-				<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</article>
-				</center>
+			<div markdown>
+
+			<center>
+			<article class="video-500px">
+			<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</article>
+			</center>
+
+			</div>
 
 			-   - The Tri-band GNSS RTK breakout board features ESD protection on the USB-C connector and breakout's I/O:
 
@@ -48,7 +52,7 @@ icon: material/book-open-page-variant
 	</figure></a>
 
 	<center>
-	<article class="video_desc">
+	<article class="video-500px">
 	<iframe src="https://www.youtube.com/embed/TSkIvtaVZc0" title="Product Showcase: SparkFun Tri-band GNSS RTK Breakout - mosaic-X5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</article>
 	![QR code to play video](./assets/img/qr_code/product_video.png){ .qr }
@@ -79,11 +83,15 @@ icon: material/book-open-page-variant
 
 			<div class="grid cards" markdown>
 
-			- <center>
-				<article class="video_cards">
-				<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</article>
-				</center>
+			<div markdown>
+
+			<center>
+			<article class="video-500px">
+			<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</article>
+			</center>
+
+			</div>
 
 			-   - The Tri-band GNSS RTK breakout board features ESD protection on the USB-C connector and breakout's I/O:
 
@@ -342,14 +350,18 @@ To get started, users will need a few items. Now some users may already have a f
 
 	<div class="grid cards" markdown>
 
-	- <center>
-		<article class="video_cards">
-		<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</article>
-		</center>
+	<div markdown>
 
-		!!! warning
-			As recommended by the manufacturer, we highly recommend that users take the necessary precautions to avoid damaging their module.
+	<center>
+	<article class="video-300px">
+	<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</article>
+	</center>
+
+	!!! warning
+		As recommended by the manufacturer, we highly recommend that users take the necessary precautions to avoid damaging their module.
+
+	</div>
 
 
 	-   <a href="https://www.sparkfun.com/products/15255">

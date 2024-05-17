@@ -11,11 +11,15 @@ icon: material/cog
 
 			<div class="grid cards" markdown>
 
-			- <center>
-				<article class="video_cards">
-				<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</article>
-				</center>
+			<div markdown>
+
+			<center>
+			<article class="video-500px">
+			<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</article>
+			</center>
+
+			</div>
 
 			-   - The Tri-band GNSS RTK breakout board features ESD protection on the USB-C connector and breakout's I/O:
 
@@ -59,7 +63,7 @@ The board dimensions are illustrated in the drawing below; the listed measuremen
 		This video from Autodesk demonstrates how to utilize the dimensions tool in Eagle, to include additional measurements:
 
 		<center>
-		<div class="video">
+		<div class="video-500px">
 		<iframe src="https://www.youtube.com/embed/dZLNd1FtNB8" title="EAGLE Dimension Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 		![QR code to play video](./assets/img/qr_code/dimension_tool.png){ .qr }
@@ -212,11 +216,15 @@ The centerpiece of the Tri-band GNSS RTK breakout board, is the [mosaic-X5 modul
 
 <div class="grid cards" markdown>
 
--   <center>
-	<article class="video_cards">
-	<iframe src="https://www.youtube.com/embed/Co8hrVeklAA" title="Septentrio: Mosaic - GNSS / GPS module receiver range" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</article>
-	</center>
+<div markdown>
+
+<center>
+<article class="video-500px">
+<iframe src="https://www.youtube.com/embed/Co8hrVeklAA" title="Septentrio: Mosaic - GNSS / GPS module receiver range" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</article>
+</center>
+
+</div>
 
 -   <figure markdown>
 	[![mosaic-X5 module](./assets/img/hookup_guide/mosaic-X5.jpg){ width="400" }](./assets/img/hookup_guide/mosaic-X5.jpg "Click to enlarge")
