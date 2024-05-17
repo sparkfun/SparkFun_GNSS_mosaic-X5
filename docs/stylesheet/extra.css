@@ -351,7 +351,7 @@
   height: 100%;
 }
 
-.video {
+/* .video {
   position: relative;
   width: 100%;
 }
@@ -362,7 +362,7 @@
   height: 33.75vw;
   border: 0;
   overflow: hidden;
-}
+} */
 
 .video-500px {
   position: relative;
@@ -396,48 +396,42 @@
 	overflow: hidden;
 }
 
-
-/* Grid Cards */
-/* ================================================================================== */
-.video_cards {
-  position: relative;
-  width: 100%;
-}
-.video_cards iframe {
-  position: relative;
-  top: 0;
-  width: 16vw;
-  height: 9vw;
-  border: 0;
-  overflow: hidden;
-}
-
 /* Add compatibility for mobile devices */
 /* ================================================================================== */
 /* ================================================================================== */
 
 /* Double ToC */
 /* ================================================================================== */
+
+@media (max-width: 1219px) {
+  .video-container iframe {
+    /* width: 16vw;
+    height: 9vw; */
+    min-width: 200px;
+    min-height: 112.5px;
+  }
+}
+
 @media (min-width: 1220px) {
-  .video iframe {
-    width: 50vw;
-    height: 28.125vw;
+  .video-container iframe {
+    max-width: 50vw;
+    max-height: 28.125vw;
   }
 }
 
 @media (min-width:1600px) {
-  .video iframe {
-    width: 60vw;
-    height: 33.75vw;
+  .video-container iframe {
+    max-width: 60vw;
+    max-height: 33.75vw;
   }
 }
 
 /* Single ToC */
 /* ================================================================================== */
 @media (max-width: 960px) {
-  .video_cards iframe {
-    width: 20vw;
-    height: 11.25vw;
+  .video-container iframe {
+    /* width: 20vw;
+    height: 11.25vw; */
     min-width: 200px;
     min-height: 112.5px;
   }
@@ -445,134 +439,12 @@
 
 /* No ToC */
 /* ================================================================================== */
-
-@media (max-width: 696px) {
-  .video_cards iframe {
+@media (max-width: 750px) {
+  .video-container iframe {
     width: 60vw;
     height: 33.75vw;
   }
 }
-
-
-
-
-/* .video iframe {
-  position: relative;
-  top: 0;
-  width: 90vh;
-  height: 47vw;
-  border: 0;
-  overflow: hidden;
-}
-
-.video_desc {
-  position: relative;
-  width: 100%;
-}
-.video_desc iframe {
-  position: relative;
-  top: 0;
-  width: 90vh;
-  height: 47vw;
-  border: 0;
-  overflow: hidden;
-}
-
-.video_desc2 {
-  position: relative;
-  width: 100%;
-}
-.video_desc2 iframe {
-  position: relative;
-  top: 0;
-  width: 90vh;
-  height: 47vw;
-  border: 0;
-  overflow: hidden;
-} */
-
-/* No ToC */
-/* ================================================================================== */
-/* Container/Article boarder: width = 1.6rem */
-/* @media (max-width: 960px) {
-  .video iframe {
-    width: 90vh;
-    height: calc( (100vw - 1.6rem) * 0.9 * 0.5625);
-  }
-} */
-
-/* Grid Ratio: 1:1 */
-/* Container/Article boarder: width = 1.6rem */
-/* Grid element border: width = 1.6rem */
-/* @media (max-width: 750px) {
-  .video_desc iframe {
-    height: calc( ( (100vw - 1.6rem) - 1.6rem) * 0.5625);
-  }
-} */
-
-/* Grid Ratio: 35/65 */
-/* Container/Article border: width = 1.6rem */
-/* Grid gap: width = 0.4rem */
-/* Grid element border: width = 1.6rem */
-/* @media (min-width: 751px) {
-  .video_desc iframe {
-    height: calc( ( ( (100vw - 2rem) * 0.35) - 1.6rem) * 0.5625);
-  }
-  .video_desc2 iframe {
-    height: calc( ( ( (100vw - 2rem) * 0.65) - 1.6rem) * 0.5625);
-  }
-} */
-
-
-/* Single ToC */
-/* ================================================================================== */
-/* Navigation column: width = 12.1rem  */
-/* Container/Article border: width = 1.6rem */
-/* Grid gap: width = 0.4rem */
-/* Grid element border: width = 1.6rem */
-
-    /* height: 12.7vw; */
-/* @media (min-width: 960px) {
-  .video iframe {
-    width: 90vh;
-    height: calc( ( (100vw - 12.1rem) - 2rem) * 0.9 * 0.5625);
-    max-height: 458.66px;
-  } */
-  /* Grid: 35/65 */
-  /* .video_desc iframe {
-    height: calc( ( (100vw - 12.1rem - 2rem) * 0.35 - 1.6rem) * 0.5625);
-  }
-  .video_desc2 iframe {
-    height: calc( ( (100vw - 12.1rem - 2rem) * 0.65 - 1.6rem) * 0.5625);
-  }
-} */
-
-
-/* Double ToC */
-/* ================================================================================== */
-/* Navigation columns: width = 12.1rem */
-/* Container/Article border: width = 1.6rem */
-/* Grid gap: width = 0.4rem */
-/* Grid element border: width = 1.6rem */
-
-/* @media (min-width: 1219px) {
-  .video iframe {
-    width: 90vh;
-    height: calc( ( (100vw - 12.1rem * 2) - 2rem) * 0.9 * 0.5625);
-    max-height: 458.66px;
-  } */
-  /* Grid: 35/65 */
-  /* .video_desc iframe {
-    width: 20vw;
-    height: calc( ( (100vw - 12.1rem * 2 - 2rem) * 0.35 - 1.6rem) * 0.5625);
-    max-height: 458.66px;
-  }
-  .video_desc2 iframe {
-    height: calc( ( (100vw - 12.1rem * 2 - 2rem) * 0.65 - 1.6rem) * 0.5625);
-    max-height: 458.66px;
-  }
-} */
-
 
 
 /* ================================================================================== */
@@ -657,10 +529,21 @@
   /* YoutTube Videos                                                                    */
   /* ================================================================================== */
 
-  .video iframe {
+  .video-container iframe {
     display: none;
   }
 
+  /* .video iframe {
+    display: none;
+  } */
+
+  .video-500px iframe {
+    display: none;
+  }
+
+  .video-300px iframe {
+    display: none;
+  }
 
   /* ================================================================================== */
   /* Grid Cards                                                                         */
