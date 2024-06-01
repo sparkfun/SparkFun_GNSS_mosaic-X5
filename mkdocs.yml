@@ -15,12 +15,11 @@ copyright:
 edit_uri: blob/main/docs/
 
 
-
 # Configuration for webpage theme
 theme:
   # Theme: https://squidfunk.github.io/mkdocs-material/
   name: material
-
+  custom_dir: overrides # Personalized changes to the theme
 
   # Icon in Browser Tab (must be square img - i.e. 32x32 pixels)
   favicon: assets/img/sfe-logo.png
@@ -29,7 +28,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  
+
 
   # Features to Include (ref. theme documentation)
   features:
@@ -42,6 +41,7 @@ theme:
     # Enable "view source" and "edit this page" buttons
     - content.action.edit
     # - content.action.view
+    - content.tooltips
 
     # Enable Navigation buttons in the footer (i.e. previous/next)
     - navigation.footer
@@ -55,7 +55,7 @@ theme:
 
     # Keeps tabs visible in the header when scrolling
     - navigation.tabs.sticky
-    
+
     # Adds pop-up button just below the header (when the user starts to scroll up)
     # Allows users to easily jump to the beginning of the page
     - navigation.top
@@ -93,7 +93,7 @@ theme:
       scheme: slate
       toggle:
         icon: material/weather-night
-        name: Switch to light mode    
+        name: Switch to light mode
 
 
   # Configures icons
@@ -103,7 +103,7 @@ theme:
 
     # Sets repo icon to GitHub icon
     repo: fontawesome/brands/github
-    
+
     # Sets icons for "view source" (commented out) and "edit this page" buttons
     edit: material/file-document-edit-outline
     # view: material/file-code-outline
@@ -134,11 +134,6 @@ theme:
       link: octicons/link-16
 
 
-  # Adds overrides for icons, html, etc.
-  custom_dir: overrides
-
-
-
 # Included MkDocs plugins
 # Add the installation of any new plugins to the ./github/workflows/mkdocs.yml file also
 plugins:
@@ -153,22 +148,6 @@ plugins:
       redirect_maps:
         'index.md': 'introduction.md'
 
-  # Add revision date
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: timeago
-
-  # Add git committers at bottom of the page
-  - git-committers:
-      repository: sparkfun/SparkFun_GNSS_mosaic-X5
-      branch: main
-
-  # Add git authors at bottom of the page
-  - git-authors
-  
-  # Enables use of Git submodules and larger code base
-  - monorepo
-  
   # Enables improved security for external links
   - privacy:
       # Disables cache mechanism, so that external assets can be updated during rebuilds
@@ -181,7 +160,7 @@ plugins:
       # Provide domains for assets that are retrieved from external sites
       assets_include:
         - https://docs.sparkfun.com/*
-      
+
       # External links open in a new tab
       links_attr_map:
         target: _blank
@@ -207,18 +186,35 @@ plugins:
       # print_gain_summary: true
 
 
+  # Add revision date
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+
+  # Add git committers at bottom of the page
+  - git-committers:
+      repository: sparkfun/SparkFun_GNSS_mosaic-X5
+      branch: main
+
+  # Add git authors at bottom of the page
+  - git-authors
+
+  # Enables use of Git submodules and larger code base
+  - monorepo
+
+
 # Included Markdown extensions
 markdown_extensions:
   # Adds support for syntax highlighting of code blocks
   - pymdownx.highlight:
       anchor_linenums: true
-  
+
   # Adds support for syntax highlighting of inline code blocks
   - pymdownx.inlinehilite
 
   # Adds the ability to embed content from arbitrary files
   - pymdownx.snippets:
-      # base_path: ['./docs']
+      base_path: ['.', './docs']
       url_download: true
       url_max_size: 0
       url_timeout: 0
@@ -226,11 +222,13 @@ markdown_extensions:
       dedent_subsections: True
   
   # Allows embedding of code blocks in other elements
-  - pymdownx.superfences
-  
-  # Allows admonition extension to collapse the call-out boxes
-  - pymdownx.details
-  
+  - pymdownx.superfences:
+      # Allows the use of diagrams
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
   # Allows the use of tabs in the document
   - pymdownx.tabbed:
       alternate_style: true 
@@ -241,32 +239,35 @@ markdown_extensions:
   # Allows the use of Markup syntax
   - pymdownx.betterem:
       smart_enable: all
-  
+
   # Allows the use of in-text highlighting in Markdown syntax
   - pymdownx.mark
   - pymdownx.critic
-  
+
   # Allows the use of superscript/subscript formatting in Markdown syntax
   - pymdownx.caret
-  
+
   # Allows the use of strikeout formatting in Markdown syntax
   - pymdownx.tilde
-  
+
   # Allows the use of keyboard button formatting in Markdown syntax
   - pymdownx.keys
-  
+
   # Allows the use of tables in Markdown syntax
   - tables
-  
+
   # Allows the use of admonition/call-out boxes
   - admonition
-  
+
+  # Allows admonition extension to collapse the call-out boxes
+  - pymdownx.details
+
   # Allows the use of Markdown syntax in HTML elements
   - md_in_html
-  
+
   # Allows the use of HTML syntax in Markdown elements
   - attr_list
-  
+
   # Allows the use of definition list formatting in Markdown syntax
   - def_list
 
@@ -280,11 +281,11 @@ markdown_extensions:
       options:
         custom_icons:
           - overrides/.icons
-  
+
   #  Allows for rendering of block and inline block equations
   - pymdownx.arithmatex:
       generic: true
-  
+
   # Adds permalink icon to headers
   - toc:
       permalink: ''
@@ -333,8 +334,18 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 
-
 # Configures webpage navigation
+
+# Excludes README.md files from being built as webpages
+exclude_docs: |
+  README.md
+
+# Pages that are built, but not in the navigation tabs
+not_in_nav: |
+  index.md
+  print_view.md
+
+# Webpage navigation tabs
 nav:
   - Getting Started:
     - Introduction: introduction.md
