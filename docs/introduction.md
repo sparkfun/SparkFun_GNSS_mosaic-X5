@@ -9,6 +9,12 @@ icon: material/book-open-page-variant
 		??? info "ESD Precaution"
 			As recommended by the manufacturer, we highly recommend that users take the necessary precautions to avoid damaging their module.
 
+			- The Tri-band GNSS RTK breakout board features ESD protection on the USB-C connector and breakout's I/O:
+				- USB data lines
+				- I/O PTH pads
+				- JST connector's pins
+			- The mosaic-X5 module features internal ESD protection to the `ANT_1` antenna input.
+
 			<div class="grid cards" markdown>
 
 			<div markdown>
@@ -21,12 +27,15 @@ icon: material/book-open-page-variant
 
 			</div>
 
-			-   - The Tri-band GNSS RTK breakout board features ESD protection on the USB-C connector and breakout's I/O:
+			-   <a href="https://www.sparkfun.com/products/25572">
+				<figure markdown>
+				![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/6/1/2/7/TOL-25572-Anti-Static-Wrist-Strap-Feature.jpg)
+				</figure>		
 
-					- USB data lines
-					- I/O PTH pads
-					- JST connector's pins
-				- The mosaic-X5 module features internal ESD protection to the `ANT_1` antenna input.
+				---
+
+				**iFixit Anti-Static Wrist Strap**<br>
+				TOL-25572</a>
 
 			</div>
 
@@ -81,6 +90,13 @@ icon: material/book-open-page-variant
 		??? info "ESD Precaution"
 			As recommended by the manufacturer, we highly recommend that users take the necessary precautions to avoid damaging their module.
 
+			- The Tri-band GNSS RTK breakout board features ESD protection on the USB-C connector and breakout's I/O:
+				- USB data lines
+				- I/O PTH pads
+				- JST connector's pins
+			- The mosaic-X5 module features internal ESD protection to the `ANT_1` antenna input.
+
+
 			<div class="grid cards" markdown>
 
 			<div markdown>
@@ -93,12 +109,15 @@ icon: material/book-open-page-variant
 
 			</div>
 
-			-   - The Tri-band GNSS RTK breakout board features ESD protection on the USB-C connector and breakout's I/O:
+			-   <a href="https://www.sparkfun.com/products/25572">
+				<figure markdown>
+				![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/6/1/2/7/TOL-25572-Anti-Static-Wrist-Strap-Feature.jpg)
+				</figure>		
 
-					- USB data lines
-					- I/O PTH pads
-					- JST connector's pins
-				- The mosaic-X5 module features internal ESD protection to the `ANT_1` antenna input.
+				---
+
+				**iFixit Anti-Static Wrist Strap**<br>
+				TOL-25572</a>
 
 			</div>
 
@@ -364,15 +383,15 @@ To get started, users will need a few items. Now some users may already have a f
 	</div>
 
 
-	-   <a href="https://www.sparkfun.com/products/15255">
+	-   <a href="https://www.sparkfun.com/products/25572">
 		<figure markdown>
-		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/3/7/2/2/15255-iFixit_Pro_Tech_Toolkit-06.jpg)
+		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/6/1/2/7/TOL-25572-Anti-Static-Wrist-Strap-Feature.jpg)
 		</figure>		
 
 		---
 
-		**iFixit Pro Tech Toolkit**<br>
-		TOL-15255</a>
+		**iFixit Anti-Static Wrist Strap**<br>
+		TOL-25572</a>
 
 	</div>
 
