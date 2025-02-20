@@ -405,7 +405,7 @@ To get started, users will need a few items. Now some users may already have a f
 
 		-   <a href="https://www.sparkfun.com/products/21801">
 			<figure markdown>
-			![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/5/9/7/SparkFun_GNSS_SPK6618H_Triband_Antenna_-_2.jpg)
+			![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/5/9/7/SparkFun_GNSS_SPK6618H_Triband_Antenna_-_2-1.png)
 			</figure>		
 
 			---
