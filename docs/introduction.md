@@ -19,11 +19,11 @@ icon: material/book-open-page-variant
 
 			<div markdown>
 
-			<center>
+			<article style="text-align: center;" markdown>
 			<article class="video-500px">
 			<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</article>
-			</center>
+			</article>
 
 			</div>
 
@@ -60,7 +60,7 @@ icon: material/book-open-page-variant
 	![Product Thumbnail](https://cdn.sparkfun.com//assets/parts/2/3/3/1/6/23088_Mosaic_X5_Feature-_newQR_.jpg)
 	</figure></a>
 
-	<center>
+	<article style="text-align: center;" markdown>
 	<article class="video-500px">
 	<iframe src="https://www.youtube.com/embed/TSkIvtaVZc0" title="Product Showcase: SparkFun Tri-band GNSS RTK Breakout - mosaic-X5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</article>
@@ -68,7 +68,7 @@ icon: material/book-open-page-variant
 
 
 	[![QR code to product page](./assets/img/qr_code/product-low.png){ .tinyqr }&nbsp;&nbsp;Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/23088){ .md-button .md-button--primary }
-	</center>
+	</article>
 
 
 -   At the heart of the Triband GNSS RTK Breakout is [Septentrio](https://www.septentrio.com/en)'s mosaic-X5, their most compact, ultra-low power, multi-band, multi-constellation, high-precision GNSS receiver. The receiver supports the GPS (USA), GLONASS (Russia), Beidou (China), Galileo (Europe), and NavIC (India) constellations, including regional systems *(i.e. SBAS and QZSS)*. With its [**Real Time Kinematics**](https://learn.sparkfun.com/tutorials/813) (RTK) capabilities, the module can achieve a horizontal accuracy of 6mm (~0.25in), vertical accuracy of 1cm (~0.4in) using RTK, and timing precision of 5ns (5 billionths of a second). It also features Septentrio's unique [AIM+ technology](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-jamming-protection) for interference mitigation and anti-spoofing, ensuring best-in-class reliability and scalable position accuracy.
@@ -101,11 +101,11 @@ icon: material/book-open-page-variant
 
 			<div markdown>
 
-			<center>
+			<article style="text-align: center;" markdown>
 			<article class="video-500px">
 			<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</article>
-			</center>
+			</article>
 
 			</div>
 
@@ -371,11 +371,11 @@ To get started, users will need a few items. Now some users may already have a f
 
 	<div markdown>
 
-	<center>
+	<article style="text-align: center;" markdown>
 	<article class="video-300px">
 	<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</article>
-	</center>
+	</article>
 
 	!!! warning
 		As recommended by the manufacturer, we highly recommend that users take the necessary precautions to avoid damaging their module.

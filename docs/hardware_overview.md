@@ -20,11 +20,11 @@ icon: material/cog
 
 			<div markdown>
 
-			<center>
+			<article style="text-align: center;" markdown>
 			<article class="video-500px">
 			<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</article>
-			</center>
+			</article>
 
 			</div>
 
@@ -65,19 +65,19 @@ The board dimensions are illustrated in the drawing below; the listed measuremen
 	??? info ":octicons-download-16:{ .heart } Eagle - Free Download!"
 		Eagle is a [CAD]("computer-aided design") program for electronics that is free to use for hobbyists and students. However, it does require an account registration to utilize the software.
 
-		<center>
+		<article style="text-align: center;" markdown>
 		[Download from<br>:autodesk-primary:{ .autodesk }](https://www.autodesk.com/products/eagle/free-download "Go to downloads page"){ .md-button .md-button--primary width="250px" }
-		</center>
+		</article>
 	
 	??? info ":straight_ruler: Dimensions Tool"
 		This video from Autodesk demonstrates how to utilize the dimensions tool in Eagle, to include additional measurements:
 
-		<center>
+		<article style="text-align: center;" markdown>
 		<div class="video-500px">
 		<iframe src="https://www.youtube.com/embed/dZLNd1FtNB8" title="EAGLE Dimension Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 		![QR code to play video](./assets/img/qr_code/dimension_tool.png){ .qr }
-		</center>
+		</article>
 
 
 ## USB-C Connector
@@ -204,7 +204,7 @@ The mosaic-X5 module operates in three different power states.
 ### Power Consumption
 The power consumption of the mosaic-X5 module depends on the GNSS signals enabled and the positioning mode. The table below, lists the average power consumption for common configurations. The current listed, is based on a supply voltage of 3.3V.
 
-<center>
+<article style="text-align: center;" markdown>
 
 | GNSS Signals | Positioning Mode | Power (mW) | Current (mA) |
 | :----------- | :--------------- | :--------: | :----------: |
@@ -219,7 +219,7 @@ The power consumption of the mosaic-X5 module depends on the GNSS signals enable
 | All signals from all GNSS constellations +L-band | Static (100Hz) | 1080 | 327 |
 
 *Source: [mosaic-X5 Hardware Manual](./assets/component_documentation/mosaic_hardware_manual_v1.8.0.pdf)*
-</center>
+</article>
 
 ## :fontawesome-solid-microchip:&nbsp; mosaic-X5
 The centerpiece of the Tri-band GNSS RTK breakout board, is the [mosaic-X5 module](./assets/component_documentation/mosaic_hardware_manual_v1.8.0.pdf) from [Septentrio](https://www.septentrio.com/en). Their mosaic modules are low-power, multi-band, multi-constellation GNSS receivers capable of delivering centimeter-level precision at high update rates. The modules also feature Septentrio's unique [AIM+ technology](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-resilient-and-secure-gnss/gps-receivers) for interference mitigation and anti-spoofing, which ensures their best-in-class reliability and scalable position accuracy.
@@ -228,11 +228,11 @@ The centerpiece of the Tri-band GNSS RTK breakout board, is the [mosaic-X5 modul
 
 <div markdown>
 
-<center>
+<article style="text-align: center;" markdown>
 <article class="video-500px">
 <iframe src="https://www.youtube.com/embed/Co8hrVeklAA" title="Septentrio: Mosaic - GNSS / GPS module receiver range" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </article>
-</center>
+</article>
 
 </div>
 
@@ -279,7 +279,7 @@ The centerpiece of the Tri-band GNSS RTK breakout board, is the [mosaic-X5 modul
 * Timing Precision: 5ns
 * Position Accuracy
 
-	<center>
+	<article style="text-align: center;" markdown>
 
 	| Correction | Horizontal                             | Vertical                     |
 	| :--------- | :------------------------------------: | :--------------------------: |
@@ -288,7 +288,7 @@ The centerpiece of the Tri-band GNSS RTK breakout board, is the [mosaic-X5 modul
 	| SBAS       | 60cm<br>~2'                            | 80cm<br>~2.6'                |
 	| Standalone | 1.2m<br>~4'                            | 1.9m<br>~6.2'                |
 
-	</center>
+	</article>
 
 </div>
 
@@ -349,7 +349,7 @@ The accuracy of the position reported from the mosaic-X5 module, can be improved
 
 <div markdown>
 
-<center>
+<article style="text-align: center;" markdown>
 
 | Correction                                                                                    | Horizontal                             | Vertical                     |
 | :-------------------------------------------------------------------------------------------- | :------------------------------------: | :--------------------------: |
@@ -358,7 +358,7 @@ The accuracy of the position reported from the mosaic-X5 module, can be improved
 | [SBAS](https://en.wikipedia.org/wiki/GNSS_augmentation "Satellite-Based Augmentation System") | 60cm<br>~2'                            | 80cm<br>~2.6'                |
 | Standalone                                                                                    | 1.2m<br>~4'                            | 1.9m<br>~6.2'                |
 
-</center>
+</article>
 
 </div>
 
@@ -758,7 +758,7 @@ The &micro;SD card slot allows users easily log and store data on the board.
 ??? tip "`LOG` Status LED"
 	The SD card mount status is indicated on the `LOG` LED and`LOG_L` pin *(see the [**Status LEDs**](#status-leds) section)*.
 
-	<center>
+	<article style="text-align: center;" markdown>
 
 	| LED      | Pin    | Status                           |
 	|:-------: | :----: | :------------------------------- |
@@ -766,7 +766,7 @@ The &micro;SD card slot allows users easily log and store data on the board.
 	| On       | High   | SD card present and mounted      |
 	| Blinking | Pulses | Data logging activity            |
 
-	</center>
+	</article>
 
 
 ## Status LEDs
@@ -824,7 +824,7 @@ The ++"LOG"++ button allows users easily control the data logging feature and th
 ??? tip "SD Card Status"
 	The SD card mount status is indicated on the `LOG` LED and`LOG_L` pin *(see the [**Status LEDs**](#status-leds) section)*.
 
-	<center>
+	<article style="text-align: center;" markdown>
 
 	| LED      | Pin    | Status                           |
 	|:-------: | :----: | :------------------------------- |
@@ -832,7 +832,7 @@ The ++"LOG"++ button allows users easily control the data logging feature and th
 	| On       | High   | SD card present and mounted      |
 	| Blinking | Pulses | Data logging activity            |
 
-	</center>
+	</article>
 
 
 <figure markdown>

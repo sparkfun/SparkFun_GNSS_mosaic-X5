@@ -40,6 +40,6 @@ Septentrio also provides great resources for the mossaic-X5 GNSS receiver module
 
 
 
-<center>
+<article style="text-align: center;" markdown>
 ![QR code to the hookup guide](./assets/img/qr_code/hookup_guide.png){ .qr }
-</center>
+</article>

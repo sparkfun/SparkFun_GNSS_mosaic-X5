@@ -20,11 +20,11 @@ icon: material/tools
 
 			<div markdown>
 
-			<center>
+			<article style="text-align: center;" markdown>
 			<article class="video-500px">
 			<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</article>
-			</center>
+			</article>
 
 			</div>
 
@@ -123,7 +123,7 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 	??? warning "Pin Connections"
 		When connecting the Tri-band GNSS RTK breakout board to one of our radio transceivers, users need to be aware of the pin connections between the products; as their pin layout is mirrored on each connector. Although the labels on each device may vary, their pins will operate exactly the same; with the exception of the input voltage ranges.
 
-		<center>
+		<article style="text-align: center;" markdown>
 
 		<table border="1" markdown>
 		<tr>
@@ -190,7 +190,7 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 		</tr>
 		</table>
 
-		</center>
+		</article>
 
 		<!-- Markdown Table (Original)
 		| Pin Number | Label              | Function                        |
@@ -209,7 +209,7 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 
 		-   When connecting the Tri-band GNSS RTK breakout board to either of the radios, the pin connections should follow the table below. If the flow control is not enabled, the only the `RX`, `TX`, and `GND` pins are utilized.
 
-			<center>
+			<article style="text-align: center;" markdown>
 
 			<table markdown>
 			<tr>
@@ -230,7 +230,7 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 			</tr>
 			</table>
 
-			</center>
+			</article>
 
 		-   As documented in the [LoRaSerial product manual](https://docs.sparkfun.com/SparkFun_LoRaSerial), the pin connections between a host system *(i.e. Tri-band GNSS RTK breakout board)* and the LoRaSerial Kit radio is outlined in the image below.
  

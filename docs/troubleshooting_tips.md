@@ -5,9 +5,9 @@ icon: sfe-logo
 !!! warning "Need Help?"
 	If you need technical assistance or more information on a product that is not working as you expected, we recommend heading on over to the [SparkFun Technical Assistance](https://www.sparkfun.com/technical_assistanc) page for some initial troubleshooting.
 
-	<center>
+	<article style="text-align: center;" markdown>
 	[SparkFun Technical Assistance Page](https://www.sparkfun.com/technical_assistance){ .md-button .md-button--primary }
-	</center>
+	</article>
 	
 	If you can't find what you need there, the [SparkFun Forums](https://forum.sparkfun.com/index.php) is a great place to search product forums and ask questions.
 	
@@ -25,11 +25,11 @@ The mosaic-X5 module is sensitive to [ESD](https://en.wikipedia.org/wiki/Electro
 
 	<div markdown>
 
-	<center>
+	<article style="text-align: center;" markdown>
 	<article class="video-500px">
 	<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</article>
-	</center>
+	</article>
 
 	</div>
 

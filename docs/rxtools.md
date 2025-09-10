@@ -20,11 +20,11 @@ icon: septentrio-logo
 
 			<div markdown>
 
-			<center>
+			<article style="text-align: center;" markdown>
 			<article class="video-500px">
 			<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</article>
-			</center>
+			</article>
 
 			</div>
 
@@ -59,9 +59,9 @@ Users should install the [RXTools software suite](https://www.septentrio.com/en/
 [^1]: On Linux, the standard Linux CDC-ACM driver is suitable.
 
 
-<center>
+<article style="text-align: center;" markdown>
 [:octicons-download-16:{ .heart } Download the RxTools Software from Septentrio](https://www.septentrio.com/en/products/gps-gnss-receiver-software/rxtools){ .md-button .md-button--primary target="blank" }
-</center>
+</article>
 
 ## System Requirements[^2]
 
