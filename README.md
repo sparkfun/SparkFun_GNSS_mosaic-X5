@@ -17,7 +17,7 @@ Documentation
 --------------
 
 * **[Hookup Guide (mkdocs)](http://docs.sparkfun.com/SparkFun_GNSS_mosaic-X5/)** - Hookup guide for the mosaic-X5 GNSS Breakout hosted by GitHub pages.<br>
-  [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/) [![GitHub Pages Deploy](https://github.com/sparkfun/SparkFun_GNSS_mosaic-X5/actions/workflows/mkdocs.yml/badge.svg)](https://github.com/sparkfun/SparkFun_GNSS_mosaic-X5/actions/workflows/mkdocs.yml)
+  [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/) [![GitHub Pages Deploy](https://github.com/sparkfun/SparkFun_GNSS_mosaic-X5/actions/workflows/build_documentation.yml/badge.svg)](https://github.com/sparkfun/SparkFun_GNSS_mosaic-X5/actions/workflows/build_documentation.yml)
 
 
 *Need to download or print our hookup guide?*

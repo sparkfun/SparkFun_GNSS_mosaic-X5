@@ -135,7 +135,7 @@ theme:
 
 
 # Included MkDocs plugins
-# Add the installation of any new plugins to the ./github/workflows/mkdocs.yml file also
+# Add the installation of any new plugins to the ./github/workflows/build_documentation.yml file also
 plugins:
   # Default search plugin
   - search
@@ -150,6 +150,9 @@ plugins:
 
   # Enables improved security for external links
   - privacy:
+      # Disables plugin on local builds
+      enabled: !ENV [CI, false]
+
       # Disables cache mechanism, so that external assets can be updated during rebuilds
       cache: false
 
@@ -168,6 +171,9 @@ plugins:
 
   # Optimizes media files (*.png and *.jpg)
   - optimize:
+      # Disables plugin on local builds
+      enabled: !ENV [CI, false]
+
       # Specify directory; otherwise, multiple instances are created (.cache/plugins and .cache/plugin)
       cache_dir: .cache/plugins/optimize
 
@@ -188,20 +194,24 @@ plugins:
 
   # Add revision date
   - git-revision-date-localized:
+      # Disables plugin on local builds
+      enabled: !ENV [CI, false]
+
       enable_creation_date: true
       type: timeago
 
   # Add git committers at bottom of the page
   - git-committers:
+      # Disables plugin on local builds
+      enabled: !ENV [CI, false]
+
       repository: sparkfun/SparkFun_GNSS_mosaic-X5
       branch: main
 
-  # Add git authors at bottom of the page
-  - git-authors
-
   # Enables use of Git submodules and larger code base
-  - monorepo
-
+  - monorepo:
+      # Disables plugin on local builds
+      enabled: !ENV [CI, false]
 
 # Included Markdown extensions
 markdown_extensions:
