@@ -1,6 +1,6 @@
 ## Product Resources
 
-* :sfe-logo: [Product Page](https://www.sparkfun.com/products/23088)
+* :sfe: [Product Page](https://www.sparkfun.com/products/23088)
 * :material-folder-cog: Design Files:
 	* :fontawesome-solid-file-pdf: [Board Dimensions](./assets/board_files/dimensions.pdf)
 	* :fontawesome-solid-file-pdf: [Schematic](./assets/board_files/schematic.pdf)
