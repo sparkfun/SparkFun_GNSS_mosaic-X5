@@ -57,7 +57,7 @@ theme:
     - navigation.tabs.sticky
 
     # Adds pop-up button just below the header (when the user starts to scroll up)
-    # Allows users to easily jump to the beginning of the page
+    # i.e. Allows users to easily jump to the beginning of the page
     - navigation.top
 
     # Renders path for page navigation at the top of the page (makes page navigation more mobile friendly)
@@ -99,7 +99,7 @@ theme:
   # Configures icons
   icon:
     # Sets homepage icon
-    logo: sfe-logo
+    logo: sfe
 
     # Sets repo icon to GitHub icon
     repo: fontawesome/brands/github
@@ -310,8 +310,8 @@ extra:
 
   # Configures social icons in the footer
   social:
-    - icon: sfe-logo
       link: https://www.sparkfun.com/products/23088
+    - icon: sfe
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/sparkfun
     - icon: fontawesome/brands/instagram
