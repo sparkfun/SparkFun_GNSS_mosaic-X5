@@ -6,9 +6,9 @@
 	* :fontawesome-solid-file-pdf: [Schematic](./assets/board_files/schematic.pdf)
 	* :material-folder-zip: [Eagle Files](./assets/board_files/eagle_files.zip)
 * Component Documentation
-	* :fontawesome-solid-file-pdf: [mosaic-X5 Datasheet](./assets/component_documentation/mosaic_hardware_manual_v1.8.0.pdf)
+	* :fontawesome-solid-file-pdf: [mosaic-X5 Datasheet](./assets/component_documentation/mosaic_hardware_manual_v1.11.0.pdf)
 		* :fontawesome-solid-file-pdf: [mosaic-X5 Brochure](./assets/component_documentation/Septentrio_mosaic-X5_LR.pdf)
-		* :fontawesome-solid-file-pdf: [Firmware Manual *(v4.14.0)*](./assets/component_documentation/firmware/mosaic-X5_firmware_v4.14.0_reference_guide.pdf)
+		* :fontawesome-solid-file-pdf: [Firmware Manual *(v4.15.0)*](./assets/component_documentation/firmware/mosaic-X5_Firmware_v4.15.0_Reference_Guide.pdf)
 	* :fontawesome-solid-file-pdf: [JST-GH Connector Datasheet](./assets/component_documentation/JST-GH_datasheet.pdf)
 	* :fontawesome-solid-file-pdf: [AP2112 Datasheet](./assets/component_documentation/AP2112.pdf)
 	* :fontawesome-solid-file-pdf: [PESDxL4 Datasheet](./assets/component_documentation/PESDXL4UF_G_W.pdf)

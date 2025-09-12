@@ -138,14 +138,14 @@ With the USB driver installed, the mosaic-X5 module supports Ethernet-over-USB. 
 	[:septentrio-logo: Find the Latest Firmware](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5#resources){ .md-button .md-button--primary target="blank" }
 	</article>
 
--   Currently, at the time that this board was released, the firmware for the mosaic-X5 module was *v4.14.0*[^4]. Users can download [**version 4.14.0**](./assets/component_documentation/firmware/mosaic-X5_fwp_4.14.0.zip) of the firmware, by clicking on the button below.
+-   Currently, at the time that this board was released, the firmware for the mosaic-X5 module was *v4.15.0*[^4]. Users can download [**version 4.15.0**](./assets/component_documentation/firmware/mosaic-X5_fwp_4.15.0.zip) of the firmware, by clicking on the button below.
 
 	[^4]:
 		For the latest firmware published by Septentrio, please visit their [product page](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5#resources).<br>
 		*This is firmware version, was archived at the time that this guide was written. Please do not request for the file to be updated; instead visit the product page to download the latest firmware.*
 
 	<article style="text-align: center;" markdown>
-	[:octicons-download-16:{ .heart } Download Firmware *(v4.14.0)*](./assets/component_documentation/firmware/mosaic-X5_fwp_4.14.0.zip){ .md-button .md-button--primary target="blank" }
+	[:octicons-download-16:{ .heart } Download Firmware *(v4.15.0)*](./assets/component_documentation/firmware/mosaic-X5_fwp_4.15.0.zip){ .md-button .md-button--primary target="blank" }
 	</article>
 
 </div>
