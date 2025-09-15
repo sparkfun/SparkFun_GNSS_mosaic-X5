@@ -245,7 +245,7 @@ Without having to setup a personal base station, users can receive RTK correctio
 By default, the mosaic-X5 GNSS receiver is not configured to access the internet through the USB interface. In order to receive or cast RTK corrections to/from a RTK network, such as NTRIP, users will need to enable capability.
 
 * Users will need to use the web interface or RxTool software suite to enable the `Outgoing Internet Access Over USB` from the **Communication** > **USB** drop-down menu of the navigation tabs.
-* This also requires users to allowing Internet sharing through on their computer as weill. The procedure to do so depends on your operating system.
+* This also requires users to allowing Internet sharing through on their computer as well. The procedure to do so depends on your operating system.
 	* On a Windows PC, users must enable `Allow other network users to connect through this computer's Internet connection`, through the properties option of the network adapter with internet access.
 	* On a Linux computer, users will likely need to configure a [network bridge](https://en.wikipedia.org/wiki/Network_bridge).
 
