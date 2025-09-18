@@ -83,10 +83,30 @@ The board dimensions are illustrated in the drawing below; the listed measuremen
 ## USB-C Connector
 The USB connector is provided to power and interface with the mosaic-X5 GNSS receiver. For most users, it will be the primary method for communicating with the mosaic-X5 module.
 
+
+<div class="grid" markdown>
+
 <figure markdown>
 [![USB-C Connector](./assets/img/hookup_guide/usb_connector.jpg){ width="400" }](./assets/img/hookup_guide/usb_connector.jpg "Click to enlarge")
 <figcaption markdown>USB-C connector on the Tri-band GNSS RTK breakout board.</figcaption>
 </figure>
+
+
+<div markdown>
+
+!!! bug "Test Pads"
+	We accidentally mislabeled the test pads underneath the USB-C connector. The silkscreen for the `D+` and `D-` signal lines are reversed.
+
+
+	<figure markdown>
+	[![USB Silkscreen](./assets/img/hookup_guide/usb-silkscreen.jpg){ width="100" }](./assets/img/hookup_guide/usb-silkscreen.jpg "Click to enlarge")
+	<figcaption markdown>The silkscreen for the USB interface on the Tri-band GNSS RTK breakout board.</figcaption>
+	</figure>
+
+</div>
+
+</div>
+
 
 
 ## Power
