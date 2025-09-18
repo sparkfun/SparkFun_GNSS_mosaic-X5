@@ -455,6 +455,7 @@
   .md-typeset *.qr {
     display: inline-flex;
     align-items: center;
+    width: 200px;
   }
 
   .md-typeset *.tinyqr {

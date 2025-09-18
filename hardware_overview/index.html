@@ -1788,10 +1788,8 @@
 </ul>
 <div class="grid cards" markdown>
 <div markdown>
-<p><article style="text-align: center;" markdown>
-<article class="video-500px">
+<p><article class="video-500px" style="margin: auto;" markdown>
 <iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</article>
 </article></p>
 </div>
 <ul>
@@ -1839,7 +1837,7 @@ TOL-25572</a></p>
 <summary><img alt="📏" class="twemoji" src="../assets/external/cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f4cf.svg" title=":straight_ruler:"> Dimensions Tool</summary>
 <p>This video from Autodesk demonstrates how to utilize the dimensions tool in Eagle, to include additional measurements:</p>
 <p><article style="text-align: center;" markdown>
-<div class="video-500px">
+<div class="video-500px" style="margin: auto;" markdown>
 <iframe src="https://www.youtube.com/embed/dZLNd1FtNB8" title="EAGLE Dimension Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <img alt="QR code to play video" class="qr" src="../assets/img/qr_code/dimension_tool.png" />
@@ -1848,12 +1846,24 @@ TOL-25572</a></p>
 </details>
 <h2 id="usb-c-connector">USB-C Connector<a class="headerlink" data-preview="" href="#usb-c-connector" title="Permanent link"></a></h2>
 <p>The USB connector is provided to power and interface with the mosaic-X5 GNSS receiver. For most users, it will be the primary method for communicating with the mosaic-X5 module.</p>
+<div class="grid">
 <figure>
 <p><a data-preview="" href="../assets/img/hookup_guide/usb_connector.jpg" title="Click to enlarge"><img alt="USB-C Connector" src="../assets/img/hookup_guide/usb_connector.jpg" width="400" /></a></p>
 <figcaption>
 <p>USB-C connector on the Tri-band GNSS RTK breakout board.</p>
 </figcaption>
 </figure>
+<div>
+<div class="admonition bug">
+<p class="admonition-title">Test Pads</p>
+<p>We accidentally mislabeled the test pads underneath the USB-C connector. The silkscreen for the <code>D+</code> and <code>D-</code> signal lines are reversed.</p>
+<p><figure markdown>
+<a data-preview="" href="../assets/img/hookup_guide/usb-silkscreen.jpg" title="Click to enlarge"><img alt="USB Silkscreen" src="../assets/img/hookup_guide/usb-silkscreen.jpg" width="100" /></a>
+<figcaption markdown>The silkscreen for the USB interface on the Tri-band GNSS RTK breakout board.</figcaption>
+</figure></p>
+</div>
+</div>
+</div>
 <h2 id="power">Power<a class="headerlink" data-preview="" href="#power" title="Permanent link"></a></h2>
 <p>The Tri-band GNSS RTK breakout board only requires <strong>5V</strong> to power all of the board's components. The simplest method to power the board is through the USB-C connector. Alternatively, the board can be converted to utilize <strong>3.3V</strong> for low power applications.</p>
 <figure>
@@ -2079,10 +2089,8 @@ TOL-25572</a></p>
 <p>The centerpiece of the Tri-band GNSS RTK breakout board, is the <a data-preview="" href="../assets/component_documentation/mosaic_hardware_manual_v1.11.0.pdf">mosaic-X5 module</a> from <a href="https://www.septentrio.com/en" target="_blank" rel="noopener">Septentrio</a>. Their mosaic modules are low-power, multi-band, multi-constellation GNSS receivers capable of delivering centimeter-level precision at high update rates. The modules also feature Septentrio's unique <a href="https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-resilient-and-secure-gnss/gps-receivers" target="_blank" rel="noopener">AIM+ technology</a> for interference mitigation and anti-spoofing, which ensures their best-in-class reliability and scalable position accuracy.</p>
 <div class="grid cards">
 <div>
-<article style="text-align: center;">
-<article class="video-500px">
+<article class="video-500px" style="margin: auto;">
 <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" src="https://www.youtube.com/embed/Co8hrVeklAA" title="Septentrio: Mosaic - GNSS / GPS module receiver range"></iframe>
-</article>
 </article>
 </div>
 <ul>
@@ -2880,7 +2888,7 @@ CAB-18079</a></p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="September 12, 2025 16:57:25 UTC"><span class="timeago" datetime="2025-09-12T16:57:25+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="September 12, 2025 16:57:25 UTC">2025-09-12</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="September 18, 2025 17:15:30 UTC"><span class="timeago" datetime="2025-09-18T17:15:30+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="September 18, 2025 17:15:30 UTC">2025-09-18</span>
   </span>
 
     
