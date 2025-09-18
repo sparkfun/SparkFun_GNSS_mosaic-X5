@@ -20,10 +20,8 @@ icon: material/cog
 
 			<div markdown>
 
-			<article style="text-align: center;" markdown>
-			<article class="video-500px">
+			<article class="video-500px" style="margin: auto;" markdown>
 			<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</article>
 			</article>
 
 			</div>
@@ -73,7 +71,7 @@ The board dimensions are illustrated in the drawing below; the listed measuremen
 		This video from Autodesk demonstrates how to utilize the dimensions tool in Eagle, to include additional measurements:
 
 		<article style="text-align: center;" markdown>
-		<div class="video-500px">
+		<div class="video-500px" style="margin: auto;" markdown>
 		<iframe src="https://www.youtube.com/embed/dZLNd1FtNB8" title="EAGLE Dimension Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 		![QR code to play video](./assets/img/qr_code/dimension_tool.png){ .qr }
@@ -248,10 +246,8 @@ The centerpiece of the Tri-band GNSS RTK breakout board, is the [mosaic-X5 modul
 
 <div markdown>
 
-<article style="text-align: center;" markdown>
-<article class="video-500px">
+<article class="video-500px" style="margin: auto;" markdown>
 <iframe src="https://www.youtube.com/embed/Co8hrVeklAA" title="Septentrio: Mosaic - GNSS / GPS module receiver range" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</article>
 </article>
 
 </div>

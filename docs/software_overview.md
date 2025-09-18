@@ -20,10 +20,8 @@ icon: fontawesome/solid/computer
 
 			<div markdown>
 
-			<article style="text-align: center;" markdown>
-			<article class="video-500px">
+			<article class="video-500px" style="margin: auto;" markdown>
 			<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</article>
 			</article>
 
 			</div>
@@ -243,10 +241,8 @@ With the USB driver installed, the mosaic-X5 module supports Ethernet-over-USB. 
 
 <div markdown>
 
-<article style="text-align: center;" markdown>
-<article class="video-500px">
+<article class="video-500px" style="margin: auto;" markdown>
 <iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8" title="Septentrio: Getting started with the Septentrio mosaic receiver module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</article>
 </article>
 
 </div>

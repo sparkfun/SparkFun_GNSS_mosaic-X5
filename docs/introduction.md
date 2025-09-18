@@ -19,10 +19,8 @@ icon: material/book-open-page-variant
 
 			<div markdown>
 
-			<article style="text-align: center;" markdown>
-			<article class="video-500px">
+			<article class="video-500px" style="margin: auto;" markdown>
 			<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</article>
 			</article>
 
 			</div>
@@ -61,13 +59,15 @@ icon: material/book-open-page-variant
 	</figure></a>
 
 	<article style="text-align: center;" markdown>
-	<article class="video-500px">
+
+	<article class="video-500px" style="margin: auto;" markdown>
 	<iframe src="https://www.youtube.com/embed/TSkIvtaVZc0" title="Product Showcase: SparkFun Tri-band GNSS RTK Breakout - mosaic-X5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</article>
 	![QR code to play video](./assets/img/qr_code/product_video.png){ .qr }
 
 
-	[![QR code to product page](./assets/img/qr_code/product-low.png){ .tinyqr }&nbsp;&nbsp;Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/23088){ .md-button .md-button--primary }
+	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/23088){ .md-button .md-button--primary }
+	![QR code to product page](./assets/img/qr_code/product-low.png){ .tinyqr }
 	</article>
 
 
@@ -101,10 +101,8 @@ icon: material/book-open-page-variant
 
 			<div markdown>
 
-			<article style="text-align: center;" markdown>
-			<article class="video-500px">
+			<article class="video-500px" style="margin: auto;" markdown>
 			<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</article>
 			</article>
 
 			</div>
@@ -421,11 +419,10 @@ To get started, users will need a few items. Now some users may already have a f
 
 	<div markdown>
 
-	<article style="text-align: center;" markdown>
-	<article class="video-300px">
+	<article class="video-300px" style="margin: auto;" markdown>
 	<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</article>
-	</article>
+
 
 	!!! warning
 		As recommended by the manufacturer, we highly recommend that users take the necessary precautions to avoid damaging their module.

@@ -20,10 +20,8 @@ icon: material/web
 
 			<div markdown>
 
-			<article style="text-align: center;" markdown>
-			<article class="video-500px">
+			<article class="video-500px" style="margin: auto;" markdown>
 			<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</article>
 			</article>
 
 			</div>
@@ -108,10 +106,8 @@ With the USB driver installed, the mosaic-X5 module supports Ethernet-over-USB. 
 
 <div markdown>
 
-<article style="text-align: center;" markdown>
-<article class="video-500px">
+<article class="video-500px" style="margin: auto;" markdown>
 <iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8" title="Septentrio: Getting started with the Septentrio mosaic receiver module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</article>
 </article>
 
 </div>
@@ -154,10 +150,8 @@ With the USB driver installed, the mosaic-X5 module supports Ethernet-over-USB. 
 
 <div markdown>
 
-<article style="text-align: center;" markdown>
-<article class="video-500px">
+<article class="video-500px" style="margin: auto;" markdown>
 <iframe src="https://www.youtube.com/embed/bp8kNbzMl_c" title="Septentrio: How to upgrade the firmware of a Septentrio receiver" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</article>
 </article>
 
 </div>
@@ -177,10 +171,8 @@ Besides logging data with just the ++"LOG"++ button, users can configure/enable 
 
 This video illustrates how users can configure the settings for data logging to the SD card.
 
-<article style="text-align: center;" markdown>
-<article class="video-500px">
+<article class="video-500px" style="margin: auto;" markdown>
 <iframe src="https://www.youtube.com/embed/Y9tvOebnoxk" title="Septentrio: How to log data to the SD card of the Septentrio mosaic receiver module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</article>
 </article>
 
 </div>
@@ -191,10 +183,8 @@ This video illustrates how users can configure the settings for data logging to 
 
 This video illustrates how users can configure and enable a data stream through a TCP/IP connection.
 
-<article style="text-align: center;" markdown>
-<article class="video-500px">
+<article class="video-500px" style="margin: auto;" markdown>
 <iframe src="https://www.youtube.com/embed/ArtePkC58-o" title="Septentrio: How to output NMEA data on the Septentrio mosaic receiver module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</article>
 </article>
 
 </div>
@@ -204,10 +194,8 @@ This video illustrates how users can configure and enable a data stream through 
 ??? info "Related Video"
 	While this instructional video is for a different product line, the information, for the most part, is still relevant.
 
-	<article style="text-align: center;" markdown>
-	<article class="video-500px">
+	<article class="video-500px" style="margin: auto;" markdown>
 	<iframe src="https://www.youtube.com/embed/vU6iwJ-ac6A" title="Septentrio: How to log and stream data in NMEA OR SBF format for GNSS/INS receivers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</article>
 	</article>
 
 
@@ -218,10 +206,8 @@ This video illustrates how users can configure and enable a data stream through 
 <div markdown>
 For users with multiple RTK capable GNSS receivers, users can configure their mosaic-X5 as a rover or base station.
 
-<article style="text-align: center;" markdown>
-<article class="video-500px">
+<article class="video-500px" style="margin: auto;" markdown>
 <iframe src="https://www.youtube.com/embed/UVUVXpA8rB4" title="Septentrio: How to receive corrections over an IP connection" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</article>
 </article>
 
 </div>
@@ -230,10 +216,8 @@ For users with multiple RTK capable GNSS receivers, users can configure their mo
 <div markdown>
 Without having to setup a personal base station, users can receive RTK corrections through the internet from 3rd-party services.
 
-<article style="text-align: center;" markdown>
-<article class="video-500px">
+<article class="video-500px" style="margin: auto;" markdown>
 <iframe src="https://www.youtube.com/embed/aAPoRpSR0tY" title="Septentrio: How to receive corrections via NTRIP on the Septentrio mosaic receiver module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</article>
 </article>
 
 </div>
@@ -253,10 +237,8 @@ By default, the mosaic-X5 GNSS receiver is not configured to access the internet
 
 <div markdown>
 
-<article style="text-align: center;" markdown>
-<article class="video-500px">
+<article class="video-500px" style="margin: auto;" markdown>
 <iframe src="https://www.youtube.com/embed/bUt8cL9Ue1Y" title="Septentrio: Share internet connection with your GNSS / GPS receiver over USB" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</article>
 </article>
 
 </div>
@@ -321,7 +303,7 @@ Users can find other instructional videos on [Septentrio's YouTube Channel](http
 
 	<div markdown>
 
-	<article class="video-300px">
+	<article class="video-300px" style="margin: auto;" markdown>
 	<iframe src="https://www.youtube.com/embed/j_zHbl99FsI" title="Septentrio: How to reset a receiver" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</article>
 
@@ -329,7 +311,7 @@ Users can find other instructional videos on [Septentrio's YouTube Channel](http
 
 	<div markdown>
 
-	<article class="video-300px">
+	<article class="video-300px" style="margin: auto;" markdown>
 	<iframe src="https://www.youtube.com/embed/D-iqzQnDbWw" title="Septentrio: How to copy the configuration from one to another receiver" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</article>
 
@@ -337,7 +319,7 @@ Users can find other instructional videos on [Septentrio's YouTube Channel](http
 
 	<div markdown>
 
-	<article class="video-300px">
+	<article class="video-300px" style="margin: auto;" markdown>
 	<iframe src="https://www.youtube.com/embed/2XizOW3Dzzk" title="Septentrio: How to monitor the CPU of a Septentrio receiver" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</article>
 
@@ -345,7 +327,7 @@ Users can find other instructional videos on [Septentrio's YouTube Channel](http
 
 	<div markdown>
 
-	<article class="video-300px">
+	<article class="video-300px" style="margin: auto;" markdown>
 	<iframe src="https://www.youtube.com/embed/9qN6b1JC3uE" title="Septentrio: How to generate and save a diagnostic report of a Septentrio receiver" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</article>
 
@@ -353,7 +335,7 @@ Users can find other instructional videos on [Septentrio's YouTube Channel](http
 
 	<div markdown>
 
-	<article class="video-300px">
+	<article class="video-300px" style="margin: auto;" markdown>
 	<iframe src="https://www.youtube.com/embed/WU8MYrDALsE" title="Septentrio: How to log SBF data for support for Septentrio's GNSS/ GPS receivers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</article>
 
@@ -361,7 +343,7 @@ Users can find other instructional videos on [Septentrio's YouTube Channel](http
 
 	<div markdown>
 
-	<article class="video-300px">
+	<article class="video-300px" style="margin: auto;" markdown>
 	<iframe src="https://www.youtube.com/embed/lAP3TXz0ZL8" title="Septentrio: How to set up the PX4 Pixhawk and the Septentrio mosaic-go GNSS receiver Instruction video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</article>
 
@@ -369,7 +351,7 @@ Users can find other instructional videos on [Septentrio's YouTube Channel](http
 
 	<div markdown>
 
-	<article class="video-300px">
+	<article class="video-300px" style="margin: auto;" markdown>
 	<iframe src="https://www.youtube.com/embed/OdGE7bXgJck" title="Septentrio: How to set up ArduPilot with Septentrio AsteRx GNSS receiver + RIB and Pixhawk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</article>
 
@@ -377,7 +359,7 @@ Users can find other instructional videos on [Septentrio's YouTube Channel](http
 
 	<div markdown>
 
-	<article class="video-300px">
+	<article class="video-300px" style="margin: auto;" markdown>
 	<iframe src="https://www.youtube.com/embed/SzI0skGHKEw" title="Septentrio: Anti-jamming feature test-run" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</article>
 
@@ -385,7 +367,7 @@ Users can find other instructional videos on [Septentrio's YouTube Channel](http
 
 	<div markdown>
 
-	<article class="video-300px">
+	<article class="video-300px" style="margin: auto;" markdown>
 	<iframe src="https://www.youtube.com/embed/H6uVVEJ5U5w" title="Septentrio: How to activate Wideband Interference Mitigation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</article>
 
@@ -393,7 +375,7 @@ Users can find other instructional videos on [Septentrio's YouTube Channel](http
 
 	<div markdown>
 
-	<article class="video-300px">
+	<article class="video-300px" style="margin: auto;" markdown>
 	<iframe src="https://www.youtube.com/embed/Ib_B_KcfmPs" title="Septentrio: How to use the spectrum plot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</article>
 
