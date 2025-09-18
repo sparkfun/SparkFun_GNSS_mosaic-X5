@@ -26,11 +26,6 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
-      - name: Update submodules
-        run: |
-          git submodule update --init --recursive
-          git submodule update --recursive --remote
-
       - name: Install pgnquant for optimize plugin
         run: sudo apt-get install pngquant
 
