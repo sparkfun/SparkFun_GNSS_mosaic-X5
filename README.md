@@ -5,7 +5,7 @@ SparkFun Tri-band GNSS RTK Breakout - mosaic-X5
 
 [*SparkFun Tri-band GNSS RTK Breakout - mosaic-X5 (GPS-23088)*](https://www.sparkfun.com/sparkfun-triband-gnss-rtk-breakout-mosaic-x5.html)
 
-At the heart of the Triband GNSS RTK Breakout is [Septentrio](https://www.septentrio.com/en)'s mosaic-X5, their most compact, ultra-low power, multi-band, multi-constellation, high-precision GNSS receiver. The receiver supports the GPS (USA), GLONASS (Russia), Beidou (China), Galileo (Europe), and NavIC (India) constellations, including regional systems *(i.e. SBAS and QZSS)*. With its [**Real Time Kinematics**](https://learn.sparkfun.com/tutorials/813) (RTK) capabilities, the module can achieve a horizontal accuracy of 6mm (~0.25in), vertical accuracy of 1cm (~0.4in) using RTK, and timing precision of 5ns (5 billionths of a second). It also features Septentrio's unique [AIM+ technology](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-jamming-protection) for interference mitigation and anti-spoofing, ensuring best-in-class reliability and scalable position accuracy.
+At the heart of the Triband GNSS RTK Breakout is [Septentrio](https://www.septentrio.com/en)'s mosaic-X5, a compact, low power, multi-band, multi-constellation, high-precision GNSS receiver. The receiver supports the GPS (USA), GLONASS (Russia), Beidou (China), Galileo (Europe), and NavIC (India) constellations, including regional systems *(i.e. SBAS and QZSS)*. With its [**Real Time Kinematics**](https://learn.sparkfun.com/tutorials/813) (RTK) capabilities, the module can achieve a horizontal accuracy of 6mm (~0.25in), vertical accuracy of 1cm (~0.4in) using RTK, and timing precision of 5ns (5 billionths of a second). It also features Septentrio's unique [AIM+ technology](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-jamming-protection) for interference mitigation and anti-spoofing, ensuring best-in-class reliability and scalable position accuracy.
 
 The mosaic-X5 is a sophisticated chip running an internal web server that can be accessed through the USB interface with a standard browser using a Linux/Windows computer. Septentrio also provides dozens of [video tutorials](https://www.youtube.com/@SeptentrioGNSS/videos) to guide users through the configuration settings of their GNSS receivers utilizing the web interface.
 
@@ -16,27 +16,22 @@ This breakout board is a perfect middle ground for users who would like to integ
 Documentation
 --------------
 
-* **[Hookup Guide (mkdocs)](http://docs.sparkfun.com/SparkFun_GNSS_mosaic-X5/)** - Hookup guide for the mosaic-X5 GNSS Breakout hosted by GitHub pages.<br>
+- **[Hookup Guide (mkdocs)](http://docs.sparkfun.com/SparkFun_GNSS_mosaic-X5/)** - Hookup guide for the mosaic-X5 GNSS Breakout hosted by GitHub pages.<br>
   [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/) [![GitHub Pages Deploy](https://github.com/sparkfun/SparkFun_GNSS_mosaic-X5/actions/workflows/build_documentation.yml/badge.svg)](https://github.com/sparkfun/SparkFun_GNSS_mosaic-X5/actions/workflows/build_documentation.yml)
-
-
-*Need to download or print our hookup guide?*
-
-* [Print *(Print to PDF)* from Single-Page View](http://docs.sparkfun.com/SparkFun_GNSS_mosaic-X5/print_view)
 
 Repository Contents
 -------------------
 
-* **[/docs](/docs/)** - Online documentation files
-    * [assets](/docs/assets/) - Assets files
-        * [board_files](/docs/assets/board_files/) - Files for the product design
-            * [Eagle design files](/docs/assets/board_files/eagle_files.zip) (.zip)
-            * [Schematic](/docs/assets/board_files/schematic.pdf) (.pdf)
-            * [Dimensions](/docs/assets/board_files/dimensions.pdf) (.pdf)
-        * [component_documentation](/docs/assets/component_documentation/) - Datasheets for hardware components
-        * [img/hookup_guide/](/docs/assets/img/hookup_guide/) - Images for hookup guide documentation
-* **[/Hardware](/Hardware/)** - Eagle design files (.brd, .sch)
-  * **[/Production](/Production/)** - Production files
+- **[/docs](/docs/)** - Online documentation files
+  - [assets](/docs/assets/) - Assets files
+    - [board_files](/docs/assets/board_files/) - Files for the product design
+      - [Eagle design files](/docs/assets/board_files/eagle_files.zip) (.zip)
+      - [Schematic](/docs/assets/board_files/schematic.pdf) (.pdf)
+      - [Dimensions](/docs/assets/board_files/dimensions.pdf) (.pdf)
+    - [component_documentation](/docs/assets/component_documentation/) - Datasheets for hardware components
+    - [img/hookup_guide/](/docs/assets/img/hookup_guide/) - Images for hookup guide documentation
+- **[/Hardware](/Hardware/)** - Eagle design files (.brd, .sch)
+  - **[/Production](/Production/)** - Production files
 
 Product Variants
 ----------------
@@ -64,7 +59,7 @@ Product Variants
 Version History
 ---------------
 
-* [v10](https://github.com/sparkfun/SparkFun_GNSS_mosaic-X5/releases/tag/v10) - Initial Release
+- [v10](https://github.com/sparkfun/SparkFun_GNSS_mosaic-X5/releases/tag/v10) - Initial Release
 
 
 License Information

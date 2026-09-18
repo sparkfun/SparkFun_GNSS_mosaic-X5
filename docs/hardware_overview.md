@@ -51,9 +51,7 @@ The board dimensions are illustrated in the drawing below; the listed measuremen
 
 <figure markdown>
 [![Board Dimensions](./assets/img/hookup_guide/dimensions.png){ width="400" }](./assets/img/hookup_guide/dimensions.png "Click to enlarge")
-<figcaption markdown>
-[Board dimensions (PDF)](./assets/board_files/dimensions.pdf) for the Tri-band GNSS RTK breakout board, in inches.
-</figcaption>
+<figcaption markdown>[Board dimensions (PDF)](./assets/board_files/dimensions.pdf) for the Tri-band GNSS RTK breakout board, in inches.</figcaption>
 </figure>
 
 
@@ -421,7 +419,7 @@ The accuracy of the position reported from the mosaic-X5 module, can be improved
 
 
 ### Peripherals and I/O Pins
-The mosaic-X5 features several peripherals and I/O pins. Some of these are broken out as pins on the Tri-band GNSS RTK breakout board; whereas, others are broken out to their specific interface *(i.e. &micro;SD Carsd slot, USB connector, etc.)*. Additionally, some of their connections are tied to other components on the board.
+The mosaic-X5 features several peripherals and I/O pins. Some of these are broken out as pins on the Tri-band GNSS RTK breakout board; whereas, others are broken out to their specific interface *(i.e. &micro;SD Card slot, USB connector, etc.)*. Additionally, some of their connections are tied to other components on the board.
 
 <div class="grid" markdown>
 
@@ -507,7 +505,7 @@ The mosaic-X5 features several peripherals and I/O pins. Some of these are broke
 		</div>
 
 	!!! info
-		By default, the `COM` ports will be configured with the following settings: 
+		By default, the `COM` ports will be configured with the following settings:
 
 		* Baudrate: 115200bps
 		* Data Bits: 8
@@ -804,9 +802,7 @@ There are five status LEDs on the TMC6300 motor driver:
 
 <figure markdown>
 [![](./assets/img/hookup_guide/LEDs.jpg){ width="400" }](./assets/img/hookup_guide/LEDs.jpg "Click to enlarge")
-<figcaption markdown>
-The status indicator LEDs on the Tri-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The status indicator LEDs on the Tri-band GNSS RTK breakout board.</figcaption>
 </figure>
 
 
@@ -880,9 +876,7 @@ There are nine jumpers on the back of the board that can be used to easily modif
 
 <figure markdown>
 [![Jumpers](./assets/img/hookup_guide/jumpers.jpg){ width="400" }](./assets/img/hookup_guide/jumpers.jpg "Click to enlarge")
-<figcaption markdown>
-The jumpers on the back of the Tri-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The jumpers on the back of the Tri-band GNSS RTK breakout board.</figcaption>
 </figure>
 
 === "Power"

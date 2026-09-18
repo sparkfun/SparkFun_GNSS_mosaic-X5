@@ -42,8 +42,11 @@ The mosaic-X5 module is sensitive to [ESD](https://en.wikipedia.org/wiki/Electro
 	</div>
 
 
+
 ## USB Driver
 A USB driver is only required for Windows PCs *(see the [USB Driver](../software_overview/#usb-driver) section)*.
+
+
 
 ## GPS Antenna
 
@@ -53,8 +56,11 @@ A USB driver is only required for Windows PCs *(see the [USB Driver](../software
 
 A 3 - 5.5V DC voltage can be applied to the main antenna from the `VANT` pin, obviating the need for an external antenna supply or [bias-tee](https://en.wikipedia.org/wiki/Bias_tee).
 
+
 ### Supported Frequency Bands
 For the best performance, we recommend users choose a compatible L1/L2/L5 (tri-band) GNSS antenna and utilize a low-loss cable. Utilizing an antenna that doesn't match all the supported frequency bands of the mosaic-X5, will result in reduced performance and capabilities.
+
+
 
 ## Data Logging
 For data logging issues, here are some simple troubleshooting tips:

@@ -231,7 +231,7 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 			</article>
 
 		-   As documented in the [LoRaSerial product manual](https://docs.sparkfun.com/SparkFun_LoRaSerial), the pin connections between a host system *(i.e. Tri-band GNSS RTK breakout board)* and the LoRaSerial Kit radio is outlined in the image below.
- 
+
 			<figure markdown>
 			[![Flow Control](https://docs.sparkfun.com/SparkFun_LoRaSerial/img/SAMD21%20Flow%20control.png){ width="400" }](https://docs.sparkfun.com/SparkFun_LoRaSerial/img/SAMD21%20Flow%20control.png "Click to enlarge")
 			<figcaption markdown>The `COM` ports on the Tri-band GNSS RTK breakout board.</figcaption>
@@ -464,7 +464,7 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 
 
 <!-- !!! tip "Connecting to a PixHawk4"
-	The Septentrio mosaic-X5 GNSS receiver module, is supported on the PixHawk4 
+	The Septentrio mosaic-X5 GNSS receiver module, is supported on the PixHawk4
 	https://www.septentrio.com/en/company/news/septentrio-gps/gnss-now-supports-px4-autopilot
 	https://customersupport.septentrio.com/s/article/How-to-connect-mosaic-go-with-PX4-autopilot
 	https://github.com/septentrio-gnss/Septentrio-PX4-Autopilot

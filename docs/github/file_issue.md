@@ -30,7 +30,7 @@ If a section of the documentation is incorrect, please [open an issue](https://g
 
 Please, refer to the [Contribute](../contribute/#improve-our-documentation) page.
 
-<!-- 
+<!--
 1. With a GitHub account, [fork this repository](https://github.com/sparkfun/SparkFun_GNSS_mosaic-X5/fork).
 2. Add your correction(s) or improvement(s) to the markdown file(s)
 3. File a pull request with your changes, and enjoy making the ~~words~~ ~~worlds~~ world a better place.

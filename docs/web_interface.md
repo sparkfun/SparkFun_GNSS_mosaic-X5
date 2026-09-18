@@ -66,7 +66,7 @@ icon: material/web
 	Once installed, the driver emulates two virtual serial ports, which can be accessed as standard `COM` ports to the receiver.
 
 	??? tip "Terminal Emulators"
-		Most [terminal emulation programs](https://learn.sparkfun.com/tutorials/112) will not make a distinction between virtual or native COM ports. However, for virtual serial ports, the port settings *(i.e. baudrate, etc.)* are not relevant and the default configuration be used in the terminal emulation program. However, for the physical/native `COM` ports will have the following default setting: 
+		Most [terminal emulation programs](https://learn.sparkfun.com/tutorials/112) will not make a distinction between virtual or native COM ports. However, for virtual serial ports, the port settings *(i.e. baudrate, etc.)* are not relevant and the default configuration be used in the terminal emulation program. However, for the physical/native `COM` ports will have the following default setting:
 
 		* Baudrate: 115200bps
 		* Data Bits: 8
@@ -256,9 +256,7 @@ From the **Admin** tab, navigate through the drop-down menu to **Admin** > **Exp
 
 <figure markdown>
 [![L5 Configuration - Step 1](./assets/img/hookup_guide/L5_step1.png){ width="400" }](./assets/img/hookup_guide/L5_step1.png "Click to enlarge")
-<figcaption markdown>
-Configuring the `Discard unhealthy satellites` feature to `off`.
-</figcaption>
+<figcaption markdown>Configuring the `Discard unhealthy satellites` feature to `off`.</figcaption>
 </figure>
 
 !!! note
@@ -269,9 +267,7 @@ From the **Navigation** tab, navigate through the drop-down menu to **Navigation
 
 <figure markdown>
 [![L5 Configuration - Step 2](./assets/img/hookup_guide/L5_step2.png){ width="400" }](./assets/img/hookup_guide/L5_step2.png "Click to enlarge")
-<figcaption markdown>
-Enabling signal tracking of the `L5` frequency band for the GPS constellation.
-</figcaption>
+<figcaption markdown>Enabling signal tracking of the `L5` frequency band for the GPS constellation.</figcaption>
 </figure>
 
 ??? tip "Click ++"OK"++"
@@ -282,9 +278,7 @@ Again in the **Navigation** tab, navigate to **Navigation** > **Advance User Set
 
 <figure markdown>
 [![L5 Configuration - Step 3](./assets/img/hookup_guide/L5_step3.png){ width="400" }](./assets/img/hookup_guide/L5_step3.png "Click to enlarge")
-<figcaption markdown>
-Enabling signal usage of the `L5` frequency band for the GPS constellation.
-</figcaption>
+<figcaption markdown>Enabling signal usage of the `L5` frequency band for the GPS constellation.</figcaption>
 </figure>
 
 ??? tip "Click ++"OK"++"
