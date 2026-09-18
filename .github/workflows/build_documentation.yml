@@ -23,7 +23,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: recursive
           fetch-depth: 0
 
       - name: Install pgnquant for optimize plugin
@@ -35,7 +34,7 @@ jobs:
           python-version: 3.x
 
       - name: Install Python dependencies
-        run: pip install mkdocs-monorepo-plugin mkdocs-redirects mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2 Pillow 'mkdocs-material[imaging]'
+        run: pip install -r requirements.txt
 
       - name: Set up build cache
         run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
