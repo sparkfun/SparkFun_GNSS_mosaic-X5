@@ -26,7 +26,7 @@ icon: fontawesome/solid/computer
 
 			</div>
 
-			-   <a href="https://www.sparkfun.com/products/25572">
+			-   <a href="https://www.sparkfun.com/ifixit-anti-static-wrist-strap.html">
 				<figure markdown>
 				![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/6/1/2/7/TOL-25572-Anti-Static-Wrist-Strap-Feature.jpg)
 				</figure>		

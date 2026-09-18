@@ -25,7 +25,7 @@ icon: material/book-open-page-variant
 
 			</div>
 
-			-   <a href="https://www.sparkfun.com/products/25572">
+			-   <a href="https://www.sparkfun.com/ifixit-anti-static-wrist-strap.html">
 				<figure markdown>
 				![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/6/1/2/7/TOL-25572-Anti-Static-Wrist-Strap-Feature.jpg)
 				</figure>		
@@ -48,7 +48,7 @@ icon: material/book-open-page-variant
 # Introduction
 <div class="grid cards desc" markdown>
 
--   <a href="https://www.sparkfun.com/products/23088">
+-   <a href="https://www.sparkfun.com/sparkfun-triband-gnss-rtk-breakout-mosaic-x5.html">
 	**mosaic-X5 GNSS Breakout**<br>
 	**SKU:** GPS-23088
 
@@ -66,7 +66,7 @@ icon: material/book-open-page-variant
 	![QR code to play video](./assets/img/qr_code/product_video.png){ .qr }
 
 
-	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/23088){ .md-button .md-button--primary }
+	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/sparkfun-triband-gnss-rtk-breakout-mosaic-x5.html){ .md-button .md-button--primary }
 	![QR code to product page](./assets/img/qr_code/product-low.png){ .tinyqr }
 	</article>
 
@@ -107,7 +107,7 @@ icon: material/book-open-page-variant
 
 			</div>
 
-			-   <a href="https://www.sparkfun.com/products/25572">
+			-   <a href="https://www.sparkfun.com/ifixit-anti-static-wrist-strap.html">
 				<figure markdown>
 				![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/6/1/2/7/TOL-25572-Anti-Static-Wrist-Strap-Feature.jpg)
 				</figure>		
@@ -344,11 +344,11 @@ To get started, users will need a few items. Now some users may already have a f
 	!!! warning "Software Compatibility"
 		The [RxTools software suite](https://www.septentrio.com/en/products/gps-gnss-receiver-software/rxtools) from Septentrio, automatically installs the required USB-over-Ethernet driver and provides users with an interface for the receiver configuration, monitoring, data logging, and analysis. However, it only appears to be available for Windows and Linux operating systems.
 
-* [USB 3.1 Cable A to C - 3 Foot](https://www.sparkfun.com/products/14743) - Used to interface with the mosaic-X5 GNSS Breakout (2)
-* [SparkFun Tri-band GNSS RTK Breakout - mosaic-X5](https://www.sparkfun.com/products/23088) (3)
-* [GNSS Multi-Band L1/L2/L5 Surveying Antenna](https://www.sparkfun.com/products/21801)
-	* [SMA Male to TNC Male Cable](https://www.sparkfun.com/products/21740)
-	* [Antenna Mount](https://www.sparkfun.com/products/21257)
+* [USB 3.1 Cable A to C - 3 Foot](https://www.sparkfun.com/usb-3-1-cable-a-to-c-3-foot.html) - Used to interface with the mosaic-X5 GNSS Breakout (2)
+* [SparkFun Tri-band GNSS RTK Breakout - mosaic-X5](https://www.sparkfun.com/sparkfun-triband-gnss-rtk-breakout-mosaic-x5.html) (3)
+* [GNSS Multi-Band L1/L2/L5 Surveying Antenna](https://www.sparkfun.com/gnss-multi-band-l1-l2-l5-surveying-antenna-tnc-spk6618h.html)
+	* [SMA Male to TNC Male Cable](https://www.sparkfun.com/reinforced-interface-cable-sma-male-to-tnc-male-10m.html)
+	* [Antenna Mount](https://www.sparkfun.com/gnss-magnetic-antenna-mount-5-8-11-tpi.html)
 
 </div>
 
@@ -359,7 +359,7 @@ To get started, users will need a few items. Now some users may already have a f
 
 <div class="grid cards" markdown>
 
--   <a href="https://www.sparkfun.com/products/14743">
+-   <a href="https://www.sparkfun.com/usb-3-1-cable-a-to-c-3-foot.html">
 	<figure markdown>
 	![USB 3.1 Cable A to C - 3 Foot](https://cdn.sparkfun.com/assets/parts/1/2/9/7/2/14743-USB_3.1_Cable_A_to_C_-_3_Foot-01.jpg)
 	</figure>
@@ -369,7 +369,7 @@ To get started, users will need a few items. Now some users may already have a f
 	**USB 3.1 Cable A to C - 3 Foot**<br>
 	CAB-14743</a>
 
--   <a href="https://www.sparkfun.com/products/23088">
+-   <a href="https://www.sparkfun.com/sparkfun-triband-gnss-rtk-breakout-mosaic-x5.html">
 	<figure markdown>
 	![Product Thumbnail](https://cdn.sparkfun.com//assets/parts/2/3/3/1/6/23088_Mosaic_X5_Feature-_newQR_.jpg)
 	</figure>
@@ -379,7 +379,7 @@ To get started, users will need a few items. Now some users may already have a f
 	**mosaic-X5 (Tri-band + RTK) GNSS Breakout**<br>
 	GPS-23088</a>
 
--   <a href="https://www.sparkfun.com/products/21801">
+-   <a href="https://www.sparkfun.com/gnss-multi-band-l1-l2-l5-surveying-antenna-tnc-spk6618h.html">
 	<figure markdown>
 	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/5/9/7/SparkFun_GNSS_SPK6618H_Triband_Antenna_-_2-1.png)
 	</figure>		
@@ -389,7 +389,7 @@ To get started, users will need a few items. Now some users may already have a f
 	**GNSS Multi-Band L1/L2/L5 Surveying Antenna - TNC (SPK6618H)**<br>
 	GPS-21801</a>
 
--   <a href="https://www.sparkfun.com/products/21740">
+-   <a href="https://www.sparkfun.com/reinforced-interface-cable-sma-male-to-tnc-male-10m.html">
 	<figure markdown>
 	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/5/7/0/SparkFun_Reinforced_Interface_Cable_-_SMA_Male_to_TNC_Male_-_1.jpg)
 	</figure>
@@ -399,7 +399,7 @@ To get started, users will need a few items. Now some users may already have a f
 	**Reinforced Interface Cable - SMA Male to TNC Male (10m)**<br>
 	CAB-21740</a>
 
--   <a href="https://www.sparkfun.com/products/21257">
+-   <a href="https://www.sparkfun.com/gnss-magnetic-antenna-mount-5-8-11-tpi.html">
 	<figure markdown>
 	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/0/2/7/21257-_PRT_M90SD_Magnetic_Stand-_01.jpg)
 	</figure>		
@@ -430,7 +430,7 @@ To get started, users will need a few items. Now some users may already have a f
 	</div>
 
 
-	-   <a href="https://www.sparkfun.com/products/25572">
+	-   <a href="https://www.sparkfun.com/ifixit-anti-static-wrist-strap.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/6/1/2/7/TOL-25572-Anti-Static-Wrist-Strap-Feature.jpg)
 		</figure>		
@@ -450,7 +450,7 @@ To get started, users will need a few items. Now some users may already have a f
 	
 		<div class="grid cards" markdown>
 
-		-   <a href="https://www.sparkfun.com/products/21801">
+		-   <a href="https://www.sparkfun.com/gnss-multi-band-l1-l2-l5-surveying-antenna-tnc-spk6618h.html">
 			<figure markdown>
 			![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/5/9/7/SparkFun_GNSS_SPK6618H_Triband_Antenna_-_2-1.png)
 			</figure>		
@@ -465,17 +465,7 @@ To get started, users will need a few items. Now some users may already have a f
 		
 				<div class="grid cards" markdown>
 		
-				-   <a href="https://www.sparkfun.com/products/17833">
-					<figure markdown>
-					![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/6/9/8/0/17833-Interface_Cable_-_SMA_Male_to_TNC_Male__300mm_-01.jpg)
-					</figure>		
-		
-					---
-		
-					**Interface Cable - SMA Male to TNC Male (300mm)**<br>
-					CAB-17833</a>
-		
-				-   <a href="https://www.sparkfun.com/products/21739">
+				-   <a href="https://www.sparkfun.com/reinforced-interface-cable-sma-male-to-tnc-male-300mm.html">
 					<figure markdown>
 					![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/5/6/9/SparkFun_Reinforced_Interface_Cable_-_SMA_Male_to_TNC_Male_-_4.jpg)
 					</figure>
@@ -485,7 +475,7 @@ To get started, users will need a few items. Now some users may already have a f
 					**Reinforced Interface Cable - SMA Male to TNC Male (300mm)**<br>
 					CAB-21739</a>
 		
-				-   <a href="https://www.sparkfun.com/products/21740">
+				-   <a href="https://www.sparkfun.com/reinforced-interface-cable-sma-male-to-tnc-male-10m.html">
 					<figure markdown>
 					![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/5/7/0/SparkFun_Reinforced_Interface_Cable_-_SMA_Male_to_TNC_Male_-_1.jpg)
 					</figure>
@@ -498,7 +488,7 @@ To get started, users will need a few items. Now some users may already have a f
 				</div>
 
 
-		-   <a href="https://www.sparkfun.com/products/15192">
+		-   <a href="https://www.sparkfun.com/gnss-multi-band-magnetic-mount-antenna-5m-sma.html">
 			<figure markdown>
 			![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/3/6/1/1/15192-GNSS_Multi-band_Magnetic_Mount_Antenna_SMA_-_5m-01.jpg)
 			</figure>
@@ -513,7 +503,7 @@ To get started, users will need a few items. Now some users may already have a f
 
 				<div class="grid cards col-1" markdown>
 
-				-   <a href="https://www.sparkfun.com/products/18293">
+				-   <a href="https://www.sparkfun.com/sparkfun-gnss-rtk-accessory-kit.html">
 					<figure markdown>
 					![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/7/6/2/3/18293-SparkFun_GPS-RTK_Accessory_Kit-01.jpg)
 					</figure>		
@@ -526,7 +516,7 @@ To get started, users will need a few items. Now some users may already have a f
 				</div>
 
 
-		-   <a href="https://www.sparkfun.com/products/17108">
+		-   <a href="https://www.sparkfun.com/magmax2-active-multiband-gnss-magnetic-mount-antenna-aa-200.html">
 			<figure markdown>
 			![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/6/0/7/0/17108-AA.200_____MagmaX2_Active_Multiband_GNSS_Magnetic_Mount_Antenna-01A.jpg)
 			</figure>
@@ -543,7 +533,7 @@ To get started, users will need a few items. Now some users may already have a f
 
 		<div class="grid cards" markdown>
 
-		-   <a href="https://www.sparkfun.com/products/21257">
+		-   <a href="https://www.sparkfun.com/gnss-magnetic-antenna-mount-5-8-11-tpi.html">
 			<figure markdown>
 			![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/0/2/7/21257-_PRT_M90SD_Magnetic_Stand-_01.jpg)
 			</figure>		
@@ -554,9 +544,9 @@ To get started, users will need a few items. Now some users may already have a f
 			PRT-21257</a>
 
 			!!! info "5/8"-11 TPI"
-				This product is meant to be used with our surveying antennas. To mount those antennas to a camera tripod, check out our [tripod adapter](https://www.sparkfun.com/products/17546).
+				This product is meant to be used with our surveying antennas. To mount those antennas to a camera tripod, check out our [tripod adapter](https://www.sparkfun.com/antenna-thread-adapter-1-4in-to-5-8in.html).
 
-		-   <a href="https://www.sparkfun.com/products/22197">
+		-   <a href="https://www.sparkfun.com/gnss-antenna-mounting-hardware-kit.html">
 			<figure markdown>
 			![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/2/0/9/7/22197-_01.jpg)
 			</figure>		
@@ -567,9 +557,9 @@ To get started, users will need a few items. Now some users may already have a f
 			KIT-22197</a>
 
 			!!! info "5/8"-11 TPI"
-				This product is meant to be used with our surveying antennas. To mount those antennas to a camera tripod, check out our [tripod adapter](https://www.sparkfun.com/products/17546).
+				This product is meant to be used with our surveying antennas. To mount those antennas to a camera tripod, check out our [tripod adapter](https://www.sparkfun.com/antenna-thread-adapter-1-4in-to-5-8in.html).
 
-		-   <a href="https://www.sparkfun.com/products/17519">
+		-   <a href="https://www.sparkfun.com/gps-antenna-ground-plate.html">
 			<figure markdown>
 			![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/6/5/9/3/17519-GPS_Antenna_Ground_Plate-01.jpg)
 			</figure>		
@@ -590,7 +580,7 @@ To get started, users will need a few items. Now some users may already have a f
 
 	<div class="grid cards" markdown>
 
-	-   <a href="https://www.sparkfun.com/products/15107">
+	-   <a href="https://www.sparkfun.com/microsd-card-1gb-class-4.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/3/4/7/0/15107-microSD_Card_-_1GB__Class_4_-01.jpg)
 		</figure>		
@@ -600,15 +590,15 @@ To get started, users will need a few items. Now some users may already have a f
 		**microSD Card - 1GB (Class 4)**<br>
 		COM-15107</a>
 
-	-   <a href="https://www.sparkfun.com/products/13004">
+	-   <a href="https://www.sparkfun.com/microsd-card-adapter-usb-a.html">
 		<figure markdown>
-		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/9/9/5/8/13004-03.jpg)
+		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/7/2/4/0/26322-Micro-SD-Card-Adapter-USB-A-Feature.jpg)
 		</figure>		
 
 		---
 
-		**microSD USB Reader**<br>
-		COM-13004</a>
+		**MicroSD Card Adapter - USB A**<br>
+		COM-26322</a>
 
 	</div>
 
@@ -617,7 +607,7 @@ To get started, users will need a few items. Now some users may already have a f
 
 	<div class="grid cards" markdown>
 
-	-   <a href="https://www.sparkfun.com/products/19032">
+	-   <a href="https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/8/6/3/4/19032-SiK_Telemetry_Radio_V3_-_915MHz__100mW-01.jpg)
 		</figure>
@@ -627,7 +617,7 @@ To get started, users will need a few items. Now some users may already have a f
 		**SiK Telemetry Radio V3 - 915MHz, 100mW**<br>
 		WRL-19032</a>
 
-	-   <a href="https://www.sparkfun.com/products/20029">
+	-   <a href="https://www.sparkfun.com/sparkfun-loraserial-kit-915mhz-enclosed.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/9/7/9/0/SparkFun_LoRaSerial_Enclosed_-_20029-1.jpg)
 		</figure>
@@ -637,7 +627,7 @@ To get started, users will need a few items. Now some users may already have a f
 		**SparkFun LoRaSerial Kit - 915MHz (Enclosed)**<br>
 		WRL-20029</a>
 
-	-   <a href="https://www.sparkfun.com/products/18079">
+	-   <a href="https://www.sparkfun.com/breadboard-to-jst-ghr-06v-cable-6-pin-x-1-25mm-pitch.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/7/3/9/5/18079-Breadboard_to_GHR-06V_Cable_-_6-Pin_x_1.25mm_Pitch-01a.jpg)
 		</figure>
@@ -647,7 +637,7 @@ To get started, users will need a few items. Now some users may already have a f
 		**Breadboard to JST-GHR-06V Cable - 6-Pin x 1.25mm Pitch**<br>
 		CAB-18079</a>
 
-	-   <a href="https://www.sparkfun.com/products/12044">
+	-   <a href="https://www.sparkfun.com/breadboard-mini-modular-red.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/8/6/2/7/12044-01.jpg)
 		</figure>
@@ -684,7 +674,7 @@ To get started, users will need a few items. Now some users may already have a f
 
 	<div class="grid cards" markdown>
 
-	-   <a href="https://www.sparkfun.com/products/9325">
+	-   <a href="https://www.sparkfun.com/solder-lead-free-100-gram-spool.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/8/7/3/09325_9161-Solder_Lead_Free_-_100-gram_Spool-01.jpg)
 		</figure>		
@@ -694,7 +684,7 @@ To get started, users will need a few items. Now some users may already have a f
 		**Solder Lead Free - 100-gram Spool**<br>
 		TOL-09325</a>
 
-	-   <a href="https://www.sparkfun.com/products/24063">
+	-   <a href="https://www.sparkfun.com/pinecil-soldering-iron-kit.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/4/3/8/5/KIT-24063-PINECIL-Soldering-Iron-Kit-Feature.jpg)
 		</figure>
@@ -704,7 +694,7 @@ To get started, users will need a few items. Now some users may already have a f
 		**PINECIL Soldering Iron Kit**<br>
 		KIT-24063</a>
 
-	-   <a href="https://www.sparkfun.com/products/14579">
+	-   <a href="https://www.sparkfun.com/2-4ghz-duck-antenna-rp-sma.html79">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/2/7/2/5/14579-Chip_Quik_No-Clean_Flux_Pen_-_10mL-01.jpg)
 		</figure>
@@ -715,7 +705,7 @@ To get started, users will need a few items. Now some users may already have a f
 		TOL-14579</a>
 
 
-	-   <a href="https://www.sparkfun.com/products/116">
+	-   <a href="https://www.sparkfun.com/straight-header-male-pth-0-1in-40-pin.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/0/6/00116-02-L.jpg)
 		</figure>
@@ -725,7 +715,7 @@ To get started, users will need a few items. Now some users may already have a f
 		**Break Away Headers - Straight**<br>
 		PRT-00116</a>
 
-	-   <a href="https://www.sparkfun.com/products/11375">
+	-   <a href="https://www.sparkfun.com/hook-up-wire-assortment-stranded-22-awg.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/7/1/2/0/11375-Hook-Up_Wire_-_Assortment__Solid_Core__22_AWG_-01.jpg)
 		</figure>
@@ -761,7 +751,7 @@ To get started, users will need a few items. Now some users may already have a f
 
 	<div class="grid cards" markdown>
 
-	-   <a href="https://www.sparkfun.com/products/9325">
+	-   <a href="https://www.sparkfun.com/solder-lead-free-100-gram-spool.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/8/7/3/09325_9161-Solder_Lead_Free_-_100-gram_Spool-01.jpg)
 		</figure>		
@@ -771,17 +761,7 @@ To get started, users will need a few items. Now some users may already have a f
 		**Solder Lead Free - 100-gram Spool**<br>
 		TOL-09325</a>
 
-	-   <a href="https://www.sparkfun.com/products/22265">
-		<figure markdown>
-		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/2/2/0/2/TOL-22265-Beginner-Tool-Kit-Feature.jpg)
-		</figure>
-
-		---
-
-		**SparkFun Beginner Tool Kit**<br>
-		TOL-22265</a>
-
-	-   <a href="https://www.sparkfun.com/products/14579">
+	-   <a href="https://www.sparkfun.com/2-4ghz-duck-antenna-rp-sma.html79">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/2/7/2/5/14579-Chip_Quik_No-Clean_Flux_Pen_-_10mL-01.jpg)
 		</figure>
@@ -791,7 +771,7 @@ To get started, users will need a few items. Now some users may already have a f
 		**Chip Quik No-Clean Flux Pen - 10mL**<br>
 		TOL-14579</a>
 
-	-   <a href="https://www.sparkfun.com/products/9200">
+	-   <a href="https://www.sparkfun.com/hobby-knife.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/6/4/6/09200-Hobby_Knife-01.jpg)
 		</figure>

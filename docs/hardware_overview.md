@@ -26,7 +26,7 @@ icon: material/cog
 
 			</div>
 
-			-   <a href="https://www.sparkfun.com/products/25572">
+			-   <a href="https://www.sparkfun.com/ifixit-anti-static-wrist-strap.html">
 				<figure markdown>
 				![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/6/1/2/7/TOL-25572-Anti-Static-Wrist-Strap-Feature.jpg)
 				</figure>		
@@ -494,7 +494,7 @@ The mosaic-X5 features several peripherals and I/O pins. Some of these are broke
 
 	1. <div class="grid" markdown>
 
-		<a href="https://www.sparkfun.com/products/18079">
+		<a href="https://www.sparkfun.com/breadboard-to-jst-ghr-06v-cable-6-pin-x-1-25mm-pitch.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/7/3/9/5/18079-Breadboard_to_GHR-06V_Cable_-_6-Pin_x_1.25mm_Pitch-01a.jpg){ width="300" }
 		</figure>
@@ -516,11 +516,11 @@ The mosaic-X5 features several peripherals and I/O pins. Some of these are broke
 		* Flow Control: None
 
 	??? tip "Pin Connections"
-		When connecting to the board's UART pins, the pins should be connected based upon the flow of their data. For example, when utilizing the [Telemetry Radio](https://www.sparkfun.com/products/19032) or the [LoRaSerial Kit](https://www.sparkfun.com/products/20029):
+		When connecting to the board's UART pins, the pins should be connected based upon the flow of their data. For example, when utilizing the [Telemetry Radio](https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html) or the [LoRaSerial Kit](https://www.sparkfun.com/sparkfun-loraserial-kit-915mhz-enclosed.html):
 
 		<figure markdown>
 		[![Flow Control](https://docs.sparkfun.com/SparkFun_LoRaSerial/img/SAMD21%20Flow%20control.png){ width="400" }](https://docs.sparkfun.com/SparkFun_LoRaSerial/img/SAMD21%20Flow%20control.png "Click to enlarge")
-		<figcaption markdown>Connection of the UART pins from the [LoRaSerial radio](https://www.sparkfun.com/products/20029) to a host system, like the Tri-band GNSS RTK breakout board.</figcaption>
+		<figcaption markdown>Connection of the UART pins from the [LoRaSerial radio](https://www.sparkfun.com/sparkfun-loraserial-kit-915mhz-enclosed.html) to a host system, like the Tri-band GNSS RTK breakout board.</figcaption>
 		</figure>
 
 
@@ -702,12 +702,12 @@ There are two SMA connectors on the Tri-band GNSS RTK breakout board.
 
 
 ## JST Connector
-The Tri-band GNSS RTK breakout features a 6-pin [JST GH connector](./assets/component_documentation/JST-GH_datasheet.pdf), which is polarized and locking. Users can access the `COM3` port of the mosaic-X5 module, through the JST connector with our [breadboard cable](https://www.sparkfun.com/products/18079)(1).
+The Tri-band GNSS RTK breakout features a 6-pin [JST GH connector](./assets/component_documentation/JST-GH_datasheet.pdf), which is polarized and locking. Users can access the `COM3` port of the mosaic-X5 module, through the JST connector with our [breadboard cable](https://www.sparkfun.com/breadboard-to-jst-ghr-06v-cable-6-pin-x-1-25mm-pitch.html)(1).
 { .annotate }
 
 1. <div class="grid" markdown>
 
-	<a href="https://www.sparkfun.com/products/18079">
+	<a href="https://www.sparkfun.com/breadboard-to-jst-ghr-06v-cable-6-pin-x-1-25mm-pitch.html">
 	<figure markdown>
 	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/7/3/9/5/18079-Breadboard_to_GHR-06V_Cable_-_6-Pin_x_1.25mm_Pitch-01a.jpg){ width="300" }
 	</figure>
@@ -734,11 +734,11 @@ The Tri-band GNSS RTK breakout features a 6-pin [JST GH connector](./assets/comp
 </div>
 
 ??? tip "Pin Connections"
-	When connecting to the board's UART pins, the pins should be connected based upon the flow of their data. For example, when utilizing the [Telemetry Radio](https://www.sparkfun.com/products/19032) or the [LoRaSerial Kit](https://www.sparkfun.com/products/20029):
+	When connecting to the board's UART pins, the pins should be connected based upon the flow of their data. For example, when utilizing the [Telemetry Radio](https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html) or the [LoRaSerial Kit](https://www.sparkfun.com/sparkfun-loraserial-kit-915mhz-enclosed.html):
 
 	<figure markdown>
 	[![Flow Control](https://docs.sparkfun.com/SparkFun_LoRaSerial/img/SAMD21%20Flow%20control.png){ width="400" }](https://docs.sparkfun.com/SparkFun_LoRaSerial/img/SAMD21%20Flow%20control.png "Click to enlarge")
-	<figcaption markdown>Connection of the UART pins from the [LoRaSerial radio](https://www.sparkfun.com/products/20029) to a host system, like the Tri-band GNSS RTK breakout board.</figcaption>
+	<figcaption markdown>Connection of the UART pins from the [LoRaSerial radio](https://www.sparkfun.com/sparkfun-loraserial-kit-915mhz-enclosed.html) to a host system, like the Tri-band GNSS RTK breakout board.</figcaption>
 	</figure>
 
 !!! warning "`V` Pin"

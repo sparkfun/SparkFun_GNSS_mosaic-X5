@@ -26,7 +26,7 @@ icon: material/tools
 
 			</div>
 
-			-   <a href="https://www.sparkfun.com/products/25572">
+			-   <a href="https://www.sparkfun.com/ifixit-anti-static-wrist-strap.html">
 				<figure markdown>
 				![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/6/1/2/7/TOL-25572-Anti-Static-Wrist-Strap-Feature.jpg)
 				</figure>		
@@ -96,7 +96,7 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 
 	<div class="grid cards" markdown>
 
-	-   <a href="https://www.sparkfun.com/products/19032">
+	-   <a href="https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/8/6/3/4/19032-SiK_Telemetry_Radio_V3_-_915MHz__100mW-01.jpg)
 		</figure>
@@ -106,7 +106,7 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 		**SiK Telemetry Radio V3 - 915MHz, 100mW**<br>
 		WRL-19032</a>
 
-	-   <a href="https://www.sparkfun.com/products/20029">
+	-   <a href="https://www.sparkfun.com/sparkfun-loraserial-kit-915mhz-enclosed.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/9/7/9/0/SparkFun_LoRaSerial_Enclosed_-_20029-1.jpg)
 		</figure>
@@ -240,12 +240,12 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 		</div>
 
 		#### Wiring Connections
-		Users have several options for wiring up these two products. Without creating a custom cable assembly, we recommend utilizing our [breadboard cable](https://www.sparkfun.com/products/23353) along with any [breadboard](https://www.sparkfun.com/categories/302) or [F/F jumper wires](https://www.sparkfun.com/products/8430).
+		Users have several options for wiring up these two products. Without creating a custom cable assembly, we recommend utilizing our [breadboard cable](https://www.sparkfun.com/breadboard-to-jst-ghr-06v-cable-6-pin-x-1-25mm-pitch-for-loraserial.html) along with any [breadboard](https://www.sparkfun.com/categories/302) or [F/F jumper wires](https://www.sparkfun.com/jumper-wires-premium-6-f-f-pack-of-10.html).
 
 
 		<div class="grid cards" markdown>
 	
-		-   <a href="https://www.sparkfun.com/products/23353">
+		-   <a href="https://www.sparkfun.com/breadboard-to-jst-ghr-06v-cable-6-pin-x-1-25mm-pitch-for-loraserial.html">
 			<figure markdown>
 			![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/9/0/9/3/23353-_1.jpg)
 			</figure>
@@ -255,7 +255,7 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 			**Breadboard to JST-GHR-06V Cable - 6-Pin x 1.25mm Pitch (For LoRaSerial)**<br>
 			CAB-23353</a>
 	
-		-   <a href="https://www.sparkfun.com/products/12043">
+		-   <a href="https://www.sparkfun.com/breadboard-mini-modular-white.html">
 			<figure markdown>
 			![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/8/6/2/6/12043-01.jpg)
 			</figure>
@@ -281,11 +281,11 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 			!!! warning
 				Please remember that the power pin, is a voltage input and should not be utilized to transfer power between the devices. Users should power their devices separately through the USB connectors on the devices.
 
-		-   Below, is an example illustrating the [Tri-band GNSS RTK breakout board](https://www.sparkfun.com/products/23088) being connected to the [LoRaSerial Kit - 915MHz](https://www.sparkfun.com/products/20029) utilizing the [breadboard cable](https://www.sparkfun.com/products/23353) and [breadboard](https://www.sparkfun.com/products/12002).
+		-   Below, is an example illustrating the [Tri-band GNSS RTK breakout board](https://www.sparkfun.com/sparkfun-triband-gnss-rtk-breakout-mosaic-x5.html) being connected to the [LoRaSerial Kit - 915MHz](https://www.sparkfun.com/sparkfun-loraserial-kit-915mhz-enclosed.html) utilizing the [breadboard cable](https://www.sparkfun.com/breadboard-to-jst-ghr-06v-cable-6-pin-x-1-25mm-pitch-for-loraserial.html) and [breadboard](https://www.sparkfun.com/breadboard-self-adhesive-white.html).
 
 			<figure markdown>
 			[![Device connections](./assets/img/hookup_guide/assembly-breadboard-radio.jpg){ width="400" }](./assets/img/hookup_guide/assembly-breadboard-radio.jpg "Click to enlarge")
-			<figcaption markdown>The [Tri-band GNSS RTK breakout](https://www.sparkfun.com/products/23088) being connected to the [LoRaSerial Kit - 915MHz](https://www.sparkfun.com/products/20029).</figcaption>
+			<figcaption markdown>The [Tri-band GNSS RTK breakout](https://www.sparkfun.com/sparkfun-triband-gnss-rtk-breakout-mosaic-x5.html) being connected to the [LoRaSerial Kit - 915MHz](https://www.sparkfun.com/sparkfun-loraserial-kit-915mhz-enclosed.html).</figcaption>
 			</figure>
 
 			In this example, the devices are being powered separately through their USB ports. This is because the devices power pins are configured as voltage inputs. *(Click the image to enlarge, users will notice that the power pins are not connected together, unlike the other pins.)*
@@ -299,7 +299,7 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 
 		<figure markdown>
 		[![Device connections](./assets/img/hookup_guide/assembly-breadboard-radio_setup.jpg){ width="400" }](./assets/img/hookup_guide/assembly-breadboard-radio_setup.jpg "Click to enlarge")
-		<figcaption markdown>The [Tri-band GNSS RTK breakout](https://www.sparkfun.com/products/23088) being connected to the [LoRaSerial Kit - 915MHz](https://www.sparkfun.com/products/20029).</figcaption>
+		<figcaption markdown>The [Tri-band GNSS RTK breakout](https://www.sparkfun.com/sparkfun-triband-gnss-rtk-breakout-mosaic-x5.html) being connected to the [LoRaSerial Kit - 915MHz](https://www.sparkfun.com/sparkfun-loraserial-kit-915mhz-enclosed.html).</figcaption>
 		</figure>
 
 
@@ -308,7 +308,7 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 
 			<div class="grid cards" markdown>
 
-			-   <a href="https://www.sparkfun.com/products/17239">
+			-   <a href="https://www.sparkfun.com/jst-ghr-04v-to-jst-ghr-06v-cable-1-25mm-pitch.html">
 				<figure markdown>
 				![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/6/2/2/2/17239-GHR-04V-S_to_GHR-06V-S_Cable_-_150mm-01.jpg)
 				</figure>
@@ -328,7 +328,7 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 
 			<figure markdown>
 			[![jumper pin modification setup](./assets/img/hookup_guide/assembly-jst-uart.jpg){ width="400" }](./assets/img/hookup_guide/assembly-jst-uart.jpg "Click to enlarge")
-			<figcaption markdown>A custom cable assembly connecting the [Tri-band GNSS RTK breakout](https://www.sparkfun.com/products/23088) to the [LoRaSerial Kit](https://www.sparkfun.com/products/20029). Notice how the color of the wire swap for the UART and flow control pins between the two connectors (Click to enlarge).</figcaption>
+			<figcaption markdown>A custom cable assembly connecting the [Tri-band GNSS RTK breakout](https://www.sparkfun.com/sparkfun-triband-gnss-rtk-breakout-mosaic-x5.html) to the [LoRaSerial Kit](https://www.sparkfun.com/sparkfun-loraserial-kit-915mhz-enclosed.html). Notice how the color of the wire swap for the UART and flow control pins between the two connectors (Click to enlarge).</figcaption>
 			</figure>
 
 			</div>
@@ -361,7 +361,7 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 
 
 		##### Jumper Pin Modification
-		The jumper pin modification requires a [header](https://www.sparkfun.com/categories/381) to be soldered to the `VIN` and `VUSB` pins of the Tri-band GNSS RTK breakout board. Then a [2-pin jumper](https://www.sparkfun.com/products/9044) is utilized to bypass the protection diodes between the two pins. The example in the image below, utilizes a simple straight header. When a jumper is placed on the `VIN` and `VUSB` pins, any power that is provided through the USB-C connector of the Tri-band GNSS RTK breakout, will now be connected to the the power pin of the JST connector.
+		The jumper pin modification requires a [header](https://www.sparkfun.com/categories/381) to be soldered to the `VIN` and `VUSB` pins of the Tri-band GNSS RTK breakout board. Then a [2-pin jumper](https://www.sparkfun.com/jumper-2-pin.html) is utilized to bypass the protection diodes between the two pins. The example in the image below, utilizes a simple straight header. When a jumper is placed on the `VIN` and `VUSB` pins, any power that is provided through the USB-C connector of the Tri-band GNSS RTK breakout, will now be connected to the the power pin of the JST connector.
 
 		<div class="grid" markdown>
 
@@ -376,7 +376,7 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 
 		<div class="grid cards" markdown>
 
-		-   <a href="https://www.sparkfun.com/products/116">
+		-   <a href="https://www.sparkfun.com/straight-header-male-pth-0-1in-40-pin.html">
 			<figure markdown>
 			![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/0/6/00116-02-L.jpg)
 			</figure>
@@ -390,7 +390,7 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 
 		<div class="grid cards" markdown>
 
-		-   <a href="https://www.sparkfun.com/products/9044">
+		-   <a href="https://www.sparkfun.com/jumper-2-pin.html">
 			<figure markdown>
 			![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/4/0/7/09044-02-L.jpg)
 			</figure>
@@ -406,13 +406,13 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 
 
 		##### IC-Hook Modification
-		The IC-hook modification utilizes an [IC-hook w/ pigtail](https://www.sparkfun.com/products/9741) to breakout the `VUSB` pin of the Tri-band GNSS RTK breakout board on a jumper wire.
+		The IC-hook modification utilizes an [IC-hook w/ pigtail](https://www.sparkfun.com/ic-hook-with-pigtail.html) to breakout the `VUSB` pin of the Tri-band GNSS RTK breakout board on a jumper wire.
 
 		<div class="grid" markdown>
 
 		<div class="grid cards" markdown>
 
-		-   <a href="https://www.sparkfun.com/products/9741">
+		-   <a href="https://www.sparkfun.com/ic-hook-with-pigtail.html">
 			<figure markdown>
 			![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/3/6/9/6/09741-01.jpg)
 			</figure>
