@@ -255,3 +255,35 @@ With the USB driver installed, the mosaic-X5 module supports Ethernet-over-USB. 
 
 ??? failure "Invalid IP Address *(WiFi Only)*"
 	[One of the documentation pages on Septentrio's website](https://customersupport.septentrio.com/s/article/What-is-the-default-IP-address-to-connect-via-WiFi), specifies a default IP address of `192.168.20.1` for the web interface. However, that address is for a WiFi enabled product and cannot be used with this product.
+
+
+
+## Arduino Library
+The [Eridano-Septentrio Arduino Library](https://github.com/septentrio-gnss/Eridano) can be installed from the library manager in the Arduino IDE by searching for:
+
+	Eridano-Septentrio Arduino Library
+
+<div class="grid" markdown>
+
+<div markdown>
+
+<figure markdown>
+[![Library listed in the library manager of the Arduino IDE](./assets/img/hookup_guide/arduino_library.png "Click to enlarge"){ width="400" }](./assets/img/hookup_guide/arduino_library.png)
+<figcaption markdown>Eridano-Septentrio Arduino Library in the library manager of the Arduino IDE.</figcaption>
+</figure>
+
+</div>
+
+
+<div markdown>
+
+!!! tip "Manually Download the Arduino Library"
+	For users who would like to manually download and install the library, the `*.zip` file can be accessed from the [GitHub repository](https://github.com/septentrio-gnss/Eridano) or downloaded by clicking the button below.
+
+	<article style="text-align: center;" markdown>
+	[:octicons-download-16:{ .heart } Download the Arduino Library](https://github.com/septentrio-gnss/Eridano/archive/refs/heads/main.zip){ .md-button .md-button--primary }
+	</article>
+
+</div>
+
+</div>
